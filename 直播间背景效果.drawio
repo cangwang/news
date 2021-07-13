@@ -1,1 +1,114 @@
-<mxfile host="app.diagrams.net" modified="2021-07-13T11:26:10.937Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" version="13.9.2" etag="-NyQWjDZxURbPQVnXmnW" type="github"><diagram id="2_VhcBxBaDUFQQYok6Zd">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-07-13T13:01:34.707Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" etag="0TXWx51Sbb2exDIwBGd7" version="13.9.2" type="github" pages="5">
+  <diagram id="2_VhcBxBaDUFQQYok6Zd" name="Page-1">
+    <mxGraphModel dx="1422" dy="761" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="zdSrdmBRPC4Ach2QaJ9R-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="zdSrdmBRPC4Ach2QaJ9R-1" target="zdSrdmBRPC4Ach2QaJ9R-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zdSrdmBRPC4Ach2QaJ9R-1" value="直播间&lt;br&gt;（类别）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="134" y="208" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zdSrdmBRPC4Ach2QaJ9R-3" value="直播间&lt;br&gt;（颜色）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="539" y="208" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zdSrdmBRPC4Ach2QaJ9R-6" value="直播间直方图采样，选取对应的色值" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="318" y="192" width="147" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="zdSrdmBRPC4Ach2QaJ9R-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="zdSrdmBRPC4Ach2QaJ9R-11" target="zdSrdmBRPC4Ach2QaJ9R-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zdSrdmBRPC4Ach2QaJ9R-11" value="板块主播列表" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="132" y="90" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zdSrdmBRPC4Ach2QaJ9R-12" value="板块主播列表" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="537" y="90" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zdSrdmBRPC4Ach2QaJ9R-13" value="直播间直方图采样，选取对应的色值" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="316" y="74" width="147" height="48" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="zpddgvDFj_89Iha1d50i" name="Page-2">
+    <mxGraphModel dx="1422" dy="761" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="-qGrmG8U20MazLb-5cR0-0" />
+        <mxCell id="-qGrmG8U20MazLb-5cR0-1" parent="-qGrmG8U20MazLb-5cR0-0" />
+        <mxCell id="6t7GAak_0fGqZy3-uWCS-0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="-qGrmG8U20MazLb-5cR0-1" source="6t7GAak_0fGqZy3-uWCS-1" target="6t7GAak_0fGqZy3-uWCS-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6t7GAak_0fGqZy3-uWCS-1" value="礼物颜色" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="-qGrmG8U20MazLb-5cR0-1">
+          <mxGeometry x="132" y="90" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6t7GAak_0fGqZy3-uWCS-2" value="&lt;br&gt;直播间颜色渐变，并闪烁" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="-qGrmG8U20MazLb-5cR0-1">
+          <mxGeometry x="537" y="90" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6t7GAak_0fGqZy3-uWCS-3" value="送礼" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="-qGrmG8U20MazLb-5cR0-1">
+          <mxGeometry x="316" y="74" width="147" height="48" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="RqJRdKCDx1x5yT4uab-a" name="Page-3">
+    <mxGraphModel dx="1422" dy="761" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="E5DGhNfgMR5pRj_pv2r1-0" />
+        <mxCell id="E5DGhNfgMR5pRj_pv2r1-1" parent="E5DGhNfgMR5pRj_pv2r1-0" />
+        <mxCell id="6gz9ilc3mSb9dxo_C52h-0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="E5DGhNfgMR5pRj_pv2r1-1" source="6gz9ilc3mSb9dxo_C52h-1" target="6gz9ilc3mSb9dxo_C52h-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6gz9ilc3mSb9dxo_C52h-1" value="直播间" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="E5DGhNfgMR5pRj_pv2r1-1">
+          <mxGeometry x="132" y="90" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6gz9ilc3mSb9dxo_C52h-2" value="直播间颜色变更" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="E5DGhNfgMR5pRj_pv2r1-1">
+          <mxGeometry x="537" y="90" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6gz9ilc3mSb9dxo_C52h-3" value="每N分钟内，通过送礼值，以及直播间人数，计算出颜色深度" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="E5DGhNfgMR5pRj_pv2r1-1">
+          <mxGeometry x="316" y="45" width="147" height="77" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="Tm9KFH3t-Js_6Vb2tDlf" name="Page-4">
+    <mxGraphModel dx="1422" dy="761" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="llVa7TvLgBzIcFPwY_6T-0" />
+        <mxCell id="llVa7TvLgBzIcFPwY_6T-1" parent="llVa7TvLgBzIcFPwY_6T-0" />
+        <mxCell id="Slb-JOf8lVyG7RUnBNJ1-0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="llVa7TvLgBzIcFPwY_6T-1" source="Slb-JOf8lVyG7RUnBNJ1-1" target="Slb-JOf8lVyG7RUnBNJ1-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Slb-JOf8lVyG7RUnBNJ1-1" value="礼物栏每个礼物" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="llVa7TvLgBzIcFPwY_6T-1">
+          <mxGeometry x="132" y="90" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Slb-JOf8lVyG7RUnBNJ1-2" value="出现颜色扩展效果，充满整个礼物栏" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="llVa7TvLgBzIcFPwY_6T-1">
+          <mxGeometry x="537" y="90" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Slb-JOf8lVyG7RUnBNJ1-3" value="长按" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="llVa7TvLgBzIcFPwY_6T-1">
+          <mxGeometry x="316" y="45" width="147" height="77" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="x8wNVoW-p8CFf6G9Zb5C" name="Page-5">
+    <mxGraphModel dx="1422" dy="762" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="_HNeBYbHJLXhkEEmMNw8-0" />
+        <mxCell id="_HNeBYbHJLXhkEEmMNw8-1" parent="_HNeBYbHJLXhkEEmMNw8-0" />
+        <mxCell id="AZw65ODI3acSY0en7Og4-0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="_HNeBYbHJLXhkEEmMNw8-1" source="AZw65ODI3acSY0en7Og4-1" target="AZw65ODI3acSY0en7Og4-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AZw65ODI3acSY0en7Og4-1" value="观看端" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="_HNeBYbHJLXhkEEmMNw8-1">
+          <mxGeometry x="132" y="90" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AZw65ODI3acSY0en7Og4-2" value="直播间颜色" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="_HNeBYbHJLXhkEEmMNw8-1">
+          <mxGeometry x="537" y="90" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AZw65ODI3acSY0en7Og4-3" value="直播间热送礼物颜色" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="_HNeBYbHJLXhkEEmMNw8-1">
+          <mxGeometry x="316" y="45" width="147" height="77" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
