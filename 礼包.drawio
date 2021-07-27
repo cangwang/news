@@ -1,10 +1,16 @@
-<mxfile host="app.diagrams.net" modified="2021-07-26T10:55:25.276Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36" etag="x6cs2BZkAVQYcdF3e767" version="14.9.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-07-27T02:21:57.731Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36" etag="Bckvk7lU6YY9b19v_yXc" version="14.9.2" type="github">
   <diagram id="d-StCgUHEypoipgm2hQN" name="Page-1">
-    <mxGraphModel dx="1422" dy="705" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2249" dy="761" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="L2o5PlFDEDJPmrwstJFm-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="L2o5PlFDEDJPmrwstJFm-1" target="L2o5PlFDEDJPmrwstJFm-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L2o5PlFDEDJPmrwstJFm-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="L2o5PlFDEDJPmrwstJFm-1" target="L2o5PlFDEDJPmrwstJFm-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L2o5PlFDEDJPmrwstJFm-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="L2o5PlFDEDJPmrwstJFm-1" target="L2o5PlFDEDJPmrwstJFm-9">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="L2o5PlFDEDJPmrwstJFm-1" value="SceneGiftController&lt;br&gt;礼包控制" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -22,38 +28,62 @@
         <mxCell id="L2o5PlFDEDJPmrwstJFm-2" value="GiftModule&lt;br&gt;礼物模块" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="76" y="198" width="149" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="L2o5PlFDEDJPmrwstJFm-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="L2o5PlFDEDJPmrwstJFm-4" target="L2o5PlFDEDJPmrwstJFm-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L2o5PlFDEDJPmrwstJFm-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="L2o5PlFDEDJPmrwstJFm-4" target="L2o5PlFDEDJPmrwstJFm-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="L2o5PlFDEDJPmrwstJFm-4" value="ScenePacketCoreImpl&lt;br&gt;礼包协议" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="317" y="61" width="149" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="L2o5PlFDEDJPmrwstJFm-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="L2o5PlFDEDJPmrwstJFm-5" target="L2o5PlFDEDJPmrwstJFm-13">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="L2o5PlFDEDJPmrwstJFm-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="L2o5PlFDEDJPmrwstJFm-5" target="L2o5PlFDEDJPmrwstJFm-14">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="L2o5PlFDEDJPmrwstJFm-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="L2o5PlFDEDJPmrwstJFm-5" target="L2o5PlFDEDJPmrwstJFm-15">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="L2o5PlFDEDJPmrwstJFm-5" value="GiftIconPositionManager&lt;br&gt;礼包福袋位置" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="L2o5PlFDEDJPmrwstJFm-5" value="GiftIconPositionManager&lt;br&gt;礼包福袋等位置" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="317" y="353" width="149" height="60" as="geometry" />
         </mxCell>
         <mxCell id="L2o5PlFDEDJPmrwstJFm-9" value="SceneGiftWebPoupComponent&lt;br&gt;场景礼包弹框" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="645" y="200" width="191" height="60" as="geometry" />
+          <mxGeometry x="668" y="198" width="191" height="60" as="geometry" />
         </mxCell>
         <mxCell id="L2o5PlFDEDJPmrwstJFm-10" value="CommmonWebPopupComponent&lt;br&gt;礼包结果页弹框" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="19" y="353" width="192" height="60" as="geometry" />
         </mxCell>
         <mxCell id="L2o5PlFDEDJPmrwstJFm-12" value="onScenePacketClose" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="123" y="318" width="122" height="20" as="geometry" />
+          <mxGeometry x="-9" y="313" width="122" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="L2o5PlFDEDJPmrwstJFm-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="L2o5PlFDEDJPmrwstJFm-13" target="L2o5PlFDEDJPmrwstJFm-5">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="L2o5PlFDEDJPmrwstJFm-13" value="SceneGiftPosition&lt;br&gt;礼包位置" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="109.5" y="609" width="149" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="L2o5PlFDEDJPmrwstJFm-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="L2o5PlFDEDJPmrwstJFm-14" target="L2o5PlFDEDJPmrwstJFm-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="L2o5PlFDEDJPmrwstJFm-14" value="QuickHotGiftPosition&lt;br&gt;热度礼物位置" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="317" y="609" width="149" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="L2o5PlFDEDJPmrwstJFm-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="L2o5PlFDEDJPmrwstJFm-15" target="L2o5PlFDEDJPmrwstJFm-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="L2o5PlFDEDJPmrwstJFm-15" value="LuckyBagPosition&lt;br&gt;福袋位置" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="519" y="612" width="149" height="60" as="geometry" />
+          <mxGeometry x="519" y="609" width="149" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="L2o5PlFDEDJPmrwstJFm-27" value="showWebDialog" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="526" y="198" width="103" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="L2o5PlFDEDJPmrwstJFm-28" value="skipTopNextPacket&lt;br&gt;切换到下一个" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="526" y="238" width="103" height="29" as="geometry" />
+        </mxCell>
+        <mxCell id="L2o5PlFDEDJPmrwstJFm-30" value="queryScenePacketInfo&lt;br&gt;8821.1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="194" y="148" width="184" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="L2o5PlFDEDJPmrwstJFm-32" value="回包处理&lt;br&gt;8821.2" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="433" y="136" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="L2o5PlFDEDJPmrwstJFm-33" value="ScenePacketCloseNotifyEventArgs&lt;br&gt;8821.4" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-35" y="129" width="184" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="L2o5PlFDEDJPmrwstJFm-34" value="getPositionByType" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="355" y="486" width="182" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
