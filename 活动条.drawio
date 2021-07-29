@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-07-29T02:55:06.005Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36" etag="rldJ7wdmqMd9nckotSni" version="14.9.2" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2021-07-29T09:20:15.709Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36" etag="j2CCCS5IkqD12wPG-E1l" version="14.9.2" type="github" pages="4">
   <diagram id="dy4cVqkz6z1pIyXAL1fi" name="活动条2">
     <mxGraphModel dx="1422" dy="761" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -225,21 +225,99 @@
     </mxGraphModel>
   </diagram>
   <diagram id="KKG_dBH9g1BODD2qDoTe" name="Page-4">
-    <mxGraphModel dx="1422" dy="762" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2249" dy="796" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="60SKiHEDeZMOGz696MMa-0" />
         <mxCell id="60SKiHEDeZMOGz696MMa-1" parent="60SKiHEDeZMOGz696MMa-0" />
-        <mxCell id="60SKiHEDeZMOGz696MMa-2" value="YYJSInterface" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="60SKiHEDeZMOGz696MMa-1">
-          <mxGeometry x="350" y="290" width="120" height="60" as="geometry" />
+        <mxCell id="60SKiHEDeZMOGz696MMa-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="60SKiHEDeZMOGz696MMa-1" source="60SKiHEDeZMOGz696MMa-7" target="60SKiHEDeZMOGz696MMa-18">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="60SKiHEDeZMOGz696MMa-3" value="UIModule" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="60SKiHEDeZMOGz696MMa-1">
-          <mxGeometry x="153" y="146" width="120" height="60" as="geometry" />
+        <mxCell id="60SKiHEDeZMOGz696MMa-7" value="BaseWebViewFragment&lt;br&gt;Web基类" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="60SKiHEDeZMOGz696MMa-1">
+          <mxGeometry x="295" y="735" width="223" height="53" as="geometry" />
+        </mxCell>
+        <mxCell id="60SKiHEDeZMOGz696MMa-2" value="YYJSInterface&lt;br&gt;js管理" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="60SKiHEDeZMOGz696MMa-1">
+          <mxGeometry x="346.5" y="459" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="60SKiHEDeZMOGz696MMa-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="60SKiHEDeZMOGz696MMa-1" source="60SKiHEDeZMOGz696MMa-3" target="60SKiHEDeZMOGz696MMa-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="60SKiHEDeZMOGz696MMa-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="60SKiHEDeZMOGz696MMa-1" source="60SKiHEDeZMOGz696MMa-3" target="60SKiHEDeZMOGz696MMa-13">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="215" y="256" />
+              <mxPoint x="235" y="256" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="60SKiHEDeZMOGz696MMa-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="60SKiHEDeZMOGz696MMa-1" source="60SKiHEDeZMOGz696MMa-3" target="60SKiHEDeZMOGz696MMa-14">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="215" y="259" />
+              <mxPoint x="570" y="259" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="60SKiHEDeZMOGz696MMa-3" value="UIModule&lt;br&gt;基本的web ui调用js方法通道" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="60SKiHEDeZMOGz696MMa-1">
+          <mxGeometry x="154.5" y="315" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="60SKiHEDeZMOGz696MMa-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="60SKiHEDeZMOGz696MMa-1" source="60SKiHEDeZMOGz696MMa-4" target="60SKiHEDeZMOGz696MMa-2">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="60SKiHEDeZMOGz696MMa-4" value="ChannelModule" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="60SKiHEDeZMOGz696MMa-1">
-          <mxGeometry x="345" y="146" width="120" height="60" as="geometry" />
+          <mxGeometry x="346.5" y="315" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="60SKiHEDeZMOGz696MMa-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="60SKiHEDeZMOGz696MMa-1" source="60SKiHEDeZMOGz696MMa-5" target="60SKiHEDeZMOGz696MMa-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="60SKiHEDeZMOGz696MMa-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="60SKiHEDeZMOGz696MMa-1" source="60SKiHEDeZMOGz696MMa-5" target="60SKiHEDeZMOGz696MMa-13">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="587" y="261" />
+              <mxPoint x="235" y="261" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="60SKiHEDeZMOGz696MMa-5" value="DataModule" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="60SKiHEDeZMOGz696MMa-1">
-          <mxGeometry x="525" y="146" width="120" height="60" as="geometry" />
+          <mxGeometry x="526.5" y="315" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="60SKiHEDeZMOGz696MMa-13" value="JsMethiodPluginCoreImpl&lt;br&gt;channelapi共享" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="60SKiHEDeZMOGz696MMa-1">
+          <mxGeometry x="131" y="137" width="207" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="60SKiHEDeZMOGz696MMa-14" value="HostStore&lt;br&gt;跨底层插件" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="60SKiHEDeZMOGz696MMa-1">
+          <mxGeometry x="466.5" y="142" width="207" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="60SKiHEDeZMOGz696MMa-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="60SKiHEDeZMOGz696MMa-1" source="60SKiHEDeZMOGz696MMa-18" target="60SKiHEDeZMOGz696MMa-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="60SKiHEDeZMOGz696MMa-18" value="CustomJsInterface" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="60SKiHEDeZMOGz696MMa-1">
+          <mxGeometry x="346.5" y="585" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="60SKiHEDeZMOGz696MMa-21" value="onJsInvoke" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="60SKiHEDeZMOGz696MMa-1">
+          <mxGeometry x="419" y="542" width="86" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="60SKiHEDeZMOGz696MMa-22" value="JavascriptInterface&lt;br&gt;invoke" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="60SKiHEDeZMOGz696MMa-1">
+          <mxGeometry x="414" y="668" width="86" height="39" as="geometry" />
+        </mxCell>
+        <mxCell id="60SKiHEDeZMOGz696MMa-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="60SKiHEDeZMOGz696MMa-1" source="60SKiHEDeZMOGz696MMa-23" target="60SKiHEDeZMOGz696MMa-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="60SKiHEDeZMOGz696MMa-23" value="UIModuleMethods&lt;br&gt;注册各种ui js方法" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="60SKiHEDeZMOGz696MMa-1">
+          <mxGeometry x="-355" y="58" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="60SKiHEDeZMOGz696MMa-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="60SKiHEDeZMOGz696MMa-1" source="60SKiHEDeZMOGz696MMa-25" target="60SKiHEDeZMOGz696MMa-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="60SKiHEDeZMOGz696MMa-25" value="JsApiModuleManager" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="60SKiHEDeZMOGz696MMa-1">
+          <mxGeometry x="-176" y="137" width="207" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="60SKiHEDeZMOGz696MMa-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="60SKiHEDeZMOGz696MMa-1" source="60SKiHEDeZMOGz696MMa-27" target="60SKiHEDeZMOGz696MMa-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="60SKiHEDeZMOGz696MMa-27" value="DataModuleMethos" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="60SKiHEDeZMOGz696MMa-1">
+          <mxGeometry x="-351" y="221" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="60SKiHEDeZMOGz696MMa-30" value="addMethods" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="60SKiHEDeZMOGz696MMa-1">
+          <mxGeometry x="242" y="93" width="96" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
