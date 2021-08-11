@@ -1,19 +1,19 @@
-<mxfile host="app.diagrams.net" modified="2021-08-11T03:07:20.654Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36" etag="GclytvSOVPhZ8I38eBQ6" version="14.9.6" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-08-11T07:23:12.685Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36" etag="RiWbNTs1BOjok2pB5I-4" version="14.9.6" type="github" pages="2">
   <diagram id="xAZk6xImL0anoJP635Of" name="直播间优化">
-    <mxGraphModel dx="1422" dy="1930" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="1875" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="gB-iFTg1nMOSrqPXeTVC-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="gB-iFTg1nMOSrqPXeTVC-1" target="gB-iFTg1nMOSrqPXeTVC-5">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="gB-iFTg1nMOSrqPXeTVC-1" value="initProtocol" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="gB-iFTg1nMOSrqPXeTVC-1" value="initProtocol&lt;br&gt;初始化协议" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="243" y="164" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="gB-iFTg1nMOSrqPXeTVC-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="gB-iFTg1nMOSrqPXeTVC-2" target="gB-iFTg1nMOSrqPXeTVC-8">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="gB-iFTg1nMOSrqPXeTVC-2" value="createView" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="gB-iFTg1nMOSrqPXeTVC-2" value="createView&lt;br&gt;创建布局" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="673" y="161" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="gB-iFTg1nMOSrqPXeTVC-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="gB-iFTg1nMOSrqPXeTVC-3" target="gB-iFTg1nMOSrqPXeTVC-11">
@@ -22,10 +22,10 @@
         <mxCell id="gB-iFTg1nMOSrqPXeTVC-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="gB-iFTg1nMOSrqPXeTVC-3" target="gB-iFTg1nMOSrqPXeTVC-20">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="gB-iFTg1nMOSrqPXeTVC-3" value="XXXImpl" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="gB-iFTg1nMOSrqPXeTVC-3" value="XXXImpl&lt;br&gt;协议请求" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="243" y="404" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="gB-iFTg1nMOSrqPXeTVC-4" value="initView" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="gB-iFTg1nMOSrqPXeTVC-4" value="initView&lt;br&gt;初始化布局" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="673" y="404" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="gB-iFTg1nMOSrqPXeTVC-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="gB-iFTg1nMOSrqPXeTVC-5" target="gB-iFTg1nMOSrqPXeTVC-3">
@@ -37,7 +37,7 @@
         <mxCell id="gB-iFTg1nMOSrqPXeTVC-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="gB-iFTg1nMOSrqPXeTVC-8" target="gB-iFTg1nMOSrqPXeTVC-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="gB-iFTg1nMOSrqPXeTVC-8" value="AsyncLayoutInflater" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="gB-iFTg1nMOSrqPXeTVC-8" value="AsyncLayoutInflater&lt;br&gt;异步加载布局" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="673" y="276" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="gB-iFTg1nMOSrqPXeTVC-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="gB-iFTg1nMOSrqPXeTVC-11" target="gB-iFTg1nMOSrqPXeTVC-3">
@@ -58,20 +58,29 @@
         <mxCell id="gB-iFTg1nMOSrqPXeTVC-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="gB-iFTg1nMOSrqPXeTVC-20" target="gB-iFTg1nMOSrqPXeTVC-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="gB-iFTg1nMOSrqPXeTVC-20" value="ViewModel" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="gB-iFTg1nMOSrqPXeTVC-20" value="ViewModel&lt;br&gt;数据缓存" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="458" y="404" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="x4ZEdnHXa9wkFcLiSyGv-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="x4ZEdnHXa9wkFcLiSyGv-1" target="gB-iFTg1nMOSrqPXeTVC-14">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="x4ZEdnHXa9wkFcLiSyGv-1" value="ELManagerConfig" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="x4ZEdnHXa9wkFcLiSyGv-1" value="ELManagerConfig&lt;br&gt;布局加载" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="465" y="-154" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="x4ZEdnHXa9wkFcLiSyGv-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="x4ZEdnHXa9wkFcLiSyGv-2" target="gB-iFTg1nMOSrqPXeTVC-14">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="x4ZEdnHXa9wkFcLiSyGv-2" value="ProrityList" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="x4ZEdnHXa9wkFcLiSyGv-2" value="ProrityList&lt;br&gt;优先级队列" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="676" y="-57" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="x4ZEdnHXa9wkFcLiSyGv-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="x4ZEdnHXa9wkFcLiSyGv-6" target="x4ZEdnHXa9wkFcLiSyGv-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="x4ZEdnHXa9wkFcLiSyGv-6" value="XXXComponentConfig&lt;br&gt;加载列表" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="671" y="-154" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="x4ZEdnHXa9wkFcLiSyGv-9" value="动态生成" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="742" y="-88" width="59" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
