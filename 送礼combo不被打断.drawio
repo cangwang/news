@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-08-28T02:25:08.698Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36" etag="WN4YIQmISIYyW-OVwARS" version="14.9.7" type="github">
+<mxfile host="app.diagrams.net" modified="2021-08-28T02:31:26.183Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36" etag="v2VUGnqIrkqDgocWhZZt" version="14.9.7" type="github" pages="3">
   <diagram id="Vmy_npMQMaTD-tj5_ABQ" name="Page-1">
     <mxGraphModel dx="1422" dy="761" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -43,6 +43,63 @@
         <mxCell id="HNK7zyYz266k-fxQJcVy-14" value="顶层弹框" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="281.5" y="956" width="54" height="20" as="geometry" />
         </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="05w-qfBeSG0-wM5NAwRq" name="Page-2">
+    <mxGraphModel dx="1422" dy="761" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="zygIHpbcTRnUc1P4KIaE-0" />
+        <mxCell id="zygIHpbcTRnUc1P4KIaE-1" parent="zygIHpbcTRnUc1P4KIaE-0" />
+        <mxCell id="zygIHpbcTRnUc1P4KIaE-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="zygIHpbcTRnUc1P4KIaE-1" source="zygIHpbcTRnUc1P4KIaE-2" target="zygIHpbcTRnUc1P4KIaE-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zygIHpbcTRnUc1P4KIaE-2" value="服务器" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="zygIHpbcTRnUc1P4KIaE-1">
+          <mxGeometry x="139" y="146" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zygIHpbcTRnUc1P4KIaE-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="zygIHpbcTRnUc1P4KIaE-1" source="zygIHpbcTRnUc1P4KIaE-3" target="zygIHpbcTRnUc1P4KIaE-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zygIHpbcTRnUc1P4KIaE-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="zygIHpbcTRnUc1P4KIaE-1" source="zygIHpbcTRnUc1P4KIaE-3" target="zygIHpbcTRnUc1P4KIaE-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="643" y="249" />
+              <mxPoint x="455" y="249" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zygIHpbcTRnUc1P4KIaE-3" value="1.Combo连送" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="zygIHpbcTRnUc1P4KIaE-1">
+          <mxGeometry x="583" y="146" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zygIHpbcTRnUc1P4KIaE-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="zygIHpbcTRnUc1P4KIaE-1" source="zygIHpbcTRnUc1P4KIaE-4" target="zygIHpbcTRnUc1P4KIaE-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zygIHpbcTRnUc1P4KIaE-4" value="客户端&lt;br&gt;3.记录业务队列" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="zygIHpbcTRnUc1P4KIaE-1">
+          <mxGeometry x="365" y="146" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zygIHpbcTRnUc1P4KIaE-7" value="2.打断业务" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="zygIHpbcTRnUc1P4KIaE-1">
+          <mxGeometry x="281" y="148" width="63" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="zygIHpbcTRnUc1P4KIaE-10" value="弹框" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="zygIHpbcTRnUc1P4KIaE-1">
+          <mxGeometry x="365" y="383" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zygIHpbcTRnUc1P4KIaE-11" value="记录" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="zygIHpbcTRnUc1P4KIaE-1">
+          <mxGeometry x="514" y="146" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="zygIHpbcTRnUc1P4KIaE-14" value="4.结束连送" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="zygIHpbcTRnUc1P4KIaE-1">
+          <mxGeometry x="507" y="252" width="91" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="zygIHpbcTRnUc1P4KIaE-15" value="5.抽取队列业务" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="zygIHpbcTRnUc1P4KIaE-1">
+          <mxGeometry x="329" y="294" width="87" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="phIkSbqBiHRvwGGYtcfg" name="Page-3">
+    <mxGraphModel dx="1422" dy="761" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="r-82WpLiLiqZ63fVkfiG-0" />
+        <mxCell id="r-82WpLiLiqZ63fVkfiG-1" parent="r-82WpLiLiqZ63fVkfiG-0" />
       </root>
     </mxGraphModel>
   </diagram>
