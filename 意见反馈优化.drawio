@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-09-14T03:30:50.423Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" etag="pshahmQWZQiZGGguU_9t" version="15.1.2" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-09-14T03:37:18.094Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" etag="wVhf2FeqN_Sq9T-Iiufp" version="15.1.2" type="github" pages="4">
   <diagram id="9u5NWe0q-hlZy2aWh33p" name="Page-1">
     <mxGraphModel dx="1422" dy="761" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -92,6 +92,53 @@
       <root>
         <mxCell id="TuTq5-jbZOuUM1_5D_8t-0" />
         <mxCell id="TuTq5-jbZOuUM1_5D_8t-1" parent="TuTq5-jbZOuUM1_5D_8t-0" />
+        <mxCell id="TuTq5-jbZOuUM1_5D_8t-4" value="直播间" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="TuTq5-jbZOuUM1_5D_8t-1">
+          <mxGeometry x="77" y="187" width="326" height="494" as="geometry" />
+        </mxCell>
+        <mxCell id="TuTq5-jbZOuUM1_5D_8t-5" value="键盘" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="TuTq5-jbZOuUM1_5D_8t-1">
+          <mxGeometry x="77" y="489" width="327" height="192" as="geometry" />
+        </mxCell>
+        <mxCell id="TuTq5-jbZOuUM1_5D_8t-6" value="截图日志" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="TuTq5-jbZOuUM1_5D_8t-1">
+          <mxGeometry x="83" y="460" width="78" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="TuTq5-jbZOuUM1_5D_8t-7" value="送礼失败" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="TuTq5-jbZOuUM1_5D_8t-1">
+          <mxGeometry x="171" y="460" width="78" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="TuTq5-jbZOuUM1_5D_8t-8" value="活动条不显示" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="TuTq5-jbZOuUM1_5D_8t-1">
+          <mxGeometry x="259" y="460" width="78" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="TuTq5-jbZOuUM1_5D_8t-9" value="..." style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="TuTq5-jbZOuUM1_5D_8t-1">
+          <mxGeometry x="347" y="460" width="49" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="TuTq5-jbZOuUM1_5D_8t-10" value="重复上传，请耐心等待" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="TuTq5-jbZOuUM1_5D_8t-1">
+          <mxGeometry x="140" y="623" width="174" height="33" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="IcjIxh8e1YQemcdKmEzN" name="Page-4">
+    <mxGraphModel dx="1422" dy="761" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="QrjLW_aIzn0AT1tlNyUx-0" />
+        <mxCell id="QrjLW_aIzn0AT1tlNyUx-1" parent="QrjLW_aIzn0AT1tlNyUx-0" />
+        <mxCell id="piuoRRyGg8IbEoBr4FUa-0" value="客户端" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="QrjLW_aIzn0AT1tlNyUx-1">
+          <mxGeometry x="64" y="133" width="303" height="515" as="geometry" />
+        </mxCell>
+        <mxCell id="piuoRRyGg8IbEoBr4FUa-1" value="是否活动条不能显示？" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="QrjLW_aIzn0AT1tlNyUx-1">
+          <mxGeometry x="82" y="544" width="253" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="piuoRRyGg8IbEoBr4FUa-2" value="是" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="QrjLW_aIzn0AT1tlNyUx-1">
+          <mxGeometry x="265" y="553" width="29" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="piuoRRyGg8IbEoBr4FUa-3" value="否" style="rounded=1;whiteSpace=wrap;html=1;arcSize=0;" vertex="1" parent="QrjLW_aIzn0AT1tlNyUx-1">
+          <mxGeometry x="299" y="553" width="29" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="piuoRRyGg8IbEoBr4FUa-5" value="主播端" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="QrjLW_aIzn0AT1tlNyUx-1">
+          <mxGeometry x="432" y="133" width="303" height="515" as="geometry" />
+        </mxCell>
+        <mxCell id="piuoRRyGg8IbEoBr4FUa-6" value="XXX用户上报活动条不能显示？（数量）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="QrjLW_aIzn0AT1tlNyUx-1">
+          <mxGeometry x="442" y="574" width="253" height="38" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
