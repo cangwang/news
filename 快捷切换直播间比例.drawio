@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-10-12T07:09:17.932Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36" etag="h9o8_L6vO70KTXNt_0hd" version="15.4.3" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-10-12T08:00:38.282Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36" etag="6v_TvT9PGyNxNv6ZxHd-" version="15.4.3" type="github" pages="3">
   <diagram id="DgWAqmSPXItFnhaGq6Yb" name="Page-1">
     <mxGraphModel dx="1422" dy="761" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -137,6 +137,61 @@
         </mxCell>
         <mxCell id="oLTdoG-CAnxBt4KVYUTf-9" value="双指长按进行移动" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="0lSx12l1Qg8qe7zTNRUm-1">
           <mxGeometry x="232" y="339" width="60" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="iP6y-SdnCRijmFeX8YCR" name="Page-3">
+    <mxGraphModel dx="1422" dy="761" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="Pw3Buz3q5AxvyiKSzvjd-0" />
+        <mxCell id="Pw3Buz3q5AxvyiKSzvjd-1" parent="Pw3Buz3q5AxvyiKSzvjd-0" />
+        <mxCell id="Pw3Buz3q5AxvyiKSzvjd-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="Pw3Buz3q5AxvyiKSzvjd-1" source="Pw3Buz3q5AxvyiKSzvjd-2" target="Pw3Buz3q5AxvyiKSzvjd-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Pw3Buz3q5AxvyiKSzvjd-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="Pw3Buz3q5AxvyiKSzvjd-1" source="Pw3Buz3q5AxvyiKSzvjd-2" target="Pw3Buz3q5AxvyiKSzvjd-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Pw3Buz3q5AxvyiKSzvjd-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="Pw3Buz3q5AxvyiKSzvjd-1" source="Pw3Buz3q5AxvyiKSzvjd-2" target="Pw3Buz3q5AxvyiKSzvjd-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Pw3Buz3q5AxvyiKSzvjd-2" value="主播端" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="Pw3Buz3q5AxvyiKSzvjd-1">
+          <mxGeometry x="23" y="183" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Pw3Buz3q5AxvyiKSzvjd-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="Pw3Buz3q5AxvyiKSzvjd-1" source="Pw3Buz3q5AxvyiKSzvjd-3" target="Pw3Buz3q5AxvyiKSzvjd-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Pw3Buz3q5AxvyiKSzvjd-3" value="视频比例" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="Pw3Buz3q5AxvyiKSzvjd-1">
+          <mxGeometry x="242" y="47" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Pw3Buz3q5AxvyiKSzvjd-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="Pw3Buz3q5AxvyiKSzvjd-1" source="Pw3Buz3q5AxvyiKSzvjd-5" target="Pw3Buz3q5AxvyiKSzvjd-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="431" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Pw3Buz3q5AxvyiKSzvjd-5" value="识别网络" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="Pw3Buz3q5AxvyiKSzvjd-1">
+          <mxGeometry x="242" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Pw3Buz3q5AxvyiKSzvjd-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="Pw3Buz3q5AxvyiKSzvjd-1" source="Pw3Buz3q5AxvyiKSzvjd-11" target="Pw3Buz3q5AxvyiKSzvjd-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Pw3Buz3q5AxvyiKSzvjd-11" value="直播流" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="Pw3Buz3q5AxvyiKSzvjd-1">
+          <mxGeometry x="242" y="154" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Pw3Buz3q5AxvyiKSzvjd-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="Pw3Buz3q5AxvyiKSzvjd-1" source="Pw3Buz3q5AxvyiKSzvjd-13" target="Pw3Buz3q5AxvyiKSzvjd-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Pw3Buz3q5AxvyiKSzvjd-13" value="新直播流" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="Pw3Buz3q5AxvyiKSzvjd-1">
+          <mxGeometry x="482" y="154" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Pw3Buz3q5AxvyiKSzvjd-16" value="裁剪比例" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="Pw3Buz3q5AxvyiKSzvjd-1">
+          <mxGeometry x="410" y="40" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Pw3Buz3q5AxvyiKSzvjd-18" value="人脸和躯干" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="Pw3Buz3q5AxvyiKSzvjd-1">
+          <mxGeometry x="410" y="257" width="72" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Pw3Buz3q5AxvyiKSzvjd-19" value="服务器" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="Pw3Buz3q5AxvyiKSzvjd-1">
+          <mxGeometry x="685" y="154" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
