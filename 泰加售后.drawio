@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-10-20T13:01:49.536Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" etag="eLssaxuHhjgKJ9l6uksV" version="15.5.1" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2021-10-20T13:02:10.582Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" etag="QjX4eI24qknbi3mYMwV6" version="15.5.1" type="github" pages="7">
   <diagram id="56xd8bNkpKymqGvPLC_I" name="安装">
     <mxGraphModel dx="1422" dy="705" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -651,7 +651,7 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="cZL_RSZxK1gpQCuXk807" name="Page-6">
+  <diagram id="cZL_RSZxK1gpQCuXk807" name="代理报告">
     <mxGraphModel dx="1422" dy="705" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="xhsu2Kc97w2B1pYjezD4-0" />
@@ -788,6 +788,14 @@
         <mxCell id="BSwffNbdPuQ8nnGVu-7X-43" value="所属区域代理商" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="xhsu2Kc97w2B1pYjezD4-1">
           <mxGeometry x="666" y="576" width="116" height="30" as="geometry" />
         </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="q9dfbTPTt-PhShCQrQRe" name="Page-7">
+    <mxGraphModel dx="1422" dy="705" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="XBKbxncn1SG50gy7CBe9-0" />
+        <mxCell id="XBKbxncn1SG50gy7CBe9-1" parent="XBKbxncn1SG50gy7CBe9-0" />
       </root>
     </mxGraphModel>
   </diagram>
