@@ -1,1 +1,69 @@
-<mxfile host="app.diagrams.net" modified="2021-10-20T13:29:44.974Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" version="15.5.1" etag="kqdflq03P3YS3LfbJM24" type="github"><diagram id="LHHY7GwNDpKZo2E3UBxs">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-10-20T13:38:02.235Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" etag="JYUhBzx6BDepG9JMMo0V" version="15.5.1" type="github" pages="2">
+  <diagram id="LHHY7GwNDpKZo2E3UBxs" name="个人信息">
+    <mxGraphModel dx="1422" dy="705" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="dQbH_FSXyQTvI-_JCzGA-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="57" y="152" width="1075" height="633" as="geometry" />
+        </mxCell>
+        <mxCell id="dQbH_FSXyQTvI-_JCzGA-2" value="市场信息" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="85" y="171" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="dQbH_FSXyQTvI-_JCzGA-3" value="进销存信息" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="176" y="171" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="dQbH_FSXyQTvI-_JCzGA-4" value="售后" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="285" y="171" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="dQbH_FSXyQTvI-_JCzGA-5" value="个人信息" style="text;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="399" y="171" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="dQbH_FSXyQTvI-_JCzGA-6" value="用户名：" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="1052" y="169" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="dQbH_FSXyQTvI-_JCzGA-7" value="身份图标" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="978" y="167" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="dQbH_FSXyQTvI-_JCzGA-8" value="个人信息" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="92" y="224" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="dQbH_FSXyQTvI-_JCzGA-9" value="密码完善" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="297" y="224" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="dQbH_FSXyQTvI-_JCzGA-10" value="真实名字" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="97" y="358" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="dQbH_FSXyQTvI-_JCzGA-11" value="账号名" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="99" y="289" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="dQbH_FSXyQTvI-_JCzGA-12" value="证件号" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="99" y="483" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="dQbH_FSXyQTvI-_JCzGA-14" value="真实认证" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="619" y="483" width="75" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="dQbH_FSXyQTvI-_JCzGA-15" value="电话号码" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="99" y="421" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="dQbH_FSXyQTvI-_JCzGA-16" value="审批" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="196" y="224" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="dQbH_FSXyQTvI-_JCzGA-17" value="微信号" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="466" y="426" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="dQbH_FSXyQTvI-_JCzGA-18" value="证件相片上传" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="455" y="483" width="100" height="38" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="ggypSaaetO5s0ZbHTbmU" name="Page-2">
+    <mxGraphModel dx="1422" dy="705" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="5-ijlEz6rMujHOnB1L44-0" />
+        <mxCell id="5-ijlEz6rMujHOnB1L44-1" parent="5-ijlEz6rMujHOnB1L44-0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
