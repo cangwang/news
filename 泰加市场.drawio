@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-10-20T11:11:17.423Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" etag="PmQ5nBl_TfPgs-QsEnRb" version="15.5.1" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2021-10-20T11:12:10.873Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" etag="vwr4EWoeYrrdwW9HmdMf" version="15.5.1" type="github" pages="6">
   <diagram id="9SwE26kC5WHIhmiFLGFM" name="经销商信息">
     <mxGraphModel dx="1422" dy="705" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -383,6 +383,9 @@
         </mxCell>
         <mxCell id="suo903cbidnC1pUfLYRl-14" value="个人信息" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="g1hTmfrnu4WU_SWJHi4g-1">
           <mxGeometry x="402" y="132" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="C3_xgb7dS4tLnj-1xtJV-0" value="下单几率" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="g1hTmfrnu4WU_SWJHi4g-1">
+          <mxGeometry x="429" y="633" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
