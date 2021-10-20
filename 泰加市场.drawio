@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-10-20T13:21:04.148Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" etag="2jJtBeck9JfChJaHFfYu" version="15.5.1" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2021-10-20T13:42:12.410Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" etag="J3xWkpQWpE7pmHakdShO" version="15.5.1" type="github" pages="6">
   <diagram id="9SwE26kC5WHIhmiFLGFM" name="经销商信息">
     <mxGraphModel dx="1422" dy="705" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -70,6 +70,12 @@
         <mxCell id="93VurCK8xoaxn1cYWzhT-4" value="个人信息" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="402" y="132" width="80" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="eJEKmzY_X3bGOQuPdfHg-1" value="意向表" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="522" y="181" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="eJEKmzY_X3bGOQuPdfHg-2" value="统计分析" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="646" y="179" width="80" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
@@ -140,6 +146,12 @@
         </mxCell>
         <mxCell id="rXX1xcc7l4ZkiI7w6tlG-3" value="个人信息" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="DU3dCuHn79Ic1vKU2-3g-1">
           <mxGeometry x="402" y="132" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="o_8Ntm3xQXsAWz2bHxs3-0" value="意向表" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="DU3dCuHn79Ic1vKU2-3g-1">
+          <mxGeometry x="522" y="181" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="o_8Ntm3xQXsAWz2bHxs3-1" value="统计分析" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="DU3dCuHn79Ic1vKU2-3g-1">
+          <mxGeometry x="646" y="179" width="80" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
@@ -230,6 +242,12 @@
         <mxCell id="zxNqhM18xyWoHFrOC6qz-0" value="时间段" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="6lPjVunkmXJm0ULRB7YU-1">
           <mxGeometry x="646" y="236" width="60" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="hyE0EsSB8wjZDnA7ema9-0" value="意向表" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="6lPjVunkmXJm0ULRB7YU-1">
+          <mxGeometry x="522" y="181" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hyE0EsSB8wjZDnA7ema9-1" value="统计分析" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="6lPjVunkmXJm0ULRB7YU-1">
+          <mxGeometry x="646" y="179" width="80" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
@@ -300,6 +318,12 @@
         </mxCell>
         <mxCell id="KX6J_NI3RrR-tESbmfsA-3" value="个人信息" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="_vQ5mhPag6q5sIvM6sL_-1">
           <mxGeometry x="402" y="132" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="N4oUDVWlE-3F_04i0o_h-0" value="意向表" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="_vQ5mhPag6q5sIvM6sL_-1">
+          <mxGeometry x="522" y="181" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="N4oUDVWlE-3F_04i0o_h-1" value="统计分析" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="_vQ5mhPag6q5sIvM6sL_-1">
+          <mxGeometry x="646" y="179" width="80" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
