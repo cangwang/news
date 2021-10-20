@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-10-20T13:03:29.656Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" etag="YjqMRP4LGq11pF-fPUWX" version="15.5.1" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2021-10-20T13:04:41.664Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" etag="CGNtf-yb_H5U-TKQtJCA" version="15.5.1" type="github" pages="7">
   <diagram id="56xd8bNkpKymqGvPLC_I" name="安装">
     <mxGraphModel dx="1422" dy="705" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -904,17 +904,11 @@
         <mxCell id="_EHqXX3Bfsq6dN0R4yh1-35" value="联系方式" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="XBKbxncn1SG50gy7CBe9-1">
           <mxGeometry x="232" y="576" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="_EHqXX3Bfsq6dN0R4yh1-36" value="报告人" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="XBKbxncn1SG50gy7CBe9-1">
-          <mxGeometry x="379" y="576" width="60" height="30" as="geometry" />
-        </mxCell>
         <mxCell id="_EHqXX3Bfsq6dN0R4yh1-37" value="进度" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="XBKbxncn1SG50gy7CBe9-1">
           <mxGeometry x="1137" y="572" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="_EHqXX3Bfsq6dN0R4yh1-38" value="联系方式" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="XBKbxncn1SG50gy7CBe9-1">
-          <mxGeometry x="542" y="574" width="60" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="_EHqXX3Bfsq6dN0R4yh1-39" value="上传报告文件" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="XBKbxncn1SG50gy7CBe9-1">
-          <mxGeometry x="831" y="570" width="86" height="42" as="geometry" />
+        <mxCell id="_EHqXX3Bfsq6dN0R4yh1-39" value="上传报销账单" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="XBKbxncn1SG50gy7CBe9-1">
+          <mxGeometry x="537" y="572" width="86" height="42" as="geometry" />
         </mxCell>
         <mxCell id="_EHqXX3Bfsq6dN0R4yh1-40" value="出库时间" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="XBKbxncn1SG50gy7CBe9-1">
           <mxGeometry x="363" y="410" width="92" height="30" as="geometry" />
@@ -922,8 +916,8 @@
         <mxCell id="_EHqXX3Bfsq6dN0R4yh1-41" value="代理报告" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="XBKbxncn1SG50gy7CBe9-1">
           <mxGeometry x="527" y="181" width="80" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="_EHqXX3Bfsq6dN0R4yh1-43" value="所属区域代理商" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="XBKbxncn1SG50gy7CBe9-1">
-          <mxGeometry x="666" y="576" width="116" height="30" as="geometry" />
+        <mxCell id="_EHqXX3Bfsq6dN0R4yh1-43" value="报销费用" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="XBKbxncn1SG50gy7CBe9-1">
+          <mxGeometry x="353" y="576" width="116" height="30" as="geometry" />
         </mxCell>
         <mxCell id="n7duFU5EbXqeBbvp6IyC-0" value="费用报销" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="XBKbxncn1SG50gy7CBe9-1">
           <mxGeometry x="623" y="181" width="80" height="30" as="geometry" />
