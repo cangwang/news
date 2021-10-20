@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-10-20T07:58:00.636Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" etag="G41-4i12do2Yay06Zg4a" version="15.5.1" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2021-10-20T08:02:01.087Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" etag="TnbyEiT699ObIoah0iaO" version="15.5.1" type="github" pages="4">
   <diagram id="9SwE26kC5WHIhmiFLGFM" name="经销商信息">
     <mxGraphModel dx="1422" dy="761" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -214,8 +214,8 @@
         <mxCell id="TrH7bQ1gIruFE_3ys5hD-4" value="合同库" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="_vQ5mhPag6q5sIvM6sL_-1">
           <mxGeometry x="258" y="181" width="72" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="TrH7bQ1gIruFE_3ys5hD-5" value="代理人资质验证" style="text;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="_vQ5mhPag6q5sIvM6sL_-1">
-          <mxGeometry x="361" y="181" width="91" height="30" as="geometry" />
+        <mxCell id="TrH7bQ1gIruFE_3ys5hD-5" value="区域代理人资质验证" style="text;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="_vQ5mhPag6q5sIvM6sL_-1">
+          <mxGeometry x="361" y="181" width="130" height="30" as="geometry" />
         </mxCell>
         <mxCell id="TrH7bQ1gIruFE_3ys5hD-6" value="" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="_vQ5mhPag6q5sIvM6sL_-1">
           <mxGeometry x="88" y="424" width="1186" height="215" as="geometry" />
