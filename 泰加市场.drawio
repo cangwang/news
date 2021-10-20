@@ -1,1 +1,78 @@
-<mxfile host="app.diagrams.net" modified="2021-10-20T07:02:54.634Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" version="15.5.1" etag="RiBDRAmxiFu9OQ6ZeecK" type="github"><diagram id="9SwE26kC5WHIhmiFLGFM">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-10-20T07:31:32.271Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" etag="deLMfSajQ5syu4UO_DUT" version="15.5.1" type="github" pages="2">
+  <diagram id="9SwE26kC5WHIhmiFLGFM" name="经销商信息">
+    <mxGraphModel dx="1422" dy="761" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="HRXqJdb7DPf_WUPmItNY-2" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="46" y="108" width="1310" height="648" as="geometry" />
+        </mxCell>
+        <mxCell id="HRXqJdb7DPf_WUPmItNY-3" value="市场信息录入" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="83" y="132" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HRXqJdb7DPf_WUPmItNY-4" value="经销商信息" style="text;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="86" y="181" width="72" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HRXqJdb7DPf_WUPmItNY-5" value="医院库" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="172" y="181" width="72" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="761J3XR9EP6GSpsO3y2I-1" value="合同库" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="258" y="181" width="72" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="761J3XR9EP6GSpsO3y2I-2" value="代理人资质验证" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="350" y="181" width="91" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="761J3XR9EP6GSpsO3y2I-3" value="区域代理人资质验证" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="473" y="181" width="122" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="761J3XR9EP6GSpsO3y2I-5" value="经销商名称：" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="89" y="246" width="78" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="761J3XR9EP6GSpsO3y2I-6" value="所属公司：" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="83" y="298" width="78" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="761J3XR9EP6GSpsO3y2I-7" value="所属公司：" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="84" y="346" width="78" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="U78cr7vg3-kMkLcBZOdT" name="Page-2">
+    <mxGraphModel dx="1422" dy="761" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="DU3dCuHn79Ic1vKU2-3g-0" />
+        <mxCell id="DU3dCuHn79Ic1vKU2-3g-1" parent="DU3dCuHn79Ic1vKU2-3g-0" />
+        <mxCell id="AbRo0B9MV_-rtowAeEx4-0" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="DU3dCuHn79Ic1vKU2-3g-1">
+          <mxGeometry x="46" y="108" width="1310" height="648" as="geometry" />
+        </mxCell>
+        <mxCell id="AbRo0B9MV_-rtowAeEx4-1" value="市场信息录入" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="DU3dCuHn79Ic1vKU2-3g-1">
+          <mxGeometry x="83" y="132" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AbRo0B9MV_-rtowAeEx4-2" value="经销商信息" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="DU3dCuHn79Ic1vKU2-3g-1">
+          <mxGeometry x="86" y="181" width="72" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AbRo0B9MV_-rtowAeEx4-3" value="医院库" style="text;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="DU3dCuHn79Ic1vKU2-3g-1">
+          <mxGeometry x="172" y="181" width="72" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AbRo0B9MV_-rtowAeEx4-4" value="合同库" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="DU3dCuHn79Ic1vKU2-3g-1">
+          <mxGeometry x="258" y="181" width="72" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AbRo0B9MV_-rtowAeEx4-5" value="代理人资质验证" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="DU3dCuHn79Ic1vKU2-3g-1">
+          <mxGeometry x="350" y="181" width="91" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AbRo0B9MV_-rtowAeEx4-6" value="区域代理人资质验证" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="DU3dCuHn79Ic1vKU2-3g-1">
+          <mxGeometry x="473" y="181" width="122" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AbRo0B9MV_-rtowAeEx4-7" value="医院名称：" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="DU3dCuHn79Ic1vKU2-3g-1">
+          <mxGeometry x="89" y="246" width="78" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AbRo0B9MV_-rtowAeEx4-8" value="科室：" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="DU3dCuHn79Ic1vKU2-3g-1">
+          <mxGeometry x="83" y="298" width="78" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PWnUx_wRhXpxOtDF2GI--0" value="&lt;font style=&quot;font-size: 40px&quot;&gt;+&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="DU3dCuHn79Ic1vKU2-3g-1">
+          <mxGeometry x="161" y="298" width="60" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
