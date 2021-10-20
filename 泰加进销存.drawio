@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-10-20T11:17:28.570Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" etag="GLu2ikUOL9HS-oWP38_T" version="15.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2021-10-20T11:18:51.000Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" etag="l1FKc45URELApDmu8_RU" version="15.5.1" type="github">
   <diagram id="N5iFs1pkEQkYCYLfwqrd" name="Page-1">
     <mxGraphModel dx="1422" dy="705" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -120,6 +120,12 @@
         </mxCell>
         <mxCell id="yPibqIaLQ4RqL0XUAA-0-52" value="进行统计" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="88" y="282" width="66" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="yPibqIaLQ4RqL0XUAA-0-53" value="区域" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="580" y="284" width="71" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="yPibqIaLQ4RqL0XUAA-0-54" value="X" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="638" y="279" width="25" height="23" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
