@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-10-21T12:51:57.060Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" etag="YVHBARH4DJ_hxVzICeWP" version="15.5.7" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2021-10-21T12:53:42.239Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" etag="05DL5X1v5Lk92fjX3nU-" version="15.5.7" type="github" pages="8">
   <diagram id="N5iFs1pkEQkYCYLfwqrd" name="预出库">
     <mxGraphModel dx="1422" dy="761" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -1100,6 +1100,9 @@
         </mxCell>
         <mxCell id="d7c3TLwGcxEkxA5vFVjA-0" value="进度" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="MbQQrgSPo-CQtPPh51kV-1">
           <mxGeometry x="56" y="334" width="73" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="3idePk-yO9qDEgU4dU2q-0" value="审批人" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="MbQQrgSPo-CQtPPh51kV-1">
+          <mxGeometry x="569.5" y="546" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
