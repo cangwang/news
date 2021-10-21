@@ -1,12 +1,9 @@
-<mxfile host="app.diagrams.net" modified="2021-10-21T13:46:14.139Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" etag="UH62MOkCQo8ul_e3T6wc" version="15.5.7" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2021-10-21T13:50:36.580Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" etag="-kJKg6jBOdfe5V2794Ga" version="15.5.7" type="github" pages="4">
   <diagram id="d7R6Zg0zZ_V1Z50zavkv" name="等级积分">
     <mxGraphModel dx="1422" dy="761" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="tLoSisrGPmiNnULd8fJE-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="40" y="39" width="1107" height="648" as="geometry" />
-        </mxCell>
         <mxCell id="tLoSisrGPmiNnULd8fJE-2" value="市场信息" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="68" y="60" width="80" height="30" as="geometry" />
         </mxCell>
@@ -114,6 +111,9 @@
         </mxCell>
         <mxCell id="BJGhzOkSDaeolBzISIbs-3" value="总充值金额" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="723" y="440" width="88" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SVTJ_zIIUlSf7JbKYIzz-2" value="积分规则" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="68" y="210" width="78" height="33" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
@@ -270,6 +270,9 @@
         <mxCell id="ifUj5vXmcb-2MWft1BFF-0" value="单号：" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="KXsJdiLGbHH1dwcrc3N_-1">
           <mxGeometry x="364" y="421" width="60" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="sK6TIvNVOUV2MOyIjdVl-0" value="积分兑换规则" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="KXsJdiLGbHH1dwcrc3N_-1">
+          <mxGeometry x="68" y="210" width="78" height="33" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
@@ -379,6 +382,9 @@
         </mxCell>
         <mxCell id="ogOKqRbsQkxNRvqIpvr0-35" value="出库总金额" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="Ei5bbuKA5utSWdIMuVD5-1">
           <mxGeometry x="105" y="496" width="99" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4J1Th1zwC27co2c4N7sG-0" value="考核规则" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="Ei5bbuKA5utSWdIMuVD5-1">
+          <mxGeometry x="68" y="210" width="78" height="33" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
@@ -492,6 +498,9 @@
         </mxCell>
         <mxCell id="hlR2r0_pTzdwZqAEtfQS-1" value="关联订单" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="VCkDgxonD6KsE4YCqQEh-1">
           <mxGeometry x="127" y="457" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qOvdAuNbKzSPk971aRWA-0" value="返利申请" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="VCkDgxonD6KsE4YCqQEh-1">
+          <mxGeometry x="68" y="210" width="78" height="33" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
