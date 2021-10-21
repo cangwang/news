@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-10-21T13:51:37.834Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" etag="SjZtu0xqM4RONjjQip6-" version="15.5.7" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2021-10-21T13:52:19.113Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" etag="agOC4uLLZShj1wCtIccm" version="15.5.7" type="github" pages="6">
   <diagram id="9SwE26kC5WHIhmiFLGFM" name="经销商信息">
     <mxGraphModel dx="1422" dy="761" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -351,6 +351,12 @@
         </mxCell>
         <mxCell id="GMgrwcBUp_0_234n4fQj-0" value="资质验证说明" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="_vQ5mhPag6q5sIvM6sL_-1">
           <mxGeometry x="79" y="276" width="79" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="ip3fygwpKnz3NFgqknQW-1" value="申请人" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="_vQ5mhPag6q5sIvM6sL_-1">
+          <mxGeometry x="137" y="585" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ip3fygwpKnz3NFgqknQW-2" value="审核人" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="_vQ5mhPag6q5sIvM6sL_-1">
+          <mxGeometry x="611" y="591" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
