@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-10-21T12:36:05.509Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" etag="OabuzZZrAedwj23KJaI0" version="15.5.7" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-10-21T13:56:19.354Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" etag="eSDkxPU5H1cN8C79xw-F" version="15.5.7" type="github" pages="4">
   <diagram id="LHHY7GwNDpKZo2E3UBxs" name="个人信息">
     <mxGraphModel dx="1422" dy="761" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -20,7 +20,7 @@
           <mxGeometry x="399" y="171" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="dQbH_FSXyQTvI-_JCzGA-6" value="用户名：" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" parent="1" vertex="1">
-          <mxGeometry x="1052" y="169" width="60" height="30" as="geometry" />
+          <mxGeometry x="1055" y="167" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="dQbH_FSXyQTvI-_JCzGA-7" value="身份图标" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" parent="1" vertex="1">
           <mxGeometry x="978" y="167" width="60" height="30" as="geometry" />
@@ -148,6 +148,17 @@
         </mxCell>
         <mxCell id="ByCgQgfgjZDn9QpthdVu-23" value="找回密码" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="lxvq9UkcFYFkC8PJGxcj-1">
           <mxGeometry x="789" y="405" width="68" height="33" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="K4UiFyvW3RjGWAkdr9C_" name="注册信息">
+    <mxGraphModel dx="1422" dy="761" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="-cSwAXd9tiplwnOpD-BW-0" />
+        <mxCell id="-cSwAXd9tiplwnOpD-BW-1" parent="-cSwAXd9tiplwnOpD-BW-0" />
+        <mxCell id="6rjopiWAh0bAuL47LERE-0" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="-cSwAXd9tiplwnOpD-BW-1">
+          <mxGeometry x="50" y="73" width="1075" height="633" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
