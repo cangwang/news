@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-10-21T12:34:37.935Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" etag="0D7cvv8WZySll7qKcM98" version="15.5.7" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-10-21T12:36:05.509Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" etag="OabuzZZrAedwj23KJaI0" version="15.5.7" type="github" pages="3">
   <diagram id="LHHY7GwNDpKZo2E3UBxs" name="个人信息">
     <mxGraphModel dx="1422" dy="761" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -29,7 +29,7 @@
           <mxGeometry x="92" y="224" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="dQbH_FSXyQTvI-_JCzGA-9" value="密码完善" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="297" y="224" width="60" height="30" as="geometry" />
+          <mxGeometry x="189" y="224" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="dQbH_FSXyQTvI-_JCzGA-10" value="真实名字" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="97" y="358" width="60" height="30" as="geometry" />
@@ -45,9 +45,6 @@
         </mxCell>
         <mxCell id="dQbH_FSXyQTvI-_JCzGA-15" value="电话号码" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="99" y="421" width="60" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="dQbH_FSXyQTvI-_JCzGA-16" value="审批" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="196" y="224" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="dQbH_FSXyQTvI-_JCzGA-17" value="微信号" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="466" y="426" width="60" height="30" as="geometry" />
@@ -94,10 +91,10 @@
           <mxGeometry x="978" y="167" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="MNZrnIKd0XPpxcwcpwfz-7" value="个人信息" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="5-ijlEz6rMujHOnB1L44-1" vertex="1">
-          <mxGeometry x="92" y="224" width="60" height="30" as="geometry" />
+          <mxGeometry x="105" y="224" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="MNZrnIKd0XPpxcwcpwfz-8" value="密码完善" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="5-ijlEz6rMujHOnB1L44-1" vertex="1">
-          <mxGeometry x="186" y="224" width="60" height="30" as="geometry" />
+        <mxCell id="MNZrnIKd0XPpxcwcpwfz-8" value="密码完善" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="5-ijlEz6rMujHOnB1L44-1" vertex="1">
+          <mxGeometry x="200" y="224" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="MNZrnIKd0XPpxcwcpwfz-22" value="密码修改" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="5-ijlEz6rMujHOnB1L44-1" vertex="1">
           <mxGeometry x="100" y="297" width="60" height="30" as="geometry" />
