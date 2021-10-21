@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-10-21T12:38:59.086Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" etag="Afrt1dIleQq9xDLJyeC2" version="15.5.7" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2021-10-21T12:45:39.663Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" etag="hVgp4i6KGqKFBcME9KUC" version="15.5.7" type="github" pages="6">
   <diagram id="9SwE26kC5WHIhmiFLGFM" name="经销商信息">
     <mxGraphModel dx="1422" dy="761" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -84,6 +84,12 @@
         </mxCell>
         <mxCell id="YdjVQGOiJwHNLAURRDZz-5" value="营业执照&lt;br&gt;医疗经营许可&lt;br&gt;备案凭证等文件" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="818" y="520" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Skpxzx1gluicEILnp9Yf-1" value="进度" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="67.5" y="385" width="76.5" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="Skpxzx1gluicEILnp9Yf-2" value="编辑页和审核页为同一设计页，点击之后，能够看到公司详情，以及关联订单" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="46" y="776" width="421" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
