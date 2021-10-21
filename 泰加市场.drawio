@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-10-21T12:45:39.663Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" etag="hVgp4i6KGqKFBcME9KUC" version="15.5.7" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2021-10-21T12:49:30.691Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" etag="D5MaGkqKmKdAfuvHdHNV" version="15.5.7" type="github" pages="6">
   <diagram id="9SwE26kC5WHIhmiFLGFM" name="经销商信息">
     <mxGraphModel dx="1422" dy="761" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -168,6 +168,9 @@
         <mxCell id="o_8Ntm3xQXsAWz2bHxs3-1" value="统计分析" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="DU3dCuHn79Ic1vKU2-3g-1" vertex="1">
           <mxGeometry x="646" y="179" width="80" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="nKaprxOPwAmPHLnusMJ9-0" value="编辑页和审核页为同一设计页，点击之后，能够看到公司详情，以及关联订单" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="DU3dCuHn79Ic1vKU2-3g-1">
+          <mxGeometry x="46" y="776" width="421" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
@@ -263,6 +266,9 @@
         <mxCell id="hyE0EsSB8wjZDnA7ema9-1" value="统计分析" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="6lPjVunkmXJm0ULRB7YU-1" vertex="1">
           <mxGeometry x="646" y="179" width="80" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="HlbSCY1bJhHNaX7ec6PA-0" value="进度" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="6lPjVunkmXJm0ULRB7YU-1">
+          <mxGeometry x="69" y="403" width="76.5" height="45" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
@@ -316,9 +322,6 @@
         <mxCell id="YVjq22CWEwFPFRhfEzcm-3" value="Funnel表添加" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" parent="_vQ5mhPag6q5sIvM6sL_-1" vertex="1">
           <mxGeometry x="864" y="597" width="104" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="YVjq22CWEwFPFRhfEzcm-4" value="评审分数" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" parent="_vQ5mhPag6q5sIvM6sL_-1" vertex="1">
-          <mxGeometry x="122" y="559" width="86" height="62" as="geometry" />
-        </mxCell>
         <mxCell id="vzb4M0IG4EgAPotwG8xx-1" value="排序" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" parent="_vQ5mhPag6q5sIvM6sL_-1" vertex="1">
           <mxGeometry x="651" y="239" width="60" height="30" as="geometry" />
         </mxCell>
@@ -342,6 +345,9 @@
         </mxCell>
         <mxCell id="i5JUWzxrALkcIuuylYBm-0" value="图标" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="_vQ5mhPag6q5sIvM6sL_-1">
           <mxGeometry x="127" y="436" width="86" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="lWfUsqfUGUP9yAn5T-2i-0" value="评审分数" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="_vQ5mhPag6q5sIvM6sL_-1">
+          <mxGeometry x="1050" y="398" width="90" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
@@ -446,6 +452,9 @@
         </mxCell>
         <mxCell id="mFHfTujVDShLCR9MDvUR-2" value="撞单（待处理）" style="rounded=1;whiteSpace=wrap;html=1;arcSize=10;" vertex="1" parent="g1hTmfrnu4WU_SWJHi4g-1">
           <mxGeometry x="53" y="395" width="98" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mxx9kJ4HGH-ER4HzndQR-0" value="点解撞单按钮，能进入到关联到的相关的撞单列表" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="g1hTmfrnu4WU_SWJHi4g-1">
+          <mxGeometry x="28" y="773" width="288" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
