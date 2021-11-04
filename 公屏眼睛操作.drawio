@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-04T06:51:41.085Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" etag="egZC1prVhDYDd4vS38T1" version="15.6.8" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-11-04T07:01:25.851Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" etag="ximWh-w3CT7gP1KnmX4W" version="15.6.8" type="github" pages="2">
   <diagram id="zMDMCZRxm3SNSM0pZrEO" name="Page-1">
     <mxGraphModel dx="1422" dy="762" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -216,7 +216,7 @@
         <mxCell id="FsXdOM6yuLRRz2GAKICm-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="h-A5p5XIHhIAn-sJGGZu-1" source="FsXdOM6yuLRRz2GAKICm-3" target="FsXdOM6yuLRRz2GAKICm-9">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="FsXdOM6yuLRRz2GAKICm-3" value="公屏" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="h-A5p5XIHhIAn-sJGGZu-1">
+        <mxCell id="FsXdOM6yuLRRz2GAKICm-3" value="服务器" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="h-A5p5XIHhIAn-sJGGZu-1">
           <mxGeometry x="259" y="234" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="FsXdOM6yuLRRz2GAKICm-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="h-A5p5XIHhIAn-sJGGZu-1" source="FsXdOM6yuLRRz2GAKICm-6" target="FsXdOM6yuLRRz2GAKICm-0">
@@ -237,7 +237,7 @@
         <mxCell id="FsXdOM6yuLRRz2GAKICm-9" value="弹框是否开启视线操作公屏功能" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="h-A5p5XIHhIAn-sJGGZu-1">
           <mxGeometry x="259" y="365" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="FsXdOM6yuLRRz2GAKICm-11" value="关闭弹框" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="h-A5p5XIHhIAn-sJGGZu-1">
+        <mxCell id="FsXdOM6yuLRRz2GAKICm-11" value="关闭弹框，并在下次打开用户端前不再触发" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="h-A5p5XIHhIAn-sJGGZu-1">
           <mxGeometry x="87" y="459" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="FsXdOM6yuLRRz2GAKICm-12" value="开启视线操作公屏功能" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="h-A5p5XIHhIAn-sJGGZu-1">
@@ -248,6 +248,12 @@
         </mxCell>
         <mxCell id="FsXdOM6yuLRRz2GAKICm-16" value="是" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="h-A5p5XIHhIAn-sJGGZu-1">
           <mxGeometry x="435.5" y="360" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SkApoyI0FjRSZZhWLvdM-0" value="推送信息到客户端" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="h-A5p5XIHhIAn-sJGGZu-1">
+          <mxGeometry x="251" y="320" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SkApoyI0FjRSZZhWLvdM-1" value="统计发送公屏次数" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="h-A5p5XIHhIAn-sJGGZu-1">
+          <mxGeometry x="249" y="186" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
