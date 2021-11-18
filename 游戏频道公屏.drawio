@@ -1,1 +1,103 @@
-<mxfile host="app.diagrams.net" modified="2021-11-18T02:31:01.645Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" version="15.7.1" etag="7F-11FM2PvSfbG7MUNrp" type="github"><diagram id="j3-E8ACNlOI2-sCJr9RR">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-11-18T02:43:14.732Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="ziMlpB8fgdtGS5GnImYD" version="15.7.1" type="github">
+  <diagram id="j3-E8ACNlOI2-sCJr9RR" name="Page-1">
+    <mxGraphModel dx="1422" dy="761" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Ikl9gkadjKj9M4gHQZJt-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Ikl9gkadjKj9M4gHQZJt-1" target="Ikl9gkadjKj9M4gHQZJt-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ikl9gkadjKj9M4gHQZJt-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ikl9gkadjKj9M4gHQZJt-1" target="Ikl9gkadjKj9M4gHQZJt-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ikl9gkadjKj9M4gHQZJt-1" value="开启游戏频道内语音回复公屏功能" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="504" y="73" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ikl9gkadjKj9M4gHQZJt-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ikl9gkadjKj9M4gHQZJt-2" target="Ikl9gkadjKj9M4gHQZJt-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ikl9gkadjKj9M4gHQZJt-2" value="上传服务器内&lt;br&gt;进行语义分析" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="73" y="199" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ikl9gkadjKj9M4gHQZJt-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ikl9gkadjKj9M4gHQZJt-4" target="Ikl9gkadjKj9M4gHQZJt-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ikl9gkadjKj9M4gHQZJt-4" value="过滤或替换敏感词" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="73" y="418" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ikl9gkadjKj9M4gHQZJt-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Ikl9gkadjKj9M4gHQZJt-6" target="Ikl9gkadjKj9M4gHQZJt-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ikl9gkadjKj9M4gHQZJt-6" value="下发到客户端" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="73" y="528" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ikl9gkadjKj9M4gHQZJt-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Ikl9gkadjKj9M4gHQZJt-9" target="Ikl9gkadjKj9M4gHQZJt-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ikl9gkadjKj9M4gHQZJt-9" value="出现直播游戏内的关键词，在一定时长内直接转换文案" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="73" y="309" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ikl9gkadjKj9M4gHQZJt-12" value="添加到直播公屏显示" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="73" y="635" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ikl9gkadjKj9M4gHQZJt-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Ikl9gkadjKj9M4gHQZJt-14" target="Ikl9gkadjKj9M4gHQZJt-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ikl9gkadjKj9M4gHQZJt-14" value="文案读出公屏内的文案，客户端对公屏内文案进行检索，匹配文案后会显示进度条" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="316" y="199" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ikl9gkadjKj9M4gHQZJt-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Ikl9gkadjKj9M4gHQZJt-16" target="Ikl9gkadjKj9M4gHQZJt-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ikl9gkadjKj9M4gHQZJt-16" value="读出文案超过50%&lt;br&gt;上传标志位到服务器" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="316" y="309" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ikl9gkadjKj9M4gHQZJt-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Ikl9gkadjKj9M4gHQZJt-18" target="Ikl9gkadjKj9M4gHQZJt-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ikl9gkadjKj9M4gHQZJt-18" value="服务器对用户文案和主播文案作绑定操作" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="316" y="418" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ikl9gkadjKj9M4gHQZJt-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Ikl9gkadjKj9M4gHQZJt-20" target="Ikl9gkadjKj9M4gHQZJt-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ikl9gkadjKj9M4gHQZJt-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Ikl9gkadjKj9M4gHQZJt-20" target="Ikl9gkadjKj9M4gHQZJt-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ikl9gkadjKj9M4gHQZJt-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="Ikl9gkadjKj9M4gHQZJt-20" target="Ikl9gkadjKj9M4gHQZJt-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ikl9gkadjKj9M4gHQZJt-20" value="下发到客户端公屏显示，文案变更为其他颜色进行区分" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="316" y="528" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ikl9gkadjKj9M4gHQZJt-22" value="单击文案，滚动到对方文案显示" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="254" y="638" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ikl9gkadjKj9M4gHQZJt-25" value="单击文案，滚动到最近回复的用户" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="404" y="638" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ikl9gkadjKj9M4gHQZJt-27" value="绑定文案的用户" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="250" y="588" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ikl9gkadjKj9M4gHQZJt-28" value="非绑定文案的用户" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="442" y="576" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ikl9gkadjKj9M4gHQZJt-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ikl9gkadjKj9M4gHQZJt-30" target="Ikl9gkadjKj9M4gHQZJt-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ikl9gkadjKj9M4gHQZJt-30" value="弹出一个自身文案和主播文案相关的列表" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="585" y="638" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ikl9gkadjKj9M4gHQZJt-32" value="绑定了文案的用户长按文案" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="513" y="526" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ikl9gkadjKj9M4gHQZJt-33" value="公屏滚动到对应文案周围" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="585" y="740" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ikl9gkadjKj9M4gHQZJt-35" value="双击文案" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="571" y="701" width="60" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
