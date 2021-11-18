@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-18T02:46:06.279Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="QjNLYpC1r8WWiIzRz3f-" version="15.7.1" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-18T03:51:05.887Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="owgO2WT3kOunkCoEw-Rm" version="15.7.1" type="github">
   <diagram id="j3-E8ACNlOI2-sCJr9RR" name="Page-1">
     <mxGraphModel dx="1422" dy="761" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -13,13 +13,16 @@
         <mxCell id="Ikl9gkadjKj9M4gHQZJt-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Ikl9gkadjKj9M4gHQZJt-1" target="Ikl9gkadjKj9M4gHQZJt-36">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="Ikl9gkadjKj9M4gHQZJt-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Ikl9gkadjKj9M4gHQZJt-1" target="Ikl9gkadjKj9M4gHQZJt-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="Ikl9gkadjKj9M4gHQZJt-1" value="开启游戏频道内语音回复公屏功能" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="504" y="73" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Ikl9gkadjKj9M4gHQZJt-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ikl9gkadjKj9M4gHQZJt-2" target="Ikl9gkadjKj9M4gHQZJt-9">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Ikl9gkadjKj9M4gHQZJt-2" value="上传服务器内&lt;br&gt;进行语义分析" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Ikl9gkadjKj9M4gHQZJt-2" value="（1）上传服务器内&lt;br&gt;进行语义分析" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="73" y="199" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Ikl9gkadjKj9M4gHQZJt-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ikl9gkadjKj9M4gHQZJt-4" target="Ikl9gkadjKj9M4gHQZJt-6">
@@ -46,8 +49,8 @@
         <mxCell id="Ikl9gkadjKj9M4gHQZJt-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Ikl9gkadjKj9M4gHQZJt-14" target="Ikl9gkadjKj9M4gHQZJt-16">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Ikl9gkadjKj9M4gHQZJt-14" value="文案读出公屏内的文案，客户端对公屏内文案进行检索，匹配文案后会显示进度条" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="316" y="199" width="120" height="60" as="geometry" />
+        <mxCell id="Ikl9gkadjKj9M4gHQZJt-14" value="（2）文案读出公屏内的文案，客户端对公屏内文案进行检索，匹配文案后会显示进度条" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="316" y="199" width="120" height="85" as="geometry" />
         </mxCell>
         <mxCell id="Ikl9gkadjKj9M4gHQZJt-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Ikl9gkadjKj9M4gHQZJt-16" target="Ikl9gkadjKj9M4gHQZJt-18">
           <mxGeometry relative="1" as="geometry" />
@@ -91,7 +94,7 @@
         <mxCell id="Ikl9gkadjKj9M4gHQZJt-30" value="弹出一个自身文案和主播文案相关的列表" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="585" y="638" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Ikl9gkadjKj9M4gHQZJt-32" value="绑定了文案的用户长按文案" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="Ikl9gkadjKj9M4gHQZJt-32" value="（3）绑定了文案的用户长按文案" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="496" y="522" width="94" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Ikl9gkadjKj9M4gHQZJt-33" value="公屏滚动到对应文案周围" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -126,6 +129,18 @@
         </mxCell>
         <mxCell id="Ikl9gkadjKj9M4gHQZJt-45" value="下发其他用户" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="860" y="358" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ikl9gkadjKj9M4gHQZJt-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Ikl9gkadjKj9M4gHQZJt-46" target="Ikl9gkadjKj9M4gHQZJt-54">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ikl9gkadjKj9M4gHQZJt-46" value="（4）弹出一个功能选择菜单" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="504" y="208" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ikl9gkadjKj9M4gHQZJt-48" value="长按开启语音按钮" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="456" y="171" width="104" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ikl9gkadjKj9M4gHQZJt-54" value="1.选择仅回复用户可见&lt;br&gt;2.选择全部人可一件" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="504" y="309" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
