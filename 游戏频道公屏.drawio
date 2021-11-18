@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-18T02:43:14.732Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="ziMlpB8fgdtGS5GnImYD" version="15.7.1" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-18T02:46:06.279Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="QjNLYpC1r8WWiIzRz3f-" version="15.7.1" type="github">
   <diagram id="j3-E8ACNlOI2-sCJr9RR" name="Page-1">
     <mxGraphModel dx="1422" dy="761" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -8,6 +8,9 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Ikl9gkadjKj9M4gHQZJt-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ikl9gkadjKj9M4gHQZJt-1" target="Ikl9gkadjKj9M4gHQZJt-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ikl9gkadjKj9M4gHQZJt-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Ikl9gkadjKj9M4gHQZJt-1" target="Ikl9gkadjKj9M4gHQZJt-36">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Ikl9gkadjKj9M4gHQZJt-1" value="开启游戏频道内语音回复公屏功能" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -89,13 +92,40 @@
           <mxGeometry x="585" y="638" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Ikl9gkadjKj9M4gHQZJt-32" value="绑定了文案的用户长按文案" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="513" y="526" width="60" height="30" as="geometry" />
+          <mxGeometry x="496" y="522" width="94" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Ikl9gkadjKj9M4gHQZJt-33" value="公屏滚动到对应文案周围" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="585" y="740" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Ikl9gkadjKj9M4gHQZJt-35" value="双击文案" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="571" y="701" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ikl9gkadjKj9M4gHQZJt-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Ikl9gkadjKj9M4gHQZJt-36" target="Ikl9gkadjKj9M4gHQZJt-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ikl9gkadjKj9M4gHQZJt-36" value="主播读出“”屏蔽XXX用户发送的内容“”" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="705" y="199" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ikl9gkadjKj9M4gHQZJt-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ikl9gkadjKj9M4gHQZJt-38" target="Ikl9gkadjKj9M4gHQZJt-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ikl9gkadjKj9M4gHQZJt-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Ikl9gkadjKj9M4gHQZJt-38" target="Ikl9gkadjKj9M4gHQZJt-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ikl9gkadjKj9M4gHQZJt-38" value="上传到服务器对文案进行解析" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="705" y="309" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ikl9gkadjKj9M4gHQZJt-40" value="屏蔽公屏发送操作" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="705" y="418" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ikl9gkadjKj9M4gHQZJt-42" value="下发对应用户" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="692" y="379" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ikl9gkadjKj9M4gHQZJt-43" value="对该用户的公屏信息全部移除" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="906" y="418" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ikl9gkadjKj9M4gHQZJt-45" value="下发其他用户" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="860" y="358" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
