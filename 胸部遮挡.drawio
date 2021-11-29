@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-29T08:42:23.778Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="_AJol4OohHX3r5QrKFbD" version="15.8.6" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-11-29T08:52:38.378Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="oojnLBWhcz-GWb3XQqcK" version="15.8.6" type="github" pages="3">
   <diagram id="aM8EVJBHEqNR1bKHujq1" name="Page-1">
     <mxGraphModel dx="1422" dy="761" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -128,6 +128,41 @@
         </mxCell>
         <mxCell id="hkY2mlLSzbMbB-WfpArN-21" value="客户端判断暴露程度完全违规，通知用户立刻更换衣着，并上传服务器立刻停播" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1tITSTwm2PnVbXr_PKel-1">
           <mxGeometry x="95" y="403" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="P2-bZNTnvUjDySG6oTnp" name="Page-3">
+    <mxGraphModel dx="1422" dy="761" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="PWmtDUz9qxQQhBySjTkX-0" />
+        <mxCell id="PWmtDUz9qxQQhBySjTkX-1" parent="PWmtDUz9qxQQhBySjTkX-0" />
+        <mxCell id="PWmtDUz9qxQQhBySjTkX-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="PWmtDUz9qxQQhBySjTkX-1" source="PWmtDUz9qxQQhBySjTkX-2" target="PWmtDUz9qxQQhBySjTkX-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PWmtDUz9qxQQhBySjTkX-2" value="服务器和人工核实分析为真实不存在暴露的情况，识别存在暴露的情况" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="PWmtDUz9qxQQhBySjTkX-1">
+          <mxGeometry x="159.5" y="283" width="155" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PWmtDUz9qxQQhBySjTkX-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="PWmtDUz9qxQQhBySjTkX-1" source="PWmtDUz9qxQQhBySjTkX-4" target="PWmtDUz9qxQQhBySjTkX-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PWmtDUz9qxQQhBySjTkX-4" value="上传到服务器暴露程度图片的数据，进行暴露程度训练" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="PWmtDUz9qxQQhBySjTkX-1">
+          <mxGeometry x="430" y="283" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PWmtDUz9qxQQhBySjTkX-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="PWmtDUz9qxQQhBySjTkX-1" source="PWmtDUz9qxQQhBySjTkX-6" target="PWmtDUz9qxQQhBySjTkX-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PWmtDUz9qxQQhBySjTkX-6" value="客户端提示主播过分暴露" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="PWmtDUz9qxQQhBySjTkX-1">
+          <mxGeometry x="177" y="72" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PWmtDUz9qxQQhBySjTkX-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="PWmtDUz9qxQQhBySjTkX-1" source="PWmtDUz9qxQQhBySjTkX-7" target="PWmtDUz9qxQQhBySjTkX-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PWmtDUz9qxQQhBySjTkX-7" value="弹出弹框提示用户，用户觉得并不存在违规暴露，点解上诉。服务器对主播直播间进行截图等分析。" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="PWmtDUz9qxQQhBySjTkX-1">
+          <mxGeometry x="147.5" y="171" width="179" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PWmtDUz9qxQQhBySjTkX-11" value="服务器优化胸部暴露程度的模型，然后重新发送到客户端" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="PWmtDUz9qxQQhBySjTkX-1">
+          <mxGeometry x="430" y="72" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
