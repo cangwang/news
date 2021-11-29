@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-29T08:26:15.450Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="yl8EDogXmWbPtkAHovUw" version="15.8.6" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-11-29T08:42:23.778Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="_AJol4OohHX3r5QrKFbD" version="15.8.6" type="github" pages="2">
   <diagram id="aM8EVJBHEqNR1bKHujq1" name="Page-1">
     <mxGraphModel dx="1422" dy="761" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -62,10 +62,73 @@
     </mxGraphModel>
   </diagram>
   <diagram id="3bPt577U3xdMGvt3RMpF" name="Page-2">
-    <mxGraphModel dx="1422" dy="761" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="761" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="1tITSTwm2PnVbXr_PKel-0" />
         <mxCell id="1tITSTwm2PnVbXr_PKel-1" parent="1tITSTwm2PnVbXr_PKel-0" />
+        <mxCell id="hkY2mlLSzbMbB-WfpArN-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1tITSTwm2PnVbXr_PKel-1" source="hkY2mlLSzbMbB-WfpArN-0" target="hkY2mlLSzbMbB-WfpArN-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hkY2mlLSzbMbB-WfpArN-0" value="主播开播" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1tITSTwm2PnVbXr_PKel-1">
+          <mxGeometry x="320" y="68" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hkY2mlLSzbMbB-WfpArN-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1tITSTwm2PnVbXr_PKel-1" source="hkY2mlLSzbMbB-WfpArN-1" target="hkY2mlLSzbMbB-WfpArN-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hkY2mlLSzbMbB-WfpArN-1" value="胸部位置检测模型" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1tITSTwm2PnVbXr_PKel-1">
+          <mxGeometry x="67" y="152" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hkY2mlLSzbMbB-WfpArN-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1tITSTwm2PnVbXr_PKel-1" source="hkY2mlLSzbMbB-WfpArN-2" target="hkY2mlLSzbMbB-WfpArN-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hkY2mlLSzbMbB-WfpArN-2" value="胸部位置暴露等级模型" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1tITSTwm2PnVbXr_PKel-1">
+          <mxGeometry x="67" y="247" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hkY2mlLSzbMbB-WfpArN-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1tITSTwm2PnVbXr_PKel-1" source="hkY2mlLSzbMbB-WfpArN-3" target="hkY2mlLSzbMbB-WfpArN-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hkY2mlLSzbMbB-WfpArN-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1tITSTwm2PnVbXr_PKel-1" source="hkY2mlLSzbMbB-WfpArN-3" target="hkY2mlLSzbMbB-WfpArN-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hkY2mlLSzbMbB-WfpArN-3" value="对图像进行胸部位置到检测，以及胸部暴露程度的检测" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1tITSTwm2PnVbXr_PKel-1">
+          <mxGeometry x="320" y="203" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hkY2mlLSzbMbB-WfpArN-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1tITSTwm2PnVbXr_PKel-1" source="hkY2mlLSzbMbB-WfpArN-7" target="hkY2mlLSzbMbB-WfpArN-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hkY2mlLSzbMbB-WfpArN-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1tITSTwm2PnVbXr_PKel-1" source="hkY2mlLSzbMbB-WfpArN-7" target="hkY2mlLSzbMbB-WfpArN-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hkY2mlLSzbMbB-WfpArN-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1tITSTwm2PnVbXr_PKel-1" source="hkY2mlLSzbMbB-WfpArN-7" target="hkY2mlLSzbMbB-WfpArN-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hkY2mlLSzbMbB-WfpArN-7" value="短暂时间内的暴露，采用以下三种方式" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1tITSTwm2PnVbXr_PKel-1">
+          <mxGeometry x="589" y="529" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hkY2mlLSzbMbB-WfpArN-9" value="胸部位置的肤色颜色替换为胸部周围衣服的的颜色" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1tITSTwm2PnVbXr_PKel-1">
+          <mxGeometry x="589" y="686" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hkY2mlLSzbMbB-WfpArN-11" value="胸部位置的进行图片模糊操作，再贴回胸部的位置" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1tITSTwm2PnVbXr_PKel-1">
+          <mxGeometry x="371" y="686" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hkY2mlLSzbMbB-WfpArN-14" value="使用Gan对抗神经网络训练将胸部的位置填补或自动生成纹理" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1tITSTwm2PnVbXr_PKel-1">
+          <mxGeometry x="837" y="686" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hkY2mlLSzbMbB-WfpArN-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1tITSTwm2PnVbXr_PKel-1" source="hkY2mlLSzbMbB-WfpArN-16" target="hkY2mlLSzbMbB-WfpArN-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hkY2mlLSzbMbB-WfpArN-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1tITSTwm2PnVbXr_PKel-1" source="hkY2mlLSzbMbB-WfpArN-16" target="hkY2mlLSzbMbB-WfpArN-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hkY2mlLSzbMbB-WfpArN-16" value="客户端判定暴露等级并未达到完全违规超过一定程度" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1tITSTwm2PnVbXr_PKel-1">
+          <mxGeometry x="320" y="403" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hkY2mlLSzbMbB-WfpArN-19" value="监听暴露的时长，如果时长达到一定时长弹出弹框提示主播暴露已经违规，请调整衣着" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1tITSTwm2PnVbXr_PKel-1">
+          <mxGeometry x="320" y="507" width="120" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="hkY2mlLSzbMbB-WfpArN-21" value="客户端判断暴露程度完全违规，通知用户立刻更换衣着，并上传服务器立刻停播" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1tITSTwm2PnVbXr_PKel-1">
+          <mxGeometry x="95" y="403" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
