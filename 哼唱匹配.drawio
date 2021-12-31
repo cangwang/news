@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-12-31T07:06:42.900Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="Z7794G0PP5zv2eiewW-H" version="15.9.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-31T07:56:59.556Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="7HkB13P_wx-NTm6bI8Ug" version="15.9.6" type="github" pages="2">
   <diagram id="HrW1_uV-35T3-0GC-SO9" name="Page-1">
-    <mxGraphModel dx="1422" dy="761" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="462" dy="761" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -10,30 +10,125 @@
         <mxCell id="vSf61WV7-0ziD-m_BYni-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="vSf61WV7-0ziD-m_BYni-1" target="vSf61WV7-0ziD-m_BYni-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="vSf61WV7-0ziD-m_BYni-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="vSf61WV7-0ziD-m_BYni-1" target="vSf61WV7-0ziD-m_BYni-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vSf61WV7-0ziD-m_BYni-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="vSf61WV7-0ziD-m_BYni-1" target="vSf61WV7-0ziD-m_BYni-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="vSf61WV7-0ziD-m_BYni-1" value="客户端监听用户使用的场景音" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="381" y="42" width="120" height="60" as="geometry" />
+          <mxGeometry x="617" y="42" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="vSf61WV7-0ziD-m_BYni-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="vSf61WV7-0ziD-m_BYni-2" target="vSf61WV7-0ziD-m_BYni-6">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="vSf61WV7-0ziD-m_BYni-2" value="监听和判断用户正在场景是否与人交谈或连麦场景" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="474" y="147" width="120" height="60" as="geometry" />
+        <mxCell id="vSf61WV7-0ziD-m_BYni-2" value="监听是除了用户外其他人的声音，判断是否交谈场景" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="525" y="149" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="vSf61WV7-0ziD-m_BYni-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="vSf61WV7-0ziD-m_BYni-3" target="vSf61WV7-0ziD-m_BYni-6">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="vSf61WV7-0ziD-m_BYni-3" value="识别是声纹是否用户本人" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="286" y="147" width="120" height="60" as="geometry" />
+          <mxGeometry x="320" y="149" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="vSf61WV7-0ziD-m_BYni-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="vSf61WV7-0ziD-m_BYni-6" target="vSf61WV7-0ziD-m_BYni-10">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="vSf61WV7-0ziD-m_BYni-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="vSf61WV7-0ziD-m_BYni-6" target="vSf61WV7-0ziD-m_BYni-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="vSf61WV7-0ziD-m_BYni-6" value="客户端判断用户正在哼唱歌曲，记录音调和发声" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="381" y="263" width="120" height="60" as="geometry" />
+          <mxGeometry x="617" y="263" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="vSf61WV7-0ziD-m_BYni-10" value="客户端将记录饮" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="381" y="373" width="120" height="60" as="geometry" />
+        <mxCell id="vSf61WV7-0ziD-m_BYni-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="vSf61WV7-0ziD-m_BYni-10" target="vSf61WV7-0ziD-m_BYni-18">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="vSf61WV7-0ziD-m_BYni-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="vSf61WV7-0ziD-m_BYni-10" target="vSf61WV7-0ziD-m_BYni-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vSf61WV7-0ziD-m_BYni-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="vSf61WV7-0ziD-m_BYni-10" target="vSf61WV7-0ziD-m_BYni-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vSf61WV7-0ziD-m_BYni-10" value="不断上传哼唱数据到服务器进行服务器匹配" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="617" y="373" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vSf61WV7-0ziD-m_BYni-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="vSf61WV7-0ziD-m_BYni-12" target="vSf61WV7-0ziD-m_BYni-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vSf61WV7-0ziD-m_BYni-12" value="客户端内判断是否接听电话，连麦，对线视频等操作场景" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="739" y="149" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vSf61WV7-0ziD-m_BYni-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="vSf61WV7-0ziD-m_BYni-15" target="vSf61WV7-0ziD-m_BYni-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vSf61WV7-0ziD-m_BYni-15" value="连续哼唱时间超过XX" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="940" y="149" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vSf61WV7-0ziD-m_BYni-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="vSf61WV7-0ziD-m_BYni-18" target="vSf61WV7-0ziD-m_BYni-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vSf61WV7-0ziD-m_BYni-18" value="语音转文字后匹配是否存在类似歌词" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="389" y="476" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vSf61WV7-0ziD-m_BYni-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="vSf61WV7-0ziD-m_BYni-20" target="vSf61WV7-0ziD-m_BYni-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vSf61WV7-0ziD-m_BYni-20" value="语音转文字无法匹配到对应的文字，那就通过声调和资料库中背景音乐音调匹配" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="606" y="476" width="142" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="vSf61WV7-0ziD-m_BYni-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="vSf61WV7-0ziD-m_BYni-21" target="vSf61WV7-0ziD-m_BYni-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vSf61WV7-0ziD-m_BYni-21" value="服务器无法检索出数据，暂时将数据存储" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="827" y="476" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vSf61WV7-0ziD-m_BYni-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="vSf61WV7-0ziD-m_BYni-24" target="vSf61WV7-0ziD-m_BYni-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vSf61WV7-0ziD-m_BYni-24" value="匹配到对应的音乐" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="389" y="603" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vSf61WV7-0ziD-m_BYni-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="vSf61WV7-0ziD-m_BYni-26" target="vSf61WV7-0ziD-m_BYni-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vSf61WV7-0ziD-m_BYni-26" value="匹配到对应的背景音乐" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="617" y="603" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vSf61WV7-0ziD-m_BYni-28" value="超过N秒监听不到哼唱后，弹出提示记录了哼唱音乐，服务器拉取小提琴等乐器音色，来进行转化演奏" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="827" y="607" width="120" height="99" as="geometry" />
+        </mxCell>
+        <mxCell id="vSf61WV7-0ziD-m_BYni-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="vSf61WV7-0ziD-m_BYni-30" target="vSf61WV7-0ziD-m_BYni-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vSf61WV7-0ziD-m_BYni-30" value="服务器下发数据，客户端弹出音乐资料弹框。包含平台内的短视频和录播，直播信息" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="509" y="704" width="120" height="92" as="geometry" />
+        </mxCell>
+        <mxCell id="vSf61WV7-0ziD-m_BYni-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="vSf61WV7-0ziD-m_BYni-35" target="vSf61WV7-0ziD-m_BYni-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vSf61WV7-0ziD-m_BYni-35" value="服务器搜索对应的音乐数据，再次进行收录，并优化匹配框架" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="204" y="538" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vSf61WV7-0ziD-m_BYni-37" value="识别歌曲错误" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="317" y="716" width="103" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vSf61WV7-0ziD-m_BYni-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="vSf61WV7-0ziD-m_BYni-40" target="vSf61WV7-0ziD-m_BYni-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vSf61WV7-0ziD-m_BYni-40" value="数据上传到服务器，服务器分析场景归属，优化客户端判断网络" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="129" y="149" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vSf61WV7-0ziD-m_BYni-45" value="用户选择并不在哼唱音乐" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="326" y="263" width="139" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="8-kJAILzw-e8prtgxeUN" name="Page-2">
+    <mxGraphModel dx="462" dy="761" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="7zcyyjOaKNskbQQsEZ9l-0" />
+        <mxCell id="7zcyyjOaKNskbQQsEZ9l-1" parent="7zcyyjOaKNskbQQsEZ9l-0" />
       </root>
     </mxGraphModel>
   </diagram>
