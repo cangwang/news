@@ -1,1 +1,40 @@
-<mxfile host="app.diagrams.net" modified="2021-12-31T06:59:25.023Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" version="15.9.6" etag="ozgCKEIPkwPk8fQTjWZY" type="github"><diagram id="HrW1_uV-35T3-0GC-SO9">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-12-31T07:06:42.900Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="Z7794G0PP5zv2eiewW-H" version="15.9.6" type="github">
+  <diagram id="HrW1_uV-35T3-0GC-SO9" name="Page-1">
+    <mxGraphModel dx="1422" dy="761" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="vSf61WV7-0ziD-m_BYni-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="vSf61WV7-0ziD-m_BYni-1" target="vSf61WV7-0ziD-m_BYni-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vSf61WV7-0ziD-m_BYni-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="vSf61WV7-0ziD-m_BYni-1" target="vSf61WV7-0ziD-m_BYni-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vSf61WV7-0ziD-m_BYni-1" value="客户端监听用户使用的场景音" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="381" y="42" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vSf61WV7-0ziD-m_BYni-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="vSf61WV7-0ziD-m_BYni-2" target="vSf61WV7-0ziD-m_BYni-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vSf61WV7-0ziD-m_BYni-2" value="监听和判断用户正在场景是否与人交谈或连麦场景" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="474" y="147" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vSf61WV7-0ziD-m_BYni-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="vSf61WV7-0ziD-m_BYni-3" target="vSf61WV7-0ziD-m_BYni-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vSf61WV7-0ziD-m_BYni-3" value="识别是声纹是否用户本人" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="286" y="147" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vSf61WV7-0ziD-m_BYni-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="vSf61WV7-0ziD-m_BYni-6" target="vSf61WV7-0ziD-m_BYni-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vSf61WV7-0ziD-m_BYni-6" value="客户端判断用户正在哼唱歌曲，记录音调和发声" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="381" y="263" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vSf61WV7-0ziD-m_BYni-10" value="客户端将记录饮" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="381" y="373" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
