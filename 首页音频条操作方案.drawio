@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-07T02:56:38.090Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="H1riGGrKrL7ch2ZkcLk8" version="16.1.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-01-07T03:01:36.386Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="G6XlC5eTxbEISk2Ap4i7" version="16.1.4" type="github" pages="3">
   <diagram id="KECIPdQT1WM4rxqB7jb8" name="Page-1">
     <mxGraphModel dx="1422" dy="762" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -73,6 +73,49 @@
         <mxCell id="E58gVcxJUbAuFXLljo_L-25" value="客户端移除小音频条" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="576" y="490" width="120" height="60" as="geometry" />
         </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="vp54hdEr9rcJpiuXKDym" name="Page-2">
+    <mxGraphModel dx="1422" dy="762" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="Izmqe0TJIul3yJ7r3RDZ-0" />
+        <mxCell id="Izmqe0TJIul3yJ7r3RDZ-1" parent="Izmqe0TJIul3yJ7r3RDZ-0" />
+        <mxCell id="Izmqe0TJIul3yJ7r3RDZ-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="Izmqe0TJIul3yJ7r3RDZ-1" source="Izmqe0TJIul3yJ7r3RDZ-2" target="Izmqe0TJIul3yJ7r3RDZ-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Izmqe0TJIul3yJ7r3RDZ-2" value="服务器推送直播间新标签到客户端" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="Izmqe0TJIul3yJ7r3RDZ-1">
+          <mxGeometry x="323" y="109" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Izmqe0TJIul3yJ7r3RDZ-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="Izmqe0TJIul3yJ7r3RDZ-1" source="Izmqe0TJIul3yJ7r3RDZ-3" target="Izmqe0TJIul3yJ7r3RDZ-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Izmqe0TJIul3yJ7r3RDZ-3" value="客户端显示新标签信息到小音频条" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="Izmqe0TJIul3yJ7r3RDZ-1">
+          <mxGeometry x="323" y="225" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Izmqe0TJIul3yJ7r3RDZ-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="Izmqe0TJIul3yJ7r3RDZ-1" source="Izmqe0TJIul3yJ7r3RDZ-5" target="Izmqe0TJIul3yJ7r3RDZ-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Izmqe0TJIul3yJ7r3RDZ-5" value="客户端前置摄像头跟踪人眼观看位置，如果已经观看过信息，那就触发在一定时间内移除" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="Izmqe0TJIul3yJ7r3RDZ-1">
+          <mxGeometry x="323" y="337" width="120" height="87" as="geometry" />
+        </mxCell>
+        <mxCell id="Izmqe0TJIul3yJ7r3RDZ-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="Izmqe0TJIul3yJ7r3RDZ-1" source="Izmqe0TJIul3yJ7r3RDZ-7" target="Izmqe0TJIul3yJ7r3RDZ-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Izmqe0TJIul3yJ7r3RDZ-7" value="在此段时间内，用户点击进入直播间，客户端标识此用户对此标签感兴趣，并上传此数据到服务器" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="Izmqe0TJIul3yJ7r3RDZ-1">
+          <mxGeometry x="323" y="472" width="120" height="87" as="geometry" />
+        </mxCell>
+        <mxCell id="Izmqe0TJIul3yJ7r3RDZ-9" value="累计用户对此类型标签的触发进入直播间次数，来进行信息推送重点的分级，服务器判断推送是否加入震动或顶部推送" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="Izmqe0TJIul3yJ7r3RDZ-1">
+          <mxGeometry x="323" y="604" width="120" height="87" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="yu2mspwYou9EOqvCoJ5o" name="Page-3">
+    <mxGraphModel dx="1422" dy="762" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="VDiz1ZbI3sIk-Ot45MHc-0" />
+        <mxCell id="VDiz1ZbI3sIk-Ot45MHc-1" parent="VDiz1ZbI3sIk-Ot45MHc-0" />
       </root>
     </mxGraphModel>
   </diagram>
