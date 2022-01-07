@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-07T03:10:37.608Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="t8c3vMe6zWAsJ5BEIdmc" version="16.1.4" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-01-07T03:23:32.517Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="kuCqaue6kIZfdtBS70-q" version="16.1.4" type="github" pages="4">
   <diagram id="KECIPdQT1WM4rxqB7jb8" name="Page-1">
     <mxGraphModel dx="1422" dy="762" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -142,6 +142,81 @@
         </mxCell>
         <mxCell id="aXXsgzTO4QJBuzWizyP7-7" value="此时点击小音频条会进入录播直播间" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="VDiz1ZbI3sIk-Ot45MHc-1">
           <mxGeometry x="367" y="526" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="6AJu4OJbyeO_hjqf4bxt" name="Page-4">
+    <mxGraphModel dx="1422" dy="762" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="eLnsxsX7c6NdZ37lyb8I-0" />
+        <mxCell id="eLnsxsX7c6NdZ37lyb8I-1" parent="eLnsxsX7c6NdZ37lyb8I-0" />
+        <mxCell id="eLnsxsX7c6NdZ37lyb8I-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="eLnsxsX7c6NdZ37lyb8I-1" source="eLnsxsX7c6NdZ37lyb8I-2" target="eLnsxsX7c6NdZ37lyb8I-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eLnsxsX7c6NdZ37lyb8I-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="eLnsxsX7c6NdZ37lyb8I-1" source="eLnsxsX7c6NdZ37lyb8I-2" target="eLnsxsX7c6NdZ37lyb8I-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="532" y="196" />
+              <mxPoint x="748" y="196" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eLnsxsX7c6NdZ37lyb8I-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="eLnsxsX7c6NdZ37lyb8I-1" source="eLnsxsX7c6NdZ37lyb8I-2" target="eLnsxsX7c6NdZ37lyb8I-14">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="532" y="195" />
+              <mxPoint x="310" y="195" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eLnsxsX7c6NdZ37lyb8I-2" value="客户端判断小音频条是否交友类直播间内容" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="eLnsxsX7c6NdZ37lyb8I-1">
+          <mxGeometry x="472" y="114" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eLnsxsX7c6NdZ37lyb8I-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="eLnsxsX7c6NdZ37lyb8I-1" source="eLnsxsX7c6NdZ37lyb8I-3" target="eLnsxsX7c6NdZ37lyb8I-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eLnsxsX7c6NdZ37lyb8I-3" value="服务器推送座位人声和用户资料到小音频条进行显示" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="eLnsxsX7c6NdZ37lyb8I-1">
+          <mxGeometry x="472" y="232" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eLnsxsX7c6NdZ37lyb8I-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="eLnsxsX7c6NdZ37lyb8I-1" source="eLnsxsX7c6NdZ37lyb8I-5" target="eLnsxsX7c6NdZ37lyb8I-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eLnsxsX7c6NdZ37lyb8I-5" value="当不同用户发声时，对应昵称会显示在音频条" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="eLnsxsX7c6NdZ37lyb8I-1">
+          <mxGeometry x="472" y="344" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eLnsxsX7c6NdZ37lyb8I-7" value="点击昵称后能够显示信息卡内容" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="eLnsxsX7c6NdZ37lyb8I-1">
+          <mxGeometry x="472" y="444" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eLnsxsX7c6NdZ37lyb8I-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="eLnsxsX7c6NdZ37lyb8I-1" source="eLnsxsX7c6NdZ37lyb8I-9" target="eLnsxsX7c6NdZ37lyb8I-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eLnsxsX7c6NdZ37lyb8I-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="eLnsxsX7c6NdZ37lyb8I-1" source="eLnsxsX7c6NdZ37lyb8I-9" target="eLnsxsX7c6NdZ37lyb8I-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eLnsxsX7c6NdZ37lyb8I-9" value="通过语音转文字网络分析如果提及到本用户" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="eLnsxsX7c6NdZ37lyb8I-1">
+          <mxGeometry x="694" y="232" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eLnsxsX7c6NdZ37lyb8I-11" value="发送xx昵称@我的标签显示" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="eLnsxsX7c6NdZ37lyb8I-1">
+          <mxGeometry x="694" y="444" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eLnsxsX7c6NdZ37lyb8I-14" value="添加一个语音按钮到小语音条上，用户点击后可以上麦和下麦聊天的操作" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="eLnsxsX7c6NdZ37lyb8I-1">
+          <mxGeometry x="250" y="232" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eLnsxsX7c6NdZ37lyb8I-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="eLnsxsX7c6NdZ37lyb8I-1" source="eLnsxsX7c6NdZ37lyb8I-17" target="eLnsxsX7c6NdZ37lyb8I-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eLnsxsX7c6NdZ37lyb8I-17" value="客户端判断是否正在静音状态" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="eLnsxsX7c6NdZ37lyb8I-1">
+          <mxGeometry x="903" y="342" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eLnsxsX7c6NdZ37lyb8I-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="eLnsxsX7c6NdZ37lyb8I-1" source="eLnsxsX7c6NdZ37lyb8I-19" target="eLnsxsX7c6NdZ37lyb8I-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eLnsxsX7c6NdZ37lyb8I-19" value="判断本用户正在本用户在座位席上" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="eLnsxsX7c6NdZ37lyb8I-1">
+          <mxGeometry x="694" y="346" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eLnsxsX7c6NdZ37lyb8I-22" value="客户端将文字内容显示到小音频条内" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="eLnsxsX7c6NdZ37lyb8I-1">
+          <mxGeometry x="903" y="446" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
