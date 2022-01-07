@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-07T03:01:36.386Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="G6XlC5eTxbEISk2Ap4i7" version="16.1.4" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-01-07T03:10:37.608Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="t8c3vMe6zWAsJ5BEIdmc" version="16.1.4" type="github" pages="3">
   <diagram id="KECIPdQT1WM4rxqB7jb8" name="Page-1">
     <mxGraphModel dx="1422" dy="762" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -116,6 +116,33 @@
       <root>
         <mxCell id="VDiz1ZbI3sIk-Ot45MHc-0" />
         <mxCell id="VDiz1ZbI3sIk-Ot45MHc-1" parent="VDiz1ZbI3sIk-Ot45MHc-0" />
+        <mxCell id="aXXsgzTO4QJBuzWizyP7-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="VDiz1ZbI3sIk-Ot45MHc-1" source="aXXsgzTO4QJBuzWizyP7-0" target="aXXsgzTO4QJBuzWizyP7-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aXXsgzTO4QJBuzWizyP7-0" value="客户端识别小音频条是音乐频道" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="VDiz1ZbI3sIk-Ot45MHc-1">
+          <mxGeometry x="367" y="69" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aXXsgzTO4QJBuzWizyP7-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="VDiz1ZbI3sIk-Ot45MHc-1" source="aXXsgzTO4QJBuzWizyP7-1" target="aXXsgzTO4QJBuzWizyP7-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aXXsgzTO4QJBuzWizyP7-1" value="服务器拉取歌曲名，以及歌词信息，实时和主播演唱进度跟踪" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="VDiz1ZbI3sIk-Ot45MHc-1">
+          <mxGeometry x="367" y="185" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aXXsgzTO4QJBuzWizyP7-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="VDiz1ZbI3sIk-Ot45MHc-1" source="aXXsgzTO4QJBuzWizyP7-3" target="aXXsgzTO4QJBuzWizyP7-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aXXsgzTO4QJBuzWizyP7-3" value="演唱完毕后，服务器推送结束标识和录播地址" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="VDiz1ZbI3sIk-Ot45MHc-1">
+          <mxGeometry x="367" y="301" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aXXsgzTO4QJBuzWizyP7-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="VDiz1ZbI3sIk-Ot45MHc-1" source="aXXsgzTO4QJBuzWizyP7-5" target="aXXsgzTO4QJBuzWizyP7-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aXXsgzTO4QJBuzWizyP7-5" value="客户端添加一个录播按钮到小音频条，点击后会播放录播音频" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="VDiz1ZbI3sIk-Ot45MHc-1">
+          <mxGeometry x="367" y="413.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aXXsgzTO4QJBuzWizyP7-7" value="此时点击小音频条会进入录播直播间" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="VDiz1ZbI3sIk-Ot45MHc-1">
+          <mxGeometry x="367" y="526" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
