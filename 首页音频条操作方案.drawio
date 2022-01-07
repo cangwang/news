@@ -1,9 +1,78 @@
-<mxfile host="app.diagrams.net" modified="2022-01-07T02:51:14.256Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="voNM750EfBTEM9-E-r1G" version="16.1.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-01-07T02:56:38.090Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="H1riGGrKrL7ch2ZkcLk8" version="16.1.4" type="github">
   <diagram id="KECIPdQT1WM4rxqB7jb8" name="Page-1">
     <mxGraphModel dx="1422" dy="762" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="E58gVcxJUbAuFXLljo_L-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="E58gVcxJUbAuFXLljo_L-1" target="E58gVcxJUbAuFXLljo_L-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="E58gVcxJUbAuFXLljo_L-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="E58gVcxJUbAuFXLljo_L-1" target="E58gVcxJUbAuFXLljo_L-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="E58gVcxJUbAuFXLljo_L-1" value="拖动小音频条" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="353" y="129" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="E58gVcxJUbAuFXLljo_L-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="E58gVcxJUbAuFXLljo_L-2" target="E58gVcxJUbAuFXLljo_L-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="E58gVcxJUbAuFXLljo_L-2" value="到达首页上方二分之一的位置范围内" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="353" y="249" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="E58gVcxJUbAuFXLljo_L-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="E58gVcxJUbAuFXLljo_L-3" target="E58gVcxJUbAuFXLljo_L-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="E58gVcxJUbAuFXLljo_L-3" value="客户端弹出提示弹框是否转换为直播小窗" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="353" y="364" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="E58gVcxJUbAuFXLljo_L-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="E58gVcxJUbAuFXLljo_L-4" target="E58gVcxJUbAuFXLljo_L-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="E58gVcxJUbAuFXLljo_L-4" value="客户端显示直播小窗，隐藏小音频条" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="353" y="490" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="E58gVcxJUbAuFXLljo_L-9" value="是" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="421" y="439" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="E58gVcxJUbAuFXLljo_L-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="E58gVcxJUbAuFXLljo_L-11" target="E58gVcxJUbAuFXLljo_L-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="E58gVcxJUbAuFXLljo_L-11" value="拖动直播小窗到，底部选项栏位置" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="177" y="490" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="E58gVcxJUbAuFXLljo_L-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="E58gVcxJUbAuFXLljo_L-12" target="E58gVcxJUbAuFXLljo_L-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="E58gVcxJUbAuFXLljo_L-12" value="显示直播小窗" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="353" y="604" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="E58gVcxJUbAuFXLljo_L-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="E58gVcxJUbAuFXLljo_L-15" target="E58gVcxJUbAuFXLljo_L-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="E58gVcxJUbAuFXLljo_L-15" value="客户端弹出提示是否显示小音频条" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="177" y="364" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="E58gVcxJUbAuFXLljo_L-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="E58gVcxJUbAuFXLljo_L-17" target="E58gVcxJUbAuFXLljo_L-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="E58gVcxJUbAuFXLljo_L-17" value="客户端显示小音频条，隐藏直播小窗" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="177" y="249" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="E58gVcxJUbAuFXLljo_L-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="E58gVcxJUbAuFXLljo_L-21" target="E58gVcxJUbAuFXLljo_L-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="E58gVcxJUbAuFXLljo_L-21" value="到达首页顶部的位置" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="576" y="249" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="E58gVcxJUbAuFXLljo_L-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="E58gVcxJUbAuFXLljo_L-23" target="E58gVcxJUbAuFXLljo_L-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="E58gVcxJUbAuFXLljo_L-23" value="客户端弹出弹框提示，是否移除小音频条" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="576" y="364" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="E58gVcxJUbAuFXLljo_L-25" value="客户端移除小音频条" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="576" y="490" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
