@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-20T07:24:38.660Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="5QMCa02SbN7qHkYW9spM" version="16.2.2" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-01-20T07:33:05.314Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="3XqswCWly2qWqaO7yYZ2" version="16.2.2" type="github" pages="4">
   <diagram id="Tm4EQs6eWNxIXuwjap-K" name="Page-1">
     <mxGraphModel dx="1422" dy="706" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -186,7 +186,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="oYkf1c1r4gSkOnYcTgH2-0" value="服务器通过采集原有帽子的图片，通过神经网络训练，做出一个3D的帽子模型，并去掉顶部帽子的文字和图案" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="6QsOvPkgzdzMSzrrbGfm-1">
-          <mxGeometry x="40" y="408.5" width="120" height="103" as="geometry" />
+          <mxGeometry x="92" y="244" width="120" height="103" as="geometry" />
         </mxCell>
         <mxCell id="oYkf1c1r4gSkOnYcTgH2-2" value="使用虚拟出来的贴图并，加入横向文字贴合到人物帽子的位置上" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="6QsOvPkgzdzMSzrrbGfm-1">
           <mxGeometry x="177" y="577" width="120" height="60" as="geometry" />
@@ -196,6 +196,44 @@
         </mxCell>
         <mxCell id="oYkf1c1r4gSkOnYcTgH2-6" value="否" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="6QsOvPkgzdzMSzrrbGfm-1">
           <mxGeometry x="388" y="503" width="60" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="ayff2WDpCzuNxvMOc3RV" name="Page-4">
+    <mxGraphModel dx="1422" dy="706" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="I_37I7H_CqnLWJDUAe26-0" />
+        <mxCell id="I_37I7H_CqnLWJDUAe26-1" parent="I_37I7H_CqnLWJDUAe26-0" />
+        <mxCell id="I_37I7H_CqnLWJDUAe26-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=12;" edge="1" parent="I_37I7H_CqnLWJDUAe26-1" source="I_37I7H_CqnLWJDUAe26-2" target="I_37I7H_CqnLWJDUAe26-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="I_37I7H_CqnLWJDUAe26-2" value="官频轮播频道进行人物文字资料轮播" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="I_37I7H_CqnLWJDUAe26-1">
+          <mxGeometry x="381" y="211" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="I_37I7H_CqnLWJDUAe26-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=12;" edge="1" parent="I_37I7H_CqnLWJDUAe26-1" source="I_37I7H_CqnLWJDUAe26-3" target="I_37I7H_CqnLWJDUAe26-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="I_37I7H_CqnLWJDUAe26-3" value="用户点击触发进行上传服务器" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="I_37I7H_CqnLWJDUAe26-1">
+          <mxGeometry x="381" y="335" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="I_37I7H_CqnLWJDUAe26-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;" edge="1" parent="I_37I7H_CqnLWJDUAe26-1" source="I_37I7H_CqnLWJDUAe26-5" target="I_37I7H_CqnLWJDUAe26-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="298" y="482" />
+              <mxPoint x="298" y="67" />
+              <mxPoint x="441" y="67" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="I_37I7H_CqnLWJDUAe26-5" value="服务器进行大数据分析，调整文字数据轮播的时长，次数，出现频率" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="I_37I7H_CqnLWJDUAe26-1">
+          <mxGeometry x="381" y="452" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="I_37I7H_CqnLWJDUAe26-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=12;" edge="1" parent="I_37I7H_CqnLWJDUAe26-1" source="I_37I7H_CqnLWJDUAe26-6" target="I_37I7H_CqnLWJDUAe26-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="I_37I7H_CqnLWJDUAe26-6" value="服务器下发文字轮播配置到客户端" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="I_37I7H_CqnLWJDUAe26-1">
+          <mxGeometry x="381" y="87" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
