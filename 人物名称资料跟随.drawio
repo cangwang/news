@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-20T07:15:25.110Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="0_Kw_iy0ChFJ1NcA3fw1" version="16.2.2" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-01-20T07:24:38.660Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="5QMCa02SbN7qHkYW9spM" version="16.2.2" type="github" pages="3">
   <diagram id="Tm4EQs6eWNxIXuwjap-K" name="Page-1">
     <mxGraphModel dx="1422" dy="706" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -60,7 +60,7 @@
         <mxCell id="7yDvNVEbBrVJAK6fB2Fs-1" value="服务器对直播间视频流进行采集，并直播间图像进行网络检测" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="5DssbOyAqJJXMeC2r0D3-1">
           <mxGeometry x="453" y="278" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="7yDvNVEbBrVJAK6fB2Fs-2" value="将文字横向贴到胸部的位置" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="5DssbOyAqJJXMeC2r0D3-1">
+        <mxCell id="7yDvNVEbBrVJAK6fB2Fs-2" value="文字适配衣服颜色后，将文字横向贴到胸部的位置" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="5DssbOyAqJJXMeC2r0D3-1">
           <mxGeometry x="336" y="430" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="7yDvNVEbBrVJAK6fB2Fs-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="5DssbOyAqJJXMeC2r0D3-1" source="7yDvNVEbBrVJAK6fB2Fs-3" target="7yDvNVEbBrVJAK6fB2Fs-4">
@@ -105,7 +105,7 @@
         <mxCell id="7yDvNVEbBrVJAK6fB2Fs-15" value="&lt;font style=&quot;font-size: 12px&quot;&gt;未识别胸部位置并且或者区域较小&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=30;" vertex="1" parent="5DssbOyAqJJXMeC2r0D3-1">
           <mxGeometry x="570" y="347" width="197" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="7yDvNVEbBrVJAK6fB2Fs-16" value="&lt;span&gt;将文字竖向贴到手臂的位置&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="5DssbOyAqJJXMeC2r0D3-1">
+        <mxCell id="7yDvNVEbBrVJAK6fB2Fs-16" value="文字适配手臂颜色后，&lt;span&gt;将文字竖向贴到手臂的位置&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="5DssbOyAqJJXMeC2r0D3-1">
           <mxGeometry x="499" y="562" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="7yDvNVEbBrVJAK6fB2Fs-18" value="&lt;font style=&quot;font-size: 12px&quot;&gt;识别到手臂位置并且区域比例足够大&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=30;" vertex="1" parent="5DssbOyAqJJXMeC2r0D3-1">
@@ -125,6 +125,78 @@
       <root>
         <mxCell id="6QsOvPkgzdzMSzrrbGfm-0" />
         <mxCell id="6QsOvPkgzdzMSzrrbGfm-1" parent="6QsOvPkgzdzMSzrrbGfm-0" />
+        <mxCell id="HUTqGm36hdNyJb90AYaa-0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="6QsOvPkgzdzMSzrrbGfm-1" source="HUTqGm36hdNyJb90AYaa-2" target="HUTqGm36hdNyJb90AYaa-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HUTqGm36hdNyJb90AYaa-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=30;" edge="1" parent="6QsOvPkgzdzMSzrrbGfm-1" source="HUTqGm36hdNyJb90AYaa-2" target="HUTqGm36hdNyJb90AYaa-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HUTqGm36hdNyJb90AYaa-2" value="服务器对直播间视频流进行采集，并直播间图像进行网络检测" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="6QsOvPkgzdzMSzrrbGfm-1">
+          <mxGeometry x="453" y="278" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oYkf1c1r4gSkOnYcTgH2-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=12;" edge="1" parent="6QsOvPkgzdzMSzrrbGfm-1" source="HUTqGm36hdNyJb90AYaa-3" target="oYkf1c1r4gSkOnYcTgH2-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oYkf1c1r4gSkOnYcTgH2-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=12;" edge="1" parent="6QsOvPkgzdzMSzrrbGfm-1" source="HUTqGm36hdNyJb90AYaa-3" target="oYkf1c1r4gSkOnYcTgH2-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HUTqGm36hdNyJb90AYaa-3" value="识别是否帽子是否存在文字或者图案，，范围是否达到阈值" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="6QsOvPkgzdzMSzrrbGfm-1">
+          <mxGeometry x="245.5" y="430" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HUTqGm36hdNyJb90AYaa-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="6QsOvPkgzdzMSzrrbGfm-1" source="HUTqGm36hdNyJb90AYaa-5" target="HUTqGm36hdNyJb90AYaa-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HUTqGm36hdNyJb90AYaa-5" value="人工制作人物的躯干，帽子（或虚拟帽子）位置标示" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="6QsOvPkgzdzMSzrrbGfm-1">
+          <mxGeometry x="207" y="47" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HUTqGm36hdNyJb90AYaa-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="6QsOvPkgzdzMSzrrbGfm-1" source="HUTqGm36hdNyJb90AYaa-7" target="HUTqGm36hdNyJb90AYaa-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HUTqGm36hdNyJb90AYaa-7" value="服务器对图标和标识进行多头网络训练" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="6QsOvPkgzdzMSzrrbGfm-1">
+          <mxGeometry x="453" y="47" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HUTqGm36hdNyJb90AYaa-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="6QsOvPkgzdzMSzrrbGfm-1" source="HUTqGm36hdNyJb90AYaa-9" target="HUTqGm36hdNyJb90AYaa-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HUTqGm36hdNyJb90AYaa-9" value="服务器得到检测网络" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="6QsOvPkgzdzMSzrrbGfm-1">
+          <mxGeometry x="717" y="47" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HUTqGm36hdNyJb90AYaa-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="6QsOvPkgzdzMSzrrbGfm-1" source="HUTqGm36hdNyJb90AYaa-12" target="HUTqGm36hdNyJb90AYaa-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HUTqGm36hdNyJb90AYaa-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="6QsOvPkgzdzMSzrrbGfm-1" source="HUTqGm36hdNyJb90AYaa-12" target="HUTqGm36hdNyJb90AYaa-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oYkf1c1r4gSkOnYcTgH2-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;fontSize=12;" edge="1" parent="6QsOvPkgzdzMSzrrbGfm-1" source="HUTqGm36hdNyJb90AYaa-12" target="oYkf1c1r4gSkOnYcTgH2-0">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HUTqGm36hdNyJb90AYaa-12" value="&lt;font style=&quot;font-size: 30px&quot;&gt;服务器&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="6QsOvPkgzdzMSzrrbGfm-1">
+          <mxGeometry x="453" y="161" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HUTqGm36hdNyJb90AYaa-15" value="走（2）中的检测" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="6QsOvPkgzdzMSzrrbGfm-1">
+          <mxGeometry x="605" y="430" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HUTqGm36hdNyJb90AYaa-16" value="&lt;font style=&quot;font-size: 12px&quot;&gt;识别到帽子位置区域比例足够大&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=30;" vertex="1" parent="6QsOvPkgzdzMSzrrbGfm-1">
+          <mxGeometry x="256" y="350" width="197" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HUTqGm36hdNyJb90AYaa-17" value="&lt;font style=&quot;font-size: 12px&quot;&gt;未识别帽子位置并且或者区域较小&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=30;" vertex="1" parent="6QsOvPkgzdzMSzrrbGfm-1">
+          <mxGeometry x="570" y="347" width="197" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5ikjJmmFfwaEOoI2Qj0t-0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;" edge="1" parent="6QsOvPkgzdzMSzrrbGfm-1" source="oYkf1c1r4gSkOnYcTgH2-0" target="oYkf1c1r4gSkOnYcTgH2-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oYkf1c1r4gSkOnYcTgH2-0" value="服务器通过采集原有帽子的图片，通过神经网络训练，做出一个3D的帽子模型，并去掉顶部帽子的文字和图案" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="6QsOvPkgzdzMSzrrbGfm-1">
+          <mxGeometry x="40" y="408.5" width="120" height="103" as="geometry" />
+        </mxCell>
+        <mxCell id="oYkf1c1r4gSkOnYcTgH2-2" value="使用虚拟出来的贴图并，加入横向文字贴合到人物帽子的位置上" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="6QsOvPkgzdzMSzrrbGfm-1">
+          <mxGeometry x="177" y="577" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oYkf1c1r4gSkOnYcTgH2-4" value="文字适配帽子颜色后，将文字横向贴到帽子的位置" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="6QsOvPkgzdzMSzrrbGfm-1">
+          <mxGeometry x="362" y="577" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oYkf1c1r4gSkOnYcTgH2-6" value="否" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="6QsOvPkgzdzMSzrrbGfm-1">
+          <mxGeometry x="388" y="503" width="60" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
