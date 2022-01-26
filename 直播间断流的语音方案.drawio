@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-26T10:15:44.635Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="1O5zpGOWRSkGYt8_ch7Z" version="16.4.2" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-01-26T10:27:52.643Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="5OtU_ySE1OnBMtBwwlu3" version="16.4.2" type="github" pages="5">
   <diagram id="bz4jhDZUCNRC4lxc4AFu" name="Page-1">
     <mxGraphModel dx="700" dy="752" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -141,6 +141,47 @@
         </mxCell>
         <mxCell id="c77Fma-gTzucPb1fZTvP-12" value="客户端预先下载主播文本转语音的神经网络模型" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="3C6qS2aeEsoujgHnFnCj-1">
           <mxGeometry x="52" y="460" width="120" height="81" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="JF-8BzKqan4LstlSP351" name="Page-5">
+    <mxGraphModel dx="700" dy="752" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="FJxnkcxj4ReqHotkxR_A-0" />
+        <mxCell id="FJxnkcxj4ReqHotkxR_A-1" parent="FJxnkcxj4ReqHotkxR_A-0" />
+        <mxCell id="FJxnkcxj4ReqHotkxR_A-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="FJxnkcxj4ReqHotkxR_A-1" source="FJxnkcxj4ReqHotkxR_A-2" target="FJxnkcxj4ReqHotkxR_A-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FJxnkcxj4ReqHotkxR_A-2" value="客户端使用前置摄像头采集，通过yolo神经网络判断是否有人脸" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="FJxnkcxj4ReqHotkxR_A-1">
+          <mxGeometry x="278" y="47" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FJxnkcxj4ReqHotkxR_A-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="FJxnkcxj4ReqHotkxR_A-1" source="FJxnkcxj4ReqHotkxR_A-3" target="FJxnkcxj4ReqHotkxR_A-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FJxnkcxj4ReqHotkxR_A-3" value="客户端使用前置摄像头采集，通过yolo神经网络判断是否有人脸" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="FJxnkcxj4ReqHotkxR_A-1">
+          <mxGeometry x="278" y="158" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FJxnkcxj4ReqHotkxR_A-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="FJxnkcxj4ReqHotkxR_A-1" source="FJxnkcxj4ReqHotkxR_A-5" target="FJxnkcxj4ReqHotkxR_A-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FJxnkcxj4ReqHotkxR_A-5" value="通过眼睛的视线跟踪技术来跟踪人眼是否锁定在客户端App内" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="FJxnkcxj4ReqHotkxR_A-1">
+          <mxGeometry x="278" y="277" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FJxnkcxj4ReqHotkxR_A-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="FJxnkcxj4ReqHotkxR_A-1" source="FJxnkcxj4ReqHotkxR_A-7" target="FJxnkcxj4ReqHotkxR_A-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FJxnkcxj4ReqHotkxR_A-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="FJxnkcxj4ReqHotkxR_A-1" source="FJxnkcxj4ReqHotkxR_A-7" target="FJxnkcxj4ReqHotkxR_A-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FJxnkcxj4ReqHotkxR_A-7" value="当人脸并不在观看App展示或人眼并没有正在观看直播" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="FJxnkcxj4ReqHotkxR_A-1">
+          <mxGeometry x="278" y="384" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FJxnkcxj4ReqHotkxR_A-9" value="客户端发送不再推语音流但保持文本流推送的信号到服务器" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="FJxnkcxj4ReqHotkxR_A-1">
+          <mxGeometry x="144" y="501" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FJxnkcxj4ReqHotkxR_A-11" value="客户端通过文本流和神经网络模型将文本转语音进行本地播放" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="FJxnkcxj4ReqHotkxR_A-1">
+          <mxGeometry x="413" y="501" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
