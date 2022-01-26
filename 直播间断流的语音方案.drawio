@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-26T09:53:54.086Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="EDGy8B5BiIp3TnHzHHN8" version="16.4.2" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-01-26T10:15:44.635Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="1O5zpGOWRSkGYt8_ch7Z" version="16.4.2" type="github" pages="4">
   <diagram id="bz4jhDZUCNRC4lxc4AFu" name="Page-1">
     <mxGraphModel dx="700" dy="752" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -45,6 +45,103 @@
       <root>
         <mxCell id="ZlX2XvOtNgKCQKOPpPT7-0" />
         <mxCell id="ZlX2XvOtNgKCQKOPpPT7-1" parent="ZlX2XvOtNgKCQKOPpPT7-0" />
+        <mxCell id="C-3-BW7Lki1CFAZKxIXK-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="ZlX2XvOtNgKCQKOPpPT7-1" source="C-3-BW7Lki1CFAZKxIXK-0" target="C-3-BW7Lki1CFAZKxIXK-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="C-3-BW7Lki1CFAZKxIXK-0" value="直播间采集主播音频信号上传到服务器" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="ZlX2XvOtNgKCQKOPpPT7-1">
+          <mxGeometry x="274" y="65" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="C-3-BW7Lki1CFAZKxIXK-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="ZlX2XvOtNgKCQKOPpPT7-1" source="C-3-BW7Lki1CFAZKxIXK-1" target="C-3-BW7Lki1CFAZKxIXK-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="C-3-BW7Lki1CFAZKxIXK-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="ZlX2XvOtNgKCQKOPpPT7-1" source="C-3-BW7Lki1CFAZKxIXK-1" target="C-3-BW7Lki1CFAZKxIXK-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="C-3-BW7Lki1CFAZKxIXK-1" value="服务器将直播间内人物语音从语音转文字信息看，并添加对应的时间和人物信息到文本上" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="ZlX2XvOtNgKCQKOPpPT7-1">
+          <mxGeometry x="274" y="157" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="C-3-BW7Lki1CFAZKxIXK-2" value="服务器下发到文本信息到客户端" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="ZlX2XvOtNgKCQKOPpPT7-1">
+          <mxGeometry x="141" y="313" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="C-3-BW7Lki1CFAZKxIXK-5" value="服务器下发主播的文本转语音的神经网络模型到客户端" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="ZlX2XvOtNgKCQKOPpPT7-1">
+          <mxGeometry x="412" y="313" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="uh6LRaii5SDqiQts1aHW" name="Page-3">
+    <mxGraphModel dx="700" dy="752" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="Nf0d5y7VpEdCvelQ3YyJ-0" />
+        <mxCell id="Nf0d5y7VpEdCvelQ3YyJ-1" parent="Nf0d5y7VpEdCvelQ3YyJ-0" />
+        <mxCell id="zHN4TxK1u8jurEk8CPqf-0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="Nf0d5y7VpEdCvelQ3YyJ-1" source="Nf0d5y7VpEdCvelQ3YyJ-3" target="Nf0d5y7VpEdCvelQ3YyJ-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Nf0d5y7VpEdCvelQ3YyJ-3" value="客户端判断视频断流或音频是否出现循坏出现卡顿或断播的情况" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="Nf0d5y7VpEdCvelQ3YyJ-1">
+          <mxGeometry x="250" y="220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Nf0d5y7VpEdCvelQ3YyJ-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="Nf0d5y7VpEdCvelQ3YyJ-1" source="Nf0d5y7VpEdCvelQ3YyJ-9" target="Nf0d5y7VpEdCvelQ3YyJ-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Nf0d5y7VpEdCvelQ3YyJ-9" value="客户端正常得到服务器推送直播间的文本流" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="Nf0d5y7VpEdCvelQ3YyJ-1">
+          <mxGeometry x="250" y="324" width="120" height="81" as="geometry" />
+        </mxCell>
+        <mxCell id="Nf0d5y7VpEdCvelQ3YyJ-11" value="客户端通过文本流和神经网络模型将文本转语音进行本地播放" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="Nf0d5y7VpEdCvelQ3YyJ-1">
+          <mxGeometry x="250" y="460" width="120" height="81" as="geometry" />
+        </mxCell>
+        <mxCell id="Nf0d5y7VpEdCvelQ3YyJ-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="Nf0d5y7VpEdCvelQ3YyJ-1" source="Nf0d5y7VpEdCvelQ3YyJ-12" target="Nf0d5y7VpEdCvelQ3YyJ-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Nf0d5y7VpEdCvelQ3YyJ-12" value="客户端预先下载主播文本转语音的神经网络模型" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="Nf0d5y7VpEdCvelQ3YyJ-1">
+          <mxGeometry x="52" y="460" width="120" height="81" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="nmK9swNIG0GJDBaObr2d" name="Page-4">
+    <mxGraphModel dx="700" dy="752" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="3C6qS2aeEsoujgHnFnCj-0" />
+        <mxCell id="3C6qS2aeEsoujgHnFnCj-1" parent="3C6qS2aeEsoujgHnFnCj-0" />
+        <mxCell id="c77Fma-gTzucPb1fZTvP-0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="3C6qS2aeEsoujgHnFnCj-1" source="c77Fma-gTzucPb1fZTvP-1" target="c77Fma-gTzucPb1fZTvP-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c77Fma-gTzucPb1fZTvP-1" value="直播间缩小为首页语音条" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="3C6qS2aeEsoujgHnFnCj-1">
+          <mxGeometry x="41" y="73" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="c77Fma-gTzucPb1fZTvP-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="3C6qS2aeEsoujgHnFnCj-1" source="c77Fma-gTzucPb1fZTvP-3" target="c77Fma-gTzucPb1fZTvP-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c77Fma-gTzucPb1fZTvP-3" value="App被切换到后台" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="3C6qS2aeEsoujgHnFnCj-1">
+          <mxGeometry x="250" y="75" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="c77Fma-gTzucPb1fZTvP-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="3C6qS2aeEsoujgHnFnCj-1" source="c77Fma-gTzucPb1fZTvP-5" target="c77Fma-gTzucPb1fZTvP-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c77Fma-gTzucPb1fZTvP-5" value="手机息屏" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="3C6qS2aeEsoujgHnFnCj-1">
+          <mxGeometry x="465" y="73" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="c77Fma-gTzucPb1fZTvP-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="3C6qS2aeEsoujgHnFnCj-1" source="c77Fma-gTzucPb1fZTvP-7" target="c77Fma-gTzucPb1fZTvP-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c77Fma-gTzucPb1fZTvP-7" value="App内检测到状态变化后，分析直播间内的语音时序信息，判断断句时间后停止语音流播放" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="3C6qS2aeEsoujgHnFnCj-1">
+          <mxGeometry x="250" y="203" width="120" height="81" as="geometry" />
+        </mxCell>
+        <mxCell id="c77Fma-gTzucPb1fZTvP-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="3C6qS2aeEsoujgHnFnCj-1" source="c77Fma-gTzucPb1fZTvP-9" target="c77Fma-gTzucPb1fZTvP-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c77Fma-gTzucPb1fZTvP-9" value="客户端请求服务器不再推送语音流，只保持文本流推送" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="3C6qS2aeEsoujgHnFnCj-1">
+          <mxGeometry x="250" y="324" width="120" height="81" as="geometry" />
+        </mxCell>
+        <mxCell id="c77Fma-gTzucPb1fZTvP-10" value="客户端通过文本流和神经网络模型将文本转语音进行本地播放" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="3C6qS2aeEsoujgHnFnCj-1">
+          <mxGeometry x="250" y="460" width="120" height="81" as="geometry" />
+        </mxCell>
+        <mxCell id="c77Fma-gTzucPb1fZTvP-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="3C6qS2aeEsoujgHnFnCj-1" source="c77Fma-gTzucPb1fZTvP-12" target="c77Fma-gTzucPb1fZTvP-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c77Fma-gTzucPb1fZTvP-12" value="客户端预先下载主播文本转语音的神经网络模型" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="3C6qS2aeEsoujgHnFnCj-1">
+          <mxGeometry x="52" y="460" width="120" height="81" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
