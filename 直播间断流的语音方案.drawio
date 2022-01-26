@@ -1,1 +1,51 @@
-<mxfile host="app.diagrams.net" modified="2022-01-25T09:14:41.164Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" version="16.4.2" etag="uWtHaah1kL82iHmr_q0q" type="github"><diagram id="bz4jhDZUCNRC4lxc4AFu">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-01-26T09:53:54.086Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="EDGy8B5BiIp3TnHzHHN8" version="16.4.2" type="github" pages="2">
+  <diagram id="bz4jhDZUCNRC4lxc4AFu" name="Page-1">
+    <mxGraphModel dx="700" dy="752" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="8UgaObZjLxow5zquvD9B-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="8UgaObZjLxow5zquvD9B-1" target="8UgaObZjLxow5zquvD9B-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8UgaObZjLxow5zquvD9B-1" value="客户端通过前置摄像头检测视频流使用Yolo物体识别以及活体检测来检测直播间有多少个人" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="94" y="61" width="120" height="76" as="geometry" />
+        </mxCell>
+        <mxCell id="8UgaObZjLxow5zquvD9B-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="8UgaObZjLxow5zquvD9B-2" target="8UgaObZjLxow5zquvD9B-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8UgaObZjLxow5zquvD9B-2" value="客户端上传主播人脸以及主播语音到服务器" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="94" y="299" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8UgaObZjLxow5zquvD9B-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="8UgaObZjLxow5zquvD9B-4" target="8UgaObZjLxow5zquvD9B-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8UgaObZjLxow5zquvD9B-4" value="服务器通过人脸信息为对应人分配身份id信息，服务器通过噪音过滤后，将语音转为文本" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="94" y="408" width="120" height="83" as="geometry" />
+        </mxCell>
+        <mxCell id="8UgaObZjLxow5zquvD9B-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="8UgaObZjLxow5zquvD9B-6" target="8UgaObZjLxow5zquvD9B-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8UgaObZjLxow5zquvD9B-6" value="服务器通过语音文本和声源进行对抗神经网络训练" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="94" y="540" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8UgaObZjLxow5zquvD9B-8" value="训练得到语音文本转为对应人语音的神经网络" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="94" y="642" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8UgaObZjLxow5zquvD9B-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="8UgaObZjLxow5zquvD9B-10" target="8UgaObZjLxow5zquvD9B-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8UgaObZjLxow5zquvD9B-10" value="通过人面跟踪以及嘴唇动作跟踪来判定对应主播的声源信号" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="94" y="177" width="120" height="76" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="sxaMAohjYheqPVRmjTY0" name="Page-2">
+    <mxGraphModel dx="700" dy="752" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="ZlX2XvOtNgKCQKOPpPT7-0" />
+        <mxCell id="ZlX2XvOtNgKCQKOPpPT7-1" parent="ZlX2XvOtNgKCQKOPpPT7-0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
