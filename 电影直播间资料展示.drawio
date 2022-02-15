@@ -1,1 +1,125 @@
-<mxfile host="app.diagrams.net" modified="2022-02-15T07:16:07.976Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36" version="16.5.5" etag="Sk-nbnQmUFLEgFd-2ta_" type="github"><diagram id="Z-4CW9O0wTY7q7Qqwn57">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-02-15T07:55:48.257Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36" etag="GLUXr3eqVxrkkaf8Rgf4" version="16.5.5" type="github" pages="3">
+  <diagram id="Z-4CW9O0wTY7q7Qqwn57" name="Page-1">
+    <mxGraphModel dx="1422" dy="762" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="KL3cUYfAll2ktqgYMCg0-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="KL3cUYfAll2ktqgYMCg0-1" target="KL3cUYfAll2ktqgYMCg0-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KL3cUYfAll2ktqgYMCg0-1" value="主播直播视频" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="235" y="81" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KL3cUYfAll2ktqgYMCg0-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="KL3cUYfAll2ktqgYMCg0-2" target="KL3cUYfAll2ktqgYMCg0-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KL3cUYfAll2ktqgYMCg0-2" value="电影频道视频" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="496" y="81" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KL3cUYfAll2ktqgYMCg0-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="KL3cUYfAll2ktqgYMCg0-3" target="KL3cUYfAll2ktqgYMCg0-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KL3cUYfAll2ktqgYMCg0-3" value="1.服务器通过标记资源来进行识别网络训练" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="357" y="233" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KL3cUYfAll2ktqgYMCg0-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="KL3cUYfAll2ktqgYMCg0-6" target="KL3cUYfAll2ktqgYMCg0-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KL3cUYfAll2ktqgYMCg0-6" value="2.服务器得到一个电影频道的判断网络" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="357" y="351" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KL3cUYfAll2ktqgYMCg0-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="KL3cUYfAll2ktqgYMCg0-8" target="KL3cUYfAll2ktqgYMCg0-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KL3cUYfAll2ktqgYMCg0-8" value="3.客户端端上传视频流到服务器" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="139" y="459" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KL3cUYfAll2ktqgYMCg0-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="KL3cUYfAll2ktqgYMCg0-9" target="KL3cUYfAll2ktqgYMCg0-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KL3cUYfAll2ktqgYMCg0-9" value="4.服务器通过判断网络来识别当前资源是否电影频道" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="357" y="459" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KL3cUYfAll2ktqgYMCg0-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="KL3cUYfAll2ktqgYMCg0-12" target="KL3cUYfAll2ktqgYMCg0-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KL3cUYfAll2ktqgYMCg0-12" value="5.判断是电影频道，服务器推送给主播端询问弹框" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="459" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KL3cUYfAll2ktqgYMCg0-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="KL3cUYfAll2ktqgYMCg0-14" target="KL3cUYfAll2ktqgYMCg0-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KL3cUYfAll2ktqgYMCg0-14" value="6.主播端通过反馈结果来优化训练结果" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="233" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KL3cUYfAll2ktqgYMCg0-17" value="是电影直播" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="509" y="451" width="73" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="-thpit7yFCRp58Dmovrw" name="Page-2">
+    <mxGraphModel dx="1422" dy="762" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="yYZxj3VkscVl9SUkmz4Z-0" />
+        <mxCell id="yYZxj3VkscVl9SUkmz4Z-1" parent="yYZxj3VkscVl9SUkmz4Z-0" />
+        <mxCell id="yYZxj3VkscVl9SUkmz4Z-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="yYZxj3VkscVl9SUkmz4Z-1" source="yYZxj3VkscVl9SUkmz4Z-3" target="yYZxj3VkscVl9SUkmz4Z-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yYZxj3VkscVl9SUkmz4Z-3" value="标记多国语言电影" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="yYZxj3VkscVl9SUkmz4Z-1">
+          <mxGeometry x="357" y="123" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yYZxj3VkscVl9SUkmz4Z-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="yYZxj3VkscVl9SUkmz4Z-1" source="yYZxj3VkscVl9SUkmz4Z-5" target="yYZxj3VkscVl9SUkmz4Z-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yYZxj3VkscVl9SUkmz4Z-5" value="1.服务器通过标记资源来进行语种识别网络训练" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="yYZxj3VkscVl9SUkmz4Z-1">
+          <mxGeometry x="357" y="233" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yYZxj3VkscVl9SUkmz4Z-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="yYZxj3VkscVl9SUkmz4Z-1" source="yYZxj3VkscVl9SUkmz4Z-7" target="yYZxj3VkscVl9SUkmz4Z-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yYZxj3VkscVl9SUkmz4Z-7" value="2.服务器得到一个电影频道的判断网络" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="yYZxj3VkscVl9SUkmz4Z-1">
+          <mxGeometry x="357" y="351" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yYZxj3VkscVl9SUkmz4Z-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="yYZxj3VkscVl9SUkmz4Z-1" source="yYZxj3VkscVl9SUkmz4Z-10" target="yYZxj3VkscVl9SUkmz4Z-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yYZxj3VkscVl9SUkmz4Z-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="yYZxj3VkscVl9SUkmz4Z-1" source="yYZxj3VkscVl9SUkmz4Z-10" target="yYZxj3VkscVl9SUkmz4Z-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yYZxj3VkscVl9SUkmz4Z-10" value="3.客户端端上传视频流到服务器" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="yYZxj3VkscVl9SUkmz4Z-1">
+          <mxGeometry x="139" y="459" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yYZxj3VkscVl9SUkmz4Z-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="yYZxj3VkscVl9SUkmz4Z-1" source="yYZxj3VkscVl9SUkmz4Z-12" target="yYZxj3VkscVl9SUkmz4Z-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yYZxj3VkscVl9SUkmz4Z-12" value="4.服务器通过判断网络来识别当前资源是哪个国家的类别" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="yYZxj3VkscVl9SUkmz4Z-1">
+          <mxGeometry x="357" y="459" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yYZxj3VkscVl9SUkmz4Z-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="yYZxj3VkscVl9SUkmz4Z-1" source="yYZxj3VkscVl9SUkmz4Z-14" target="yYZxj3VkscVl9SUkmz4Z-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yYZxj3VkscVl9SUkmz4Z-14" value="6.将匹配到的电影列表名推送到主播端，主播端来做选择确认" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="yYZxj3VkscVl9SUkmz4Z-1">
+          <mxGeometry x="539" y="585" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yYZxj3VkscVl9SUkmz4Z-15" value="7.主播端通过选择的结果上传会服务器进行记录" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="yYZxj3VkscVl9SUkmz4Z-1">
+          <mxGeometry x="708" y="585" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yYZxj3VkscVl9SUkmz4Z-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="yYZxj3VkscVl9SUkmz4Z-1" source="yYZxj3VkscVl9SUkmz4Z-17" target="yYZxj3VkscVl9SUkmz4Z-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yYZxj3VkscVl9SUkmz4Z-17" value="5.通过人脸识别电影出现的人物，然后和服务器的资源库匹配" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="yYZxj3VkscVl9SUkmz4Z-1">
+          <mxGeometry x="357" y="585" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="bUXXSI22fGu4zd4j0nOT" name="Page-3">
+    <mxGraphModel dx="1422" dy="762" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="FyuCEJJ8vIb83FeyYkz2-0" />
+        <mxCell id="FyuCEJJ8vIb83FeyYkz2-1" parent="FyuCEJJ8vIb83FeyYkz2-0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
