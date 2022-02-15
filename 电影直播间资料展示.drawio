@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-15T08:29:58.941Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36" etag="_pFSffGGS5jwUx_bKVUp" version="16.5.5" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-02-15T08:39:54.650Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36" etag="oo3YT3nImj4qq7EqqfnM" version="16.5.5" type="github" pages="5">
   <diagram id="Z-4CW9O0wTY7q7Qqwn57" name="Page-1">
     <mxGraphModel dx="1422" dy="762" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -166,6 +166,41 @@
       <root>
         <mxCell id="xBPx-hF8s9FiOz3MSl5d-0" />
         <mxCell id="xBPx-hF8s9FiOz3MSl5d-1" parent="xBPx-hF8s9FiOz3MSl5d-0" />
+        <mxCell id="2SbNPqgIvErdg6Vi-GF3-0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="xBPx-hF8s9FiOz3MSl5d-1" source="2SbNPqgIvErdg6Vi-GF3-1" target="2SbNPqgIvErdg6Vi-GF3-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2SbNPqgIvErdg6Vi-GF3-1" value="1.客户端前置摄像头采集用户信息，通过年龄网络来来识别使用者年龄段" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="xBPx-hF8s9FiOz3MSl5d-1">
+          <mxGeometry x="410" y="44" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="2SbNPqgIvErdg6Vi-GF3-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="xBPx-hF8s9FiOz3MSl5d-1" source="2SbNPqgIvErdg6Vi-GF3-3" target="2SbNPqgIvErdg6Vi-GF3-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2SbNPqgIvErdg6Vi-GF3-3" value="2.服务器通过人物在电影库出现的频率和不同年龄段提问人物频率给于一个权重值" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="xBPx-hF8s9FiOz3MSl5d-1">
+          <mxGeometry x="410" y="168" width="120" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="2SbNPqgIvErdg6Vi-GF3-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="xBPx-hF8s9FiOz3MSl5d-1" source="2SbNPqgIvErdg6Vi-GF3-5" target="2SbNPqgIvErdg6Vi-GF3-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2SbNPqgIvErdg6Vi-GF3-5" value="3.服务器识别出视频流内出现的人物，在数据库中得到此人物的权重是否触发介绍推送" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="xBPx-hF8s9FiOz3MSl5d-1">
+          <mxGeometry x="410" y="278" width="120" height="82" as="geometry" />
+        </mxCell>
+        <mxCell id="2SbNPqgIvErdg6Vi-GF3-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="xBPx-hF8s9FiOz3MSl5d-1" source="2SbNPqgIvErdg6Vi-GF3-8" target="2SbNPqgIvErdg6Vi-GF3-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2SbNPqgIvErdg6Vi-GF3-8" value="4.服务器推送人物显示位置坐标以及人物基基础信息到客户端" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="xBPx-hF8s9FiOz3MSl5d-1">
+          <mxGeometry x="410" y="398" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2SbNPqgIvErdg6Vi-GF3-10" value="5.客户端得到人物位置和坐标，然后连接一个小弹框来展示人物的基础信息" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="xBPx-hF8s9FiOz3MSl5d-1">
+          <mxGeometry x="410" y="501" width="120" height="84" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="00lsRarm0P0OwxT8LH1o" name="Page-5">
+    <mxGraphModel dx="1422" dy="762" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="aOVMF-lXAtSi6bLGgQIm-0" />
+        <mxCell id="aOVMF-lXAtSi6bLGgQIm-1" parent="aOVMF-lXAtSi6bLGgQIm-0" />
       </root>
     </mxGraphModel>
   </diagram>
