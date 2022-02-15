@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-15T08:39:54.650Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36" etag="oo3YT3nImj4qq7EqqfnM" version="16.5.5" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2022-02-15T08:45:31.457Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36" etag="DJcsYgqwQtXfIEK3nyDu" version="16.5.5" type="github" pages="5">
   <diagram id="Z-4CW9O0wTY7q7Qqwn57" name="Page-1">
     <mxGraphModel dx="1422" dy="762" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -201,6 +201,39 @@
       <root>
         <mxCell id="aOVMF-lXAtSi6bLGgQIm-0" />
         <mxCell id="aOVMF-lXAtSi6bLGgQIm-1" parent="aOVMF-lXAtSi6bLGgQIm-0" />
+        <mxCell id="aOVMF-lXAtSi6bLGgQIm-2" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="aOVMF-lXAtSi6bLGgQIm-1">
+          <mxGeometry x="156" y="122" width="316" height="594" as="geometry" />
+        </mxCell>
+        <mxCell id="aOVMF-lXAtSi6bLGgQIm-3" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="aOVMF-lXAtSi6bLGgQIm-1">
+          <mxGeometry x="156" y="252" width="316" height="164" as="geometry" />
+        </mxCell>
+        <mxCell id="aOVMF-lXAtSi6bLGgQIm-4" value="电影视频流" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="aOVMF-lXAtSi6bLGgQIm-1">
+          <mxGeometry x="255" y="319" width="124" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="aOVMF-lXAtSi6bLGgQIm-5" value="滚动显示电影信息（名称，参演等）" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="aOVMF-lXAtSi6bLGgQIm-1">
+          <mxGeometry x="159" y="419" width="215" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="aOVMF-lXAtSi6bLGgQIm-6" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="aOVMF-lXAtSi6bLGgQIm-1">
+          <mxGeometry x="656" y="117" width="316" height="594" as="geometry" />
+        </mxCell>
+        <mxCell id="aOVMF-lXAtSi6bLGgQIm-7" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="aOVMF-lXAtSi6bLGgQIm-1">
+          <mxGeometry x="656" y="247" width="316" height="164" as="geometry" />
+        </mxCell>
+        <mxCell id="aOVMF-lXAtSi6bLGgQIm-8" value="电影视频流" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="aOVMF-lXAtSi6bLGgQIm-1">
+          <mxGeometry x="661" y="252" width="124" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="aOVMF-lXAtSi6bLGgQIm-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="aOVMF-lXAtSi6bLGgQIm-1" source="aOVMF-lXAtSi6bLGgQIm-10" target="aOVMF-lXAtSi6bLGgQIm-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aOVMF-lXAtSi6bLGgQIm-10" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="aOVMF-lXAtSi6bLGgQIm-1">
+          <mxGeometry x="825" y="257" width="122" height="141" as="geometry" />
+        </mxCell>
+        <mxCell id="aOVMF-lXAtSi6bLGgQIm-11" value="人物" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="aOVMF-lXAtSi6bLGgQIm-1">
+          <mxGeometry x="846" y="319" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="aOVMF-lXAtSi6bLGgQIm-12" value="XX问题？&lt;br&gt;人物名称，基础信息" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="aOVMF-lXAtSi6bLGgQIm-1">
+          <mxGeometry x="826" y="444" width="120" height="110" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
