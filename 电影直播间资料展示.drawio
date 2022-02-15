@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-15T07:55:48.257Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36" etag="GLUXr3eqVxrkkaf8Rgf4" version="16.5.5" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-02-15T08:29:58.941Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36" etag="_pFSffGGS5jwUx_bKVUp" version="16.5.5" type="github" pages="4">
   <diagram id="Z-4CW9O0wTY7q7Qqwn57" name="Page-1">
     <mxGraphModel dx="1422" dy="762" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -119,6 +119,53 @@
       <root>
         <mxCell id="FyuCEJJ8vIb83FeyYkz2-0" />
         <mxCell id="FyuCEJJ8vIb83FeyYkz2-1" parent="FyuCEJJ8vIb83FeyYkz2-0" />
+        <mxCell id="FyuCEJJ8vIb83FeyYkz2-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="FyuCEJJ8vIb83FeyYkz2-1" source="FyuCEJJ8vIb83FeyYkz2-2" target="FyuCEJJ8vIb83FeyYkz2-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FyuCEJJ8vIb83FeyYkz2-2" value="1.服务器确认该直播间为电影直播间和对应的基本信息" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="FyuCEJJ8vIb83FeyYkz2-1">
+          <mxGeometry x="410" y="64" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FyuCEJJ8vIb83FeyYkz2-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="FyuCEJJ8vIb83FeyYkz2-1" source="FyuCEJJ8vIb83FeyYkz2-3" target="FyuCEJJ8vIb83FeyYkz2-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FyuCEJJ8vIb83FeyYkz2-3" value="2.服务器通过搜索wiki和百度知道等网站，来抓取电影和人物相应信息" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="FyuCEJJ8vIb83FeyYkz2-1">
+          <mxGeometry x="410" y="173" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FyuCEJJ8vIb83FeyYkz2-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="FyuCEJJ8vIb83FeyYkz2-1" source="FyuCEJJ8vIb83FeyYkz2-5" target="FyuCEJJ8vIb83FeyYkz2-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FyuCEJJ8vIb83FeyYkz2-5" value="3.客户端采集用户在公屏上提问的信息，上传到服务器" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="FyuCEJJ8vIb83FeyYkz2-1">
+          <mxGeometry x="410" y="278" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sgsWLoBexfCvVZXE3L_5-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="FyuCEJJ8vIb83FeyYkz2-1" source="FyuCEJJ8vIb83FeyYkz2-7" target="sgsWLoBexfCvVZXE3L_5-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sgsWLoBexfCvVZXE3L_5-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="FyuCEJJ8vIb83FeyYkz2-1" source="FyuCEJJ8vIb83FeyYkz2-7" target="sgsWLoBexfCvVZXE3L_5-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FyuCEJJ8vIb83FeyYkz2-7" value="4.服务器在电影信息搜索对应的答案，然后下发到客户端" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="FyuCEJJ8vIb83FeyYkz2-1">
+          <mxGeometry x="410" y="398" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sgsWLoBexfCvVZXE3L_5-1" value="在视频流底部的位置显示公屏问题的信息" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="FyuCEJJ8vIb83FeyYkz2-1">
+          <mxGeometry x="248" y="516" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sgsWLoBexfCvVZXE3L_5-3" value="客户端通过物体识别和人脸识别来定位演员显示的位置，然后客户端弹出小弹框来回答表示对应的信息" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="FyuCEJJ8vIb83FeyYkz2-1">
+          <mxGeometry x="594" y="516" width="120" height="107" as="geometry" />
+        </mxCell>
+        <mxCell id="sgsWLoBexfCvVZXE3L_5-5" value="问题和电影相关" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="FyuCEJJ8vIb83FeyYkz2-1">
+          <mxGeometry x="311" y="454" width="89" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sgsWLoBexfCvVZXE3L_5-6" value="问题和人物相关" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="FyuCEJJ8vIb83FeyYkz2-1">
+          <mxGeometry x="536" y="456" width="89" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="-CYvVbGvD7RK9iJ6U1Lt" name="Page-4">
+    <mxGraphModel dx="1422" dy="762" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="xBPx-hF8s9FiOz3MSl5d-0" />
+        <mxCell id="xBPx-hF8s9FiOz3MSl5d-1" parent="xBPx-hF8s9FiOz3MSl5d-0" />
       </root>
     </mxGraphModel>
   </diagram>
