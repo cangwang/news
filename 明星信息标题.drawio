@@ -1,1 +1,80 @@
-<mxfile host="app.diagrams.net" modified="2022-02-25T09:37:01.534Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" version="16.5.6" etag="-cmHo0x84u3kiSCisnCm" type="github"><diagram id="hFA5m3MKP3rRqHJ6pxQ6">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-02-25T10:28:43.519Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="kW-NZwFuD54auqJ4eCQF" version="16.5.6" type="github" pages="3">
+  <diagram id="hFA5m3MKP3rRqHJ6pxQ6" name="Page-1">
+    <mxGraphModel dx="1422" dy="761" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="bk4jM8zIOuM2MzvCMT-Z-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="bk4jM8zIOuM2MzvCMT-Z-1" target="bk4jM8zIOuM2MzvCMT-Z-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bk4jM8zIOuM2MzvCMT-Z-1" value="服务器通过热门明星榜采集一些明星的人脸数据" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="54" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bk4jM8zIOuM2MzvCMT-Z-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="bk4jM8zIOuM2MzvCMT-Z-2" target="bk4jM8zIOuM2MzvCMT-Z-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bk4jM8zIOuM2MzvCMT-Z-2" value="服务器通过FaceNet等神经网络训练出明星识别id模型" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="164" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bk4jM8zIOuM2MzvCMT-Z-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="bk4jM8zIOuM2MzvCMT-Z-4" target="bk4jM8zIOuM2MzvCMT-Z-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bk4jM8zIOuM2MzvCMT-Z-4" value="客户端开播页中采集前置摄像头数据，通过物体识别网络截取人脸截图" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="274" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bk4jM8zIOuM2MzvCMT-Z-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="bk4jM8zIOuM2MzvCMT-Z-6" target="bk4jM8zIOuM2MzvCMT-Z-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bk4jM8zIOuM2MzvCMT-Z-6" value="客户端上传人脸数据到服务器使用明星识别模型进行匹配" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="383.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bk4jM8zIOuM2MzvCMT-Z-8" value="得到匹配明星列表以及相似系数" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="498" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="PjvcEB0g0XzV-J7c1r4Q" name="Page-2">
+    <mxGraphModel dx="1422" dy="705" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="a3xDnKr9W6o3GTckTl9p-0" />
+        <mxCell id="a3xDnKr9W6o3GTckTl9p-1" parent="a3xDnKr9W6o3GTckTl9p-0" />
+        <mxCell id="-n30O4Ct67S6GFF_8Txn-0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="a3xDnKr9W6o3GTckTl9p-1" source="-n30O4Ct67S6GFF_8Txn-1" target="-n30O4Ct67S6GFF_8Txn-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-n30O4Ct67S6GFF_8Txn-1" value="服务器通过热门歌手榜的歌曲采集一些歌手的声音数据" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="a3xDnKr9W6o3GTckTl9p-1">
+          <mxGeometry x="490" y="54" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-n30O4Ct67S6GFF_8Txn-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="a3xDnKr9W6o3GTckTl9p-1" source="-n30O4Ct67S6GFF_8Txn-3" target="-n30O4Ct67S6GFF_8Txn-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-n30O4Ct67S6GFF_8Txn-3" value="服务器通过声音id神经网络训练出歌手的识别id模型" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="a3xDnKr9W6o3GTckTl9p-1">
+          <mxGeometry x="490" y="164" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-n30O4Ct67S6GFF_8Txn-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="a3xDnKr9W6o3GTckTl9p-1" source="-n30O4Ct67S6GFF_8Txn-5" target="-n30O4Ct67S6GFF_8Txn-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-n30O4Ct67S6GFF_8Txn-5" value="客户端开播页中采集用户上麦或者语音" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="a3xDnKr9W6o3GTckTl9p-1">
+          <mxGeometry x="490" y="274" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-n30O4Ct67S6GFF_8Txn-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="a3xDnKr9W6o3GTckTl9p-1" source="-n30O4Ct67S6GFF_8Txn-7" target="-n30O4Ct67S6GFF_8Txn-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-n30O4Ct67S6GFF_8Txn-7" value="客户端上传用户语音数据到服务器使用歌手i识别模型进行匹配" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="a3xDnKr9W6o3GTckTl9p-1">
+          <mxGeometry x="490" y="383.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-n30O4Ct67S6GFF_8Txn-8" value="得到匹配歌手列表以及相似系数" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="a3xDnKr9W6o3GTckTl9p-1">
+          <mxGeometry x="490" y="498" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="bH2ufwe8EKfMqelxnTC8" name="Page-3">
+    <mxGraphModel dx="1422" dy="705" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="cMxHRg4FrJ7R7kZyLCFy-0" />
+        <mxCell id="cMxHRg4FrJ7R7kZyLCFy-1" parent="cMxHRg4FrJ7R7kZyLCFy-0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
