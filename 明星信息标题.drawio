@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-28T02:59:46.014Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="KET4thYc5bRMIEvfwo_i" version="16.5.6" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-02-28T03:40:59.620Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="-YfWkTBpxnNp5Mq1EEz_" version="16.5.6" type="github" pages="5">
   <diagram id="hFA5m3MKP3rRqHJ6pxQ6" name="Page-1">
     <mxGraphModel dx="1422" dy="761" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -105,10 +105,123 @@
     </mxGraphModel>
   </diagram>
   <diagram id="wU5MFJK2WqZDYGnxHTPg" name="Page-4">
-    <mxGraphModel dx="1422" dy="762" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="761" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="_Oh3Q-y2pbPg4kCJagQQ-0" />
         <mxCell id="_Oh3Q-y2pbPg4kCJagQQ-1" parent="_Oh3Q-y2pbPg4kCJagQQ-0" />
+        <mxCell id="fuh1BCHFDu2gbQRiOYlM-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="_Oh3Q-y2pbPg4kCJagQQ-1" source="fuh1BCHFDu2gbQRiOYlM-0" target="fuh1BCHFDu2gbQRiOYlM-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fuh1BCHFDu2gbQRiOYlM-0" value="服务器用户电影频道或电视剧长时间观看留下的记录" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="_Oh3Q-y2pbPg4kCJagQQ-1">
+          <mxGeometry x="491" y="56" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fuh1BCHFDu2gbQRiOYlM-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="_Oh3Q-y2pbPg4kCJagQQ-1" source="fuh1BCHFDu2gbQRiOYlM-1" target="fuh1BCHFDu2gbQRiOYlM-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fuh1BCHFDu2gbQRiOYlM-1" value="服务器记录用户在那个歌曲演唱期间打赏过" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="_Oh3Q-y2pbPg4kCJagQQ-1">
+          <mxGeometry x="709" y="56" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fuh1BCHFDu2gbQRiOYlM-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="_Oh3Q-y2pbPg4kCJagQQ-1" source="fuh1BCHFDu2gbQRiOYlM-2" target="fuh1BCHFDu2gbQRiOYlM-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fuh1BCHFDu2gbQRiOYlM-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="_Oh3Q-y2pbPg4kCJagQQ-1" source="fuh1BCHFDu2gbQRiOYlM-2" target="fuh1BCHFDu2gbQRiOYlM-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fuh1BCHFDu2gbQRiOYlM-2" value="服务器检测在平台内存在对应歌手歌曲演唱" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="_Oh3Q-y2pbPg4kCJagQQ-1">
+          <mxGeometry x="709" y="188" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fuh1BCHFDu2gbQRiOYlM-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="_Oh3Q-y2pbPg4kCJagQQ-1" source="fuh1BCHFDu2gbQRiOYlM-3" target="fuh1BCHFDu2gbQRiOYlM-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fuh1BCHFDu2gbQRiOYlM-3" value="服务器记录和明星id相似度高的主播开播" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="_Oh3Q-y2pbPg4kCJagQQ-1">
+          <mxGeometry x="491" y="191" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fuh1BCHFDu2gbQRiOYlM-6" value="推送顶部的通知" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="_Oh3Q-y2pbPg4kCJagQQ-1">
+          <mxGeometry x="287" y="464" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fuh1BCHFDu2gbQRiOYlM-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="_Oh3Q-y2pbPg4kCJagQQ-1" source="fuh1BCHFDu2gbQRiOYlM-7" target="fuh1BCHFDu2gbQRiOYlM-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fuh1BCHFDu2gbQRiOYlM-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="_Oh3Q-y2pbPg4kCJagQQ-1" source="fuh1BCHFDu2gbQRiOYlM-7" target="fuh1BCHFDu2gbQRiOYlM-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fuh1BCHFDu2gbQRiOYlM-7" value="客户端告知服务器现在在首页范围" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="_Oh3Q-y2pbPg4kCJagQQ-1">
+          <mxGeometry x="491" y="326" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fuh1BCHFDu2gbQRiOYlM-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="_Oh3Q-y2pbPg4kCJagQQ-1" source="fuh1BCHFDu2gbQRiOYlM-10" target="fuh1BCHFDu2gbQRiOYlM-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fuh1BCHFDu2gbQRiOYlM-10" value="前置摄像头检测用户的眼睛的观看的客户端的位置" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="_Oh3Q-y2pbPg4kCJagQQ-1">
+          <mxGeometry x="491" y="467" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fuh1BCHFDu2gbQRiOYlM-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="_Oh3Q-y2pbPg4kCJagQQ-1" source="fuh1BCHFDu2gbQRiOYlM-11" target="fuh1BCHFDu2gbQRiOYlM-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fuh1BCHFDu2gbQRiOYlM-11" value="客户端告知服务器现在在直播间范围" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="_Oh3Q-y2pbPg4kCJagQQ-1">
+          <mxGeometry x="767" y="347" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fuh1BCHFDu2gbQRiOYlM-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="_Oh3Q-y2pbPg4kCJagQQ-1" source="fuh1BCHFDu2gbQRiOYlM-15" target="fuh1BCHFDu2gbQRiOYlM-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fuh1BCHFDu2gbQRiOYlM-15" value="客户端请求用户眼睛观看位置附近版式内容到服务器" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="_Oh3Q-y2pbPg4kCJagQQ-1">
+          <mxGeometry x="491" y="582" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fuh1BCHFDu2gbQRiOYlM-17" value="服务器下发对应的数据体到客户端，客户端更新附近的观看栅格，让用户能够感知" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="_Oh3Q-y2pbPg4kCJagQQ-1">
+          <mxGeometry x="491" y="690" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fuh1BCHFDu2gbQRiOYlM-19" value="客户端向服务器拉取直播间信息，并将下一个直播间替换为推送下来直播间的信息" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="_Oh3Q-y2pbPg4kCJagQQ-1">
+          <mxGeometry x="767" y="464" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fuh1BCHFDu2gbQRiOYlM-22" value="服务器判断正在观看App内的位置" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="_Oh3Q-y2pbPg4kCJagQQ-1">
+          <mxGeometry x="615" y="258" width="129" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="Wl3C4naXwUDL-6Ufbwz-" name="Page-5">
+    <mxGraphModel dx="1422" dy="761" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="a5a97ljazrzmFrzZReSP-0" />
+        <mxCell id="a5a97ljazrzmFrzZReSP-1" parent="a5a97ljazrzmFrzZReSP-0" />
+        <mxCell id="a5a97ljazrzmFrzZReSP-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="a5a97ljazrzmFrzZReSP-1" source="a5a97ljazrzmFrzZReSP-2" target="a5a97ljazrzmFrzZReSP-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a5a97ljazrzmFrzZReSP-2" value="当在交友直播间触发用户进入直播间或者新的用户上麦" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="a5a97ljazrzmFrzZReSP-1">
+          <mxGeometry x="405" y="138" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="a5a97ljazrzmFrzZReSP-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="a5a97ljazrzmFrzZReSP-1" source="a5a97ljazrzmFrzZReSP-3" target="a5a97ljazrzmFrzZReSP-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a5a97ljazrzmFrzZReSP-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="a5a97ljazrzmFrzZReSP-1" source="a5a97ljazrzmFrzZReSP-3" target="a5a97ljazrzmFrzZReSP-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a5a97ljazrzmFrzZReSP-3" value="服务器结合声音id的类似度给用户配置一个标题标识" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="a5a97ljazrzmFrzZReSP-1">
+          <mxGeometry x="585" y="250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="a5a97ljazrzmFrzZReSP-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="a5a97ljazrzmFrzZReSP-1" source="a5a97ljazrzmFrzZReSP-6" target="a5a97ljazrzmFrzZReSP-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a5a97ljazrzmFrzZReSP-6" value="当在交友直播间触发新的用户上麦" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="a5a97ljazrzmFrzZReSP-1">
+          <mxGeometry x="779" y="138" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="a5a97ljazrzmFrzZReSP-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="a5a97ljazrzmFrzZReSP-1" source="a5a97ljazrzmFrzZReSP-7" target="a5a97ljazrzmFrzZReSP-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a5a97ljazrzmFrzZReSP-7" value="服务器推送对应用户的id到整个直播间的客户端" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="a5a97ljazrzmFrzZReSP-1">
+          <mxGeometry x="405" y="329" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="a5a97ljazrzmFrzZReSP-10" value="客户端接受到信息后，会在对应用户的座位上显示对应的tip信息" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="a5a97ljazrzmFrzZReSP-1">
+          <mxGeometry x="405" y="474" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="a5a97ljazrzmFrzZReSP-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="a5a97ljazrzmFrzZReSP-1" source="a5a97ljazrzmFrzZReSP-12" target="a5a97ljazrzmFrzZReSP-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a5a97ljazrzmFrzZReSP-12" value="客户端会请求服务器发送全部买上用户的标题信息" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="a5a97ljazrzmFrzZReSP-1">
+          <mxGeometry x="779" y="329" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="a5a97ljazrzmFrzZReSP-15" value="客户端接受到信息后，会在显示全部座位上对应的tip信息" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="a5a97ljazrzmFrzZReSP-1">
+          <mxGeometry x="779" y="476" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
