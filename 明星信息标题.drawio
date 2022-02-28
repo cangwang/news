@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-25T10:28:43.519Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="kW-NZwFuD54auqJ4eCQF" version="16.5.6" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-02-28T02:59:46.014Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="KET4thYc5bRMIEvfwo_i" version="16.5.6" type="github" pages="4">
   <diagram id="hFA5m3MKP3rRqHJ6pxQ6" name="Page-1">
     <mxGraphModel dx="1422" dy="761" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -35,7 +35,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="PjvcEB0g0XzV-J7c1r4Q" name="Page-2">
-    <mxGraphModel dx="1422" dy="705" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="762" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="a3xDnKr9W6o3GTckTl9p-0" />
         <mxCell id="a3xDnKr9W6o3GTckTl9p-1" parent="a3xDnKr9W6o3GTckTl9p-0" />
@@ -70,10 +70,45 @@
     </mxGraphModel>
   </diagram>
   <diagram id="bH2ufwe8EKfMqelxnTC8" name="Page-3">
-    <mxGraphModel dx="1422" dy="705" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="762" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="cMxHRg4FrJ7R7kZyLCFy-0" />
         <mxCell id="cMxHRg4FrJ7R7kZyLCFy-1" parent="cMxHRg4FrJ7R7kZyLCFy-0" />
+        <mxCell id="bjB36t6IgvT4LcBf4BN3-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="cMxHRg4FrJ7R7kZyLCFy-1" source="bjB36t6IgvT4LcBf4BN3-0" target="bjB36t6IgvT4LcBf4BN3-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bjB36t6IgvT4LcBf4BN3-0" value="主播开播编辑开播信息，客户端检测正在输入标题信息" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="cMxHRg4FrJ7R7kZyLCFy-1">
+          <mxGeometry x="498" y="72" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bjB36t6IgvT4LcBf4BN3-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="cMxHRg4FrJ7R7kZyLCFy-1" source="bjB36t6IgvT4LcBf4BN3-1" target="bjB36t6IgvT4LcBf4BN3-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bjB36t6IgvT4LcBf4BN3-1" value="客户端请求服务器下发明星id和歌手声音匹配信息到客户端" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="cMxHRg4FrJ7R7kZyLCFy-1">
+          <mxGeometry x="498" y="186" width="120" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="bjB36t6IgvT4LcBf4BN3-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="cMxHRg4FrJ7R7kZyLCFy-1" source="bjB36t6IgvT4LcBf4BN3-3" target="bjB36t6IgvT4LcBf4BN3-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bjB36t6IgvT4LcBf4BN3-3" value="客户端将明星相似度以及歌手声音相似度以弹框的方式展示出来。" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="cMxHRg4FrJ7R7kZyLCFy-1">
+          <mxGeometry x="498" y="296" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bjB36t6IgvT4LcBf4BN3-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="cMxHRg4FrJ7R7kZyLCFy-1" source="bjB36t6IgvT4LcBf4BN3-5" target="bjB36t6IgvT4LcBf4BN3-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bjB36t6IgvT4LcBf4BN3-5" value="用户点击查看推荐标题列表，客户端请求服务器，拉取配置的标题列表" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="cMxHRg4FrJ7R7kZyLCFy-1">
+          <mxGeometry x="498" y="402" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bjB36t6IgvT4LcBf4BN3-7" value="服务端下发标题列表到客户端后，客户再进行选择和编辑" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="cMxHRg4FrJ7R7kZyLCFy-1">
+          <mxGeometry x="498" y="508" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="wU5MFJK2WqZDYGnxHTPg" name="Page-4">
+    <mxGraphModel dx="1422" dy="762" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="_Oh3Q-y2pbPg4kCJagQQ-0" />
+        <mxCell id="_Oh3Q-y2pbPg4kCJagQQ-1" parent="_Oh3Q-y2pbPg4kCJagQQ-0" />
       </root>
     </mxGraphModel>
   </diagram>
