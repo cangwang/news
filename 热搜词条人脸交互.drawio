@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-09T08:00:24.250Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="NqgNdpvhYjrOGps5e0ke" version="16.6.4" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-03-09T08:11:43.448Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="zwEYPb-eAM7oGvoq6_7p" version="16.6.4" type="github" pages="4">
   <diagram id="SDw0INoxKuEJ9bXSPkrw" name="Page-1">
     <mxGraphModel dx="1422" dy="762" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -51,6 +51,109 @@
       <root>
         <mxCell id="YdnjGcba84Wu1ew6BqL8-0" />
         <mxCell id="YdnjGcba84Wu1ew6BqL8-1" parent="YdnjGcba84Wu1ew6BqL8-0" />
+        <mxCell id="PtYdkxQQntYw75wpFuVA-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="YdnjGcba84Wu1ew6BqL8-1" source="PtYdkxQQntYw75wpFuVA-0" target="PtYdkxQQntYw75wpFuVA-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PtYdkxQQntYw75wpFuVA-0" value="当前触发的词条是事件标签" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="YdnjGcba84Wu1ew6BqL8-1">
+          <mxGeometry x="525" y="67" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PtYdkxQQntYw75wpFuVA-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="YdnjGcba84Wu1ew6BqL8-1" source="PtYdkxQQntYw75wpFuVA-1" target="PtYdkxQQntYw75wpFuVA-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PtYdkxQQntYw75wpFuVA-1" value="请求服务器这个视频的列表，服务器会推送其中一个特征的视频" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="YdnjGcba84Wu1ew6BqL8-1">
+          <mxGeometry x="525" y="172" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PtYdkxQQntYw75wpFuVA-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="YdnjGcba84Wu1ew6BqL8-1" source="PtYdkxQQntYw75wpFuVA-3" target="PtYdkxQQntYw75wpFuVA-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PtYdkxQQntYw75wpFuVA-3" value="客户单接收到视频信息后，会用小窗的形式先展示" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="YdnjGcba84Wu1ew6BqL8-1">
+          <mxGeometry x="525" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PtYdkxQQntYw75wpFuVA-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="YdnjGcba84Wu1ew6BqL8-1" source="PtYdkxQQntYw75wpFuVA-5" target="PtYdkxQQntYw75wpFuVA-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PtYdkxQQntYw75wpFuVA-5" value="客户端统计上报用户关闭或点击进入此视频，并上传信息到服务器" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="YdnjGcba84Wu1ew6BqL8-1">
+          <mxGeometry x="525" y="384" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PtYdkxQQntYw75wpFuVA-7" value="服务器通过大数据来优化推送视频，增强用户的点击进入" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="YdnjGcba84Wu1ew6BqL8-1">
+          <mxGeometry x="525" y="502" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="tv4lcj5jKkhor6gHuX6s" name="Page-3">
+    <mxGraphModel dx="1422" dy="762" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0HphQwAT4sakBN2Ltdcx-0" />
+        <mxCell id="0HphQwAT4sakBN2Ltdcx-1" parent="0HphQwAT4sakBN2Ltdcx-0" />
+        <mxCell id="0HphQwAT4sakBN2Ltdcx-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="0HphQwAT4sakBN2Ltdcx-1" source="0HphQwAT4sakBN2Ltdcx-2" target="0HphQwAT4sakBN2Ltdcx-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0HphQwAT4sakBN2Ltdcx-2" value="当客户端通过小窗播放到达一定时长后，客户端前置摄像头采集是否存在人脸" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="0HphQwAT4sakBN2Ltdcx-1">
+          <mxGeometry x="486" y="70" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0HphQwAT4sakBN2Ltdcx-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="0HphQwAT4sakBN2Ltdcx-1" source="0HphQwAT4sakBN2Ltdcx-3" target="0HphQwAT4sakBN2Ltdcx-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0HphQwAT4sakBN2Ltdcx-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="0HphQwAT4sakBN2Ltdcx-1" source="0HphQwAT4sakBN2Ltdcx-3" target="0HphQwAT4sakBN2Ltdcx-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0HphQwAT4sakBN2Ltdcx-3" value="播放小窗会弹出提示，N秒后自动进入视频或直播间，检测当前用户头部动作" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="0HphQwAT4sakBN2Ltdcx-1">
+          <mxGeometry x="486" y="195" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0HphQwAT4sakBN2Ltdcx-5" value="停止倒计时并关闭视频小窗" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="0HphQwAT4sakBN2Ltdcx-1">
+          <mxGeometry x="378" y="328" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0HphQwAT4sakBN2Ltdcx-7" value="停止倒计时进入视频或直播间" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="0HphQwAT4sakBN2Ltdcx-1">
+          <mxGeometry x="597" y="328" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0HphQwAT4sakBN2Ltdcx-10" value="用户点头" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="0HphQwAT4sakBN2Ltdcx-1">
+          <mxGeometry x="608" y="259" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0HphQwAT4sakBN2Ltdcx-11" value="用户摇头" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="0HphQwAT4sakBN2Ltdcx-1">
+          <mxGeometry x="413" y="259" width="60" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="q5jVzTSUZbFCYklM_oi7" name="Page-4">
+    <mxGraphModel dx="1422" dy="762" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0FmGzUp1E95OEGTIpFHn-0" />
+        <mxCell id="0FmGzUp1E95OEGTIpFHn-1" parent="0FmGzUp1E95OEGTIpFHn-0" />
+        <mxCell id="UCK4cCyWFR8A_xUsWSTf-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="0FmGzUp1E95OEGTIpFHn-1" source="UCK4cCyWFR8A_xUsWSTf-0" target="UCK4cCyWFR8A_xUsWSTf-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UCK4cCyWFR8A_xUsWSTf-0" value="当客户端触发的热搜关键字有人物名称" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="0FmGzUp1E95OEGTIpFHn-1">
+          <mxGeometry x="486" y="70" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UCK4cCyWFR8A_xUsWSTf-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="0FmGzUp1E95OEGTIpFHn-1" source="UCK4cCyWFR8A_xUsWSTf-1" target="UCK4cCyWFR8A_xUsWSTf-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UCK4cCyWFR8A_xUsWSTf-1" value="客户端正在展示视频小窗" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="0FmGzUp1E95OEGTIpFHn-1">
+          <mxGeometry x="702" y="70" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UCK4cCyWFR8A_xUsWSTf-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="0FmGzUp1E95OEGTIpFHn-1" source="UCK4cCyWFR8A_xUsWSTf-2" target="UCK4cCyWFR8A_xUsWSTf-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UCK4cCyWFR8A_xUsWSTf-2" value="客户端通过人脸识别网络识别视频内是否用对应的人物脸部" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="0FmGzUp1E95OEGTIpFHn-1">
+          <mxGeometry x="597" y="191" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UCK4cCyWFR8A_xUsWSTf-5" value="客户端接收到人物信息后，在视频小窗下方会展示对应的人物的信息小窗" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="0FmGzUp1E95OEGTIpFHn-1">
+          <mxGeometry x="597" y="436" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UCK4cCyWFR8A_xUsWSTf-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="0FmGzUp1E95OEGTIpFHn-1" source="UCK4cCyWFR8A_xUsWSTf-8" target="UCK4cCyWFR8A_xUsWSTf-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UCK4cCyWFR8A_xUsWSTf-8" value="&lt;span&gt;当人物脸部出现后，客户端请求服务器下发人物信息&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="0FmGzUp1E95OEGTIpFHn-1">
+          <mxGeometry x="597" y="321" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UCK4cCyWFR8A_xUsWSTf-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="0FmGzUp1E95OEGTIpFHn-1" source="UCK4cCyWFR8A_xUsWSTf-11" target="UCK4cCyWFR8A_xUsWSTf-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UCK4cCyWFR8A_xUsWSTf-11" value="&lt;span&gt;wiki或百度知道等信息网站爬取，对应的人物信息&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="0FmGzUp1E95OEGTIpFHn-1">
+          <mxGeometry x="812" y="321" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
