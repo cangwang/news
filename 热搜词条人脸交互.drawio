@@ -1,1 +1,57 @@
-<mxfile host="app.diagrams.net" modified="2022-03-09T07:50:54.802Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" version="16.6.4" etag="PH3QYsL25QVSHaOJVVSC" type="github"><diagram id="SDw0INoxKuEJ9bXSPkrw">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-03-09T08:00:24.250Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="NqgNdpvhYjrOGps5e0ke" version="16.6.4" type="github" pages="2">
+  <diagram id="SDw0INoxKuEJ9bXSPkrw" name="Page-1">
+    <mxGraphModel dx="1422" dy="762" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="wwNfCJCVxKqPGhFZz3Lf-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="wwNfCJCVxKqPGhFZz3Lf-1" target="wwNfCJCVxKqPGhFZz3Lf-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wwNfCJCVxKqPGhFZz3Lf-1" value="客户端打开搜索，出现热搜列表、主播排行榜等" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="538" y="78" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wwNfCJCVxKqPGhFZz3Lf-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="wwNfCJCVxKqPGhFZz3Lf-2" target="wwNfCJCVxKqPGhFZz3Lf-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wwNfCJCVxKqPGhFZz3Lf-2" value="客户端前置摄像头采集人脸信息和跟踪人眼" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="538" y="199" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wwNfCJCVxKqPGhFZz3Lf-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="wwNfCJCVxKqPGhFZz3Lf-4" target="wwNfCJCVxKqPGhFZz3Lf-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wwNfCJCVxKqPGhFZz3Lf-4" value="当人眼和热搜词条位置重合，进行滚动词条以及倒计时" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="538" y="305" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wwNfCJCVxKqPGhFZz3Lf-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="wwNfCJCVxKqPGhFZz3Lf-6" target="wwNfCJCVxKqPGhFZz3Lf-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wwNfCJCVxKqPGhFZz3Lf-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="wwNfCJCVxKqPGhFZz3Lf-6" target="wwNfCJCVxKqPGhFZz3Lf-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wwNfCJCVxKqPGhFZz3Lf-6" value="倒计时到达后，客户端判断是否主播信息，并请求服务器当前主播是否开播" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="538" y="418" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wwNfCJCVxKqPGhFZz3Lf-10" value="弹出小窗展示主播基础信息" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="536" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wwNfCJCVxKqPGhFZz3Lf-13" value="弹出小窗展示主播的直播间" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="682" y="536" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wwNfCJCVxKqPGhFZz3Lf-15" value="不在直播" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="463" y="480" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wwNfCJCVxKqPGhFZz3Lf-16" value="正在直播" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="696" y="480" width="60" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="o8PYitv1RmthRhh0macD" name="Page-2">
+    <mxGraphModel dx="1422" dy="762" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="YdnjGcba84Wu1ew6BqL8-0" />
+        <mxCell id="YdnjGcba84Wu1ew6BqL8-1" parent="YdnjGcba84Wu1ew6BqL8-0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
