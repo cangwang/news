@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-17T07:04:45.081Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="r0boLh-zCOUDFTklqQLG" version="17.0.0" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-03-17T07:47:33.053Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="CKKpgSVCDFvvGfx5vK9X" version="17.0.0" type="github" pages="6">
   <diagram id="H2oaJsLFpcjXEO4kf1u9" name="Page-1">
     <mxGraphModel dx="1422" dy="762" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -33,14 +33,178 @@
       <root>
         <mxCell id="3dCX12fF-8VU9zBZJTtP-0" />
         <mxCell id="3dCX12fF-8VU9zBZJTtP-1" parent="3dCX12fF-8VU9zBZJTtP-0" />
+        <mxCell id="3dCX12fF-8VU9zBZJTtP-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="3dCX12fF-8VU9zBZJTtP-1" source="3dCX12fF-8VU9zBZJTtP-2" target="3dCX12fF-8VU9zBZJTtP-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="3dCX12fF-8VU9zBZJTtP-2" value="客户端上传视频流到服务器" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="3dCX12fF-8VU9zBZJTtP-1">
           <mxGeometry x="351" y="45" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3dCX12fF-8VU9zBZJTtP-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="3dCX12fF-8VU9zBZJTtP-1" source="3dCX12fF-8VU9zBZJTtP-3" target="3dCX12fF-8VU9zBZJTtP-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3dCX12fF-8VU9zBZJTtP-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="3dCX12fF-8VU9zBZJTtP-1" source="3dCX12fF-8VU9zBZJTtP-3" target="3dCX12fF-8VU9zBZJTtP-11">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="3dCX12fF-8VU9zBZJTtP-3" value="服务器将视频流转换为图片" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="3dCX12fF-8VU9zBZJTtP-1">
           <mxGeometry x="351" y="158" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="3dCX12fF-8VU9zBZJTtP-4" value="服务器将视频流转换为图片" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="3dCX12fF-8VU9zBZJTtP-1">
-          <mxGeometry x="354" y="263" width="120" height="60" as="geometry" />
+        <mxCell id="3dCX12fF-8VU9zBZJTtP-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="3dCX12fF-8VU9zBZJTtP-1" source="3dCX12fF-8VU9zBZJTtP-4" target="3dCX12fF-8VU9zBZJTtP-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3dCX12fF-8VU9zBZJTtP-4" value="服务器通过神经网络识别人脸和人脸关键点" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="3dCX12fF-8VU9zBZJTtP-1">
+          <mxGeometry x="351" y="263" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3dCX12fF-8VU9zBZJTtP-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="3dCX12fF-8VU9zBZJTtP-1" source="3dCX12fF-8VU9zBZJTtP-7" target="3dCX12fF-8VU9zBZJTtP-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3dCX12fF-8VU9zBZJTtP-7" value="判断人脸大小以及关键点距离，是否足够大展示大" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="3dCX12fF-8VU9zBZJTtP-1">
+          <mxGeometry x="351" y="373" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3dCX12fF-8VU9zBZJTtP-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="3dCX12fF-8VU9zBZJTtP-1" source="3dCX12fF-8VU9zBZJTtP-9" target="3dCX12fF-8VU9zBZJTtP-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3dCX12fF-8VU9zBZJTtP-9" value="服务器表情识别网络识别出人脸表情" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="3dCX12fF-8VU9zBZJTtP-1">
+          <mxGeometry x="351" y="486" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3dCX12fF-8VU9zBZJTtP-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="3dCX12fF-8VU9zBZJTtP-1" source="3dCX12fF-8VU9zBZJTtP-11" target="3dCX12fF-8VU9zBZJTtP-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3dCX12fF-8VU9zBZJTtP-11" value="通过躯干分割网络分割出主播人脸和躯干图片" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="3dCX12fF-8VU9zBZJTtP-1">
+          <mxGeometry x="556" y="486" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3dCX12fF-8VU9zBZJTtP-14" value="得到图片后，进行标记并保存数据到服务器" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="3dCX12fF-8VU9zBZJTtP-1">
+          <mxGeometry x="755" y="486" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="1wh0q4dSfawAB1j4z1lK" name="Page-3">
+    <mxGraphModel dx="1422" dy="762" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="4dcLdK1Yemg0SqqQB0Mf-0" />
+        <mxCell id="4dcLdK1Yemg0SqqQB0Mf-1" parent="4dcLdK1Yemg0SqqQB0Mf-0" />
+        <mxCell id="4dcLdK1Yemg0SqqQB0Mf-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="4dcLdK1Yemg0SqqQB0Mf-1" source="4dcLdK1Yemg0SqqQB0Mf-2" target="4dcLdK1Yemg0SqqQB0Mf-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4dcLdK1Yemg0SqqQB0Mf-2" value="服务器中得到主播不同表情的数量达到一定值" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="4dcLdK1Yemg0SqqQB0Mf-1">
+          <mxGeometry x="467" y="41" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4dcLdK1Yemg0SqqQB0Mf-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="4dcLdK1Yemg0SqqQB0Mf-1" source="4dcLdK1Yemg0SqqQB0Mf-3" target="4dcLdK1Yemg0SqqQB0Mf-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4dcLdK1Yemg0SqqQB0Mf-3" value="服务器下发表情列表，以及表情特效列表到客户端" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="4dcLdK1Yemg0SqqQB0Mf-1">
+          <mxGeometry x="467" y="156" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4dcLdK1Yemg0SqqQB0Mf-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="4dcLdK1Yemg0SqqQB0Mf-1" source="4dcLdK1Yemg0SqqQB0Mf-5" target="4dcLdK1Yemg0SqqQB0Mf-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4dcLdK1Yemg0SqqQB0Mf-5" value="客户端展示出表情和特效列表，主播进行选择" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="4dcLdK1Yemg0SqqQB0Mf-1">
+          <mxGeometry x="467" y="271" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4dcLdK1Yemg0SqqQB0Mf-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="4dcLdK1Yemg0SqqQB0Mf-1" source="4dcLdK1Yemg0SqqQB0Mf-8" target="4dcLdK1Yemg0SqqQB0Mf-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4dcLdK1Yemg0SqqQB0Mf-8" value="主播进行表情使用权限的选择" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="4dcLdK1Yemg0SqqQB0Mf-1">
+          <mxGeometry x="467" y="376" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4dcLdK1Yemg0SqqQB0Mf-10" value="客户端上传合成表情图到服务器" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="4dcLdK1Yemg0SqqQB0Mf-1">
+          <mxGeometry x="467" y="488" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="mZX2zp7oAvAfa7zInugH" name="Page-4">
+    <mxGraphModel dx="1422" dy="762" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="mef-pp5DmgGSaC0-EbCj-0" />
+        <mxCell id="mef-pp5DmgGSaC0-EbCj-1" parent="mef-pp5DmgGSaC0-EbCj-0" />
+        <mxCell id="mef-pp5DmgGSaC0-EbCj-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="mef-pp5DmgGSaC0-EbCj-1" source="mef-pp5DmgGSaC0-EbCj-2" target="mef-pp5DmgGSaC0-EbCj-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mef-pp5DmgGSaC0-EbCj-2" value="用户进入直播间，点击下发发文字会拉起弹框，请求服务器下发主播表情包列表，以及使用过的公共表情包列表" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="mef-pp5DmgGSaC0-EbCj-1">
+          <mxGeometry x="456" y="25" width="120" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="mef-pp5DmgGSaC0-EbCj-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="mef-pp5DmgGSaC0-EbCj-1" source="mef-pp5DmgGSaC0-EbCj-3" target="mef-pp5DmgGSaC0-EbCj-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mef-pp5DmgGSaC0-EbCj-3" value="表情包列表会显示每个表情图片需要的使用的去权限，不能使用的置灰色" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="mef-pp5DmgGSaC0-EbCj-1">
+          <mxGeometry x="456" y="168" width="120" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="FnpoNbfDVRSOUg9GzsJG-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="mef-pp5DmgGSaC0-EbCj-1" source="mef-pp5DmgGSaC0-EbCj-5" target="FnpoNbfDVRSOUg9GzsJG-0">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mef-pp5DmgGSaC0-EbCj-5" value="当用户发送公共的表情包图片，上传到服务器，服务器会记录到用户个人的表情包列表中" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="mef-pp5DmgGSaC0-EbCj-1">
+          <mxGeometry x="456" y="315" width="120" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="FnpoNbfDVRSOUg9GzsJG-0" value="服务器会给表情包使用数量+1，并在表情包显示的位置展示使用数量" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="mef-pp5DmgGSaC0-EbCj-1">
+          <mxGeometry x="456" y="457" width="120" height="85" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="-7D08-vGNCqjdrvZ-__o" name="Page-5">
+    <mxGraphModel dx="1422" dy="762" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="rTCQwWDxDuST3Xpi36xm-0" />
+        <mxCell id="rTCQwWDxDuST3Xpi36xm-1" parent="rTCQwWDxDuST3Xpi36xm-0" />
+        <mxCell id="RV1Cb7AQ6JZ4s40-nP55-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="rTCQwWDxDuST3Xpi36xm-1" source="RV1Cb7AQ6JZ4s40-nP55-1" target="RV1Cb7AQ6JZ4s40-nP55-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RV1Cb7AQ6JZ4s40-nP55-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="rTCQwWDxDuST3Xpi36xm-1" source="RV1Cb7AQ6JZ4s40-nP55-1" target="RV1Cb7AQ6JZ4s40-nP55-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RV1Cb7AQ6JZ4s40-nP55-1" value="用户发送公开的表情包到其他主播频道，服务器下发时会加入表情的主播是否开播的信息" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="rTCQwWDxDuST3Xpi36xm-1">
+          <mxGeometry x="486" y="53" width="120" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="RV1Cb7AQ6JZ4s40-nP55-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="rTCQwWDxDuST3Xpi36xm-1" source="RV1Cb7AQ6JZ4s40-nP55-2" target="RV1Cb7AQ6JZ4s40-nP55-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RV1Cb7AQ6JZ4s40-nP55-2" value="展示表情图片，并在背景加入扩展光圈效果" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="rTCQwWDxDuST3Xpi36xm-1">
+          <mxGeometry x="346" y="220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RV1Cb7AQ6JZ4s40-nP55-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="rTCQwWDxDuST3Xpi36xm-1" source="RV1Cb7AQ6JZ4s40-nP55-4" target="RV1Cb7AQ6JZ4s40-nP55-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RV1Cb7AQ6JZ4s40-nP55-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="rTCQwWDxDuST3Xpi36xm-1" source="RV1Cb7AQ6JZ4s40-nP55-4" target="RV1Cb7AQ6JZ4s40-nP55-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RV1Cb7AQ6JZ4s40-nP55-4" value="正常展示表情图片" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="rTCQwWDxDuST3Xpi36xm-1">
+          <mxGeometry x="608" y="220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RV1Cb7AQ6JZ4s40-nP55-6" value="正在开播" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="rTCQwWDxDuST3Xpi36xm-1">
+          <mxGeometry x="397" y="148" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RV1Cb7AQ6JZ4s40-nP55-7" value="关播" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="rTCQwWDxDuST3Xpi36xm-1">
+          <mxGeometry x="616" y="151" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RV1Cb7AQ6JZ4s40-nP55-8" value="长按表情图片直接跳转到对应主播的频道" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="rTCQwWDxDuST3Xpi36xm-1">
+          <mxGeometry x="346" y="335" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RV1Cb7AQ6JZ4s40-nP55-10" value="长按表情图片弹出主播资料卡" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;fillColor=default;" vertex="1" parent="rTCQwWDxDuST3Xpi36xm-1">
+          <mxGeometry x="540" y="341" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RV1Cb7AQ6JZ4s40-nP55-12" value="需要等级权限， 弹出领取该表情的领取权限" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="rTCQwWDxDuST3Xpi36xm-1">
+          <mxGeometry x="711" y="341" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RV1Cb7AQ6JZ4s40-nP55-14" value="判断是否需要额外的等级权限" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="rTCQwWDxDuST3Xpi36xm-1">
+          <mxGeometry x="715" y="282" width="127" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="b3kRxGtVbPB1JEd4lyGK" name="Page-6">
+    <mxGraphModel dx="1422" dy="762" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="XVEAli-2h_wiOGJUoKwI-0" />
+        <mxCell id="XVEAli-2h_wiOGJUoKwI-1" parent="XVEAli-2h_wiOGJUoKwI-0" />
+        <mxCell id="XVEAli-2h_wiOGJUoKwI-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="XVEAli-2h_wiOGJUoKwI-1" source="XVEAli-2h_wiOGJUoKwI-2" target="XVEAli-2h_wiOGJUoKwI-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XVEAli-2h_wiOGJUoKwI-2" value="服务器统计表情图片使用量和长按触发量达到一定计算阈值" style="rounded=1;whiteSpace=wrap;html=1;fillColor=default;" vertex="1" parent="XVEAli-2h_wiOGJUoKwI-1">
+          <mxGeometry x="505" y="62" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XVEAli-2h_wiOGJUoKwI-3" value="服务器主动对主播弹出主播表情弹框，询问主播是否需要更改调整表情权限" style="rounded=1;whiteSpace=wrap;html=1;fillColor=default;" vertex="1" parent="XVEAli-2h_wiOGJUoKwI-1">
+          <mxGeometry x="505" y="172" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
