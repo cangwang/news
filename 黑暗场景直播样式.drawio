@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-24T02:50:16.656Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36" etag="mHPl2OjeCc2sfDbpdQtx" version="17.1.3" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-03-24T03:02:40.949Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36" etag="sj7PBcbqcRRK2acYjx9I" version="17.1.3" type="github" pages="3">
   <diagram id="8YaUxvyTmp1whgWsUR0D" name="Page-1">
     <mxGraphModel dx="1422" dy="762" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -36,6 +36,41 @@
       <root>
         <mxCell id="CxDEAcvaqkcTrUnN3qY4-0" />
         <mxCell id="CxDEAcvaqkcTrUnN3qY4-1" parent="CxDEAcvaqkcTrUnN3qY4-0" />
+        <mxCell id="CxDEAcvaqkcTrUnN3qY4-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="CxDEAcvaqkcTrUnN3qY4-1" source="CxDEAcvaqkcTrUnN3qY4-2" target="CxDEAcvaqkcTrUnN3qY4-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CxDEAcvaqkcTrUnN3qY4-2" value="场景背景，转为hsv色彩空间，获得场景的亮度值H" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="CxDEAcvaqkcTrUnN3qY4-1">
+          <mxGeometry x="511" y="63" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CxDEAcvaqkcTrUnN3qY4-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="CxDEAcvaqkcTrUnN3qY4-1" source="CxDEAcvaqkcTrUnN3qY4-3" target="CxDEAcvaqkcTrUnN3qY4-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CxDEAcvaqkcTrUnN3qY4-3" value="检测出场景的平均亮度值和对亮色进行统计直方统计图" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="CxDEAcvaqkcTrUnN3qY4-1">
+          <mxGeometry x="511" y="178" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CxDEAcvaqkcTrUnN3qY4-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="CxDEAcvaqkcTrUnN3qY4-1" source="CxDEAcvaqkcTrUnN3qY4-5" target="CxDEAcvaqkcTrUnN3qY4-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CxDEAcvaqkcTrUnN3qY4-5" value="亮度低于阈值后，客户端给客户弹出询问弹框" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="CxDEAcvaqkcTrUnN3qY4-1">
+          <mxGeometry x="511" y="289" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CxDEAcvaqkcTrUnN3qY4-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="CxDEAcvaqkcTrUnN3qY4-1" source="CxDEAcvaqkcTrUnN3qY4-8" target="CxDEAcvaqkcTrUnN3qY4-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CxDEAcvaqkcTrUnN3qY4-8" value="用户选择后，客户端访问服务器拉取场景变换效果的列表" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="CxDEAcvaqkcTrUnN3qY4-1">
+          <mxGeometry x="511" y="390" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CxDEAcvaqkcTrUnN3qY4-10" value="用通过选择想要的虚拟背景，客户端会将虚拟背景替换" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="CxDEAcvaqkcTrUnN3qY4-1">
+          <mxGeometry x="511" y="505" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="yMt-4tO0vBnX5Id6cA_M" name="Page-3">
+    <mxGraphModel dx="1422" dy="762" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="_PDya4OsW0PrppX6kpA_-0" />
+        <mxCell id="_PDya4OsW0PrppX6kpA_-1" parent="_PDya4OsW0PrppX6kpA_-0" />
       </root>
     </mxGraphModel>
   </diagram>
