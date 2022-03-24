@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-24T03:02:40.949Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36" etag="sj7PBcbqcRRK2acYjx9I" version="17.1.3" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-03-24T03:18:59.382Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36" etag="MoAnCTN46veXcUhWFURV" version="17.1.3" type="github" pages="5">
   <diagram id="8YaUxvyTmp1whgWsUR0D" name="Page-1">
     <mxGraphModel dx="1422" dy="762" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -71,6 +71,82 @@
       <root>
         <mxCell id="_PDya4OsW0PrppX6kpA_-0" />
         <mxCell id="_PDya4OsW0PrppX6kpA_-1" parent="_PDya4OsW0PrppX6kpA_-0" />
+        <mxCell id="_PDya4OsW0PrppX6kpA_-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="_PDya4OsW0PrppX6kpA_-1" source="_PDya4OsW0PrppX6kpA_-2" target="_PDya4OsW0PrppX6kpA_-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_PDya4OsW0PrppX6kpA_-2" value="客户端分割出主播躯干，进一步对人脸和四肢部位进行分割" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="_PDya4OsW0PrppX6kpA_-1">
+          <mxGeometry x="484" y="57" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_PDya4OsW0PrppX6kpA_-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="_PDya4OsW0PrppX6kpA_-1" source="_PDya4OsW0PrppX6kpA_-3" target="_PDya4OsW0PrppX6kpA_-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_PDya4OsW0PrppX6kpA_-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="_PDya4OsW0PrppX6kpA_-1" source="_PDya4OsW0PrppX6kpA_-3" target="_PDya4OsW0PrppX6kpA_-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_PDya4OsW0PrppX6kpA_-3" value="客户端使用opencv分割出来的躯干部分对人类肤色部分分离" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="_PDya4OsW0PrppX6kpA_-1">
+          <mxGeometry x="484" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_PDya4OsW0PrppX6kpA_-8" value="保留人类体肤" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="_PDya4OsW0PrppX6kpA_-1">
+          <mxGeometry x="343" y="285" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_PDya4OsW0PrppX6kpA_-11" value="对衣服的rpg颜色进行调整，或者直接调整衣服的Hsv空间的明暗度" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="_PDya4OsW0PrppX6kpA_-1">
+          <mxGeometry x="623" y="285" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_PDya4OsW0PrppX6kpA_-13" value="人类体肤" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="_PDya4OsW0PrppX6kpA_-1">
+          <mxGeometry x="378" y="234" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_PDya4OsW0PrppX6kpA_-14" value="衣服纹理" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="_PDya4OsW0PrppX6kpA_-1">
+          <mxGeometry x="633" y="234" width="60" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="jWMkSmf0Dg9zO0WzlA0C" name="Page-4">
+    <mxGraphModel dx="1422" dy="762" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="tefxxtonEjXiFxT_xK29-0" />
+        <mxCell id="tefxxtonEjXiFxT_xK29-1" parent="tefxxtonEjXiFxT_xK29-0" />
+        <mxCell id="ERvtO2tBWhChM1oR0G9r-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="tefxxtonEjXiFxT_xK29-1" source="ERvtO2tBWhChM1oR0G9r-0" target="ERvtO2tBWhChM1oR0G9r-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ERvtO2tBWhChM1oR0G9r-0" value="客户端分割出主播躯干，进一步对人脸和四肢部位进行分割" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="tefxxtonEjXiFxT_xK29-1">
+          <mxGeometry x="483" y="73" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ERvtO2tBWhChM1oR0G9r-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="tefxxtonEjXiFxT_xK29-1" source="ERvtO2tBWhChM1oR0G9r-1" target="ERvtO2tBWhChM1oR0G9r-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ERvtO2tBWhChM1oR0G9r-1" value="服务器通过记录卓博每场直播的截图，通过opencv可以分析得到暗色调的穿衣" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="tefxxtonEjXiFxT_xK29-1">
+          <mxGeometry x="251" y="73" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ERvtO2tBWhChM1oR0G9r-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="tefxxtonEjXiFxT_xK29-1" source="ERvtO2tBWhChM1oR0G9r-2" target="ERvtO2tBWhChM1oR0G9r-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ERvtO2tBWhChM1oR0G9r-2" value="进入淘宝、京东等网站搜索同款衣服，得到主播衣款" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="tefxxtonEjXiFxT_xK29-1">
+          <mxGeometry x="251" y="196" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ERvtO2tBWhChM1oR0G9r-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="tefxxtonEjXiFxT_xK29-1" source="ERvtO2tBWhChM1oR0G9r-6" target="ERvtO2tBWhChM1oR0G9r-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ERvtO2tBWhChM1oR0G9r-6" value="客户端分割出主播的躯干位置数据，并上传到服务器（这一步也由服务器完成）" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="tefxxtonEjXiFxT_xK29-1">
+          <mxGeometry x="483" y="196" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ERvtO2tBWhChM1oR0G9r-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="tefxxtonEjXiFxT_xK29-1" source="ERvtO2tBWhChM1oR0G9r-9" target="ERvtO2tBWhChM1oR0G9r-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ERvtO2tBWhChM1oR0G9r-9" value="服务器通过神经网络训练虚拟换衣的实时网络模型，得到多款虚拟换衣的模型" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="tefxxtonEjXiFxT_xK29-1">
+          <mxGeometry x="367" y="338" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ERvtO2tBWhChM1oR0G9r-12" value="服务器下发神经网络的客户端，客户端使用虚拟穿衣模型，对主播人衣着进行替换" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="tefxxtonEjXiFxT_xK29-1">
+          <mxGeometry x="367" y="455" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="BCCQGVKkRVwg0KgkLHsb" name="Page-5">
+    <mxGraphModel dx="1422" dy="762" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="A9OIlt74_SSYSaIrFCKB-0" />
+        <mxCell id="A9OIlt74_SSYSaIrFCKB-1" parent="A9OIlt74_SSYSaIrFCKB-0" />
       </root>
     </mxGraphModel>
   </diagram>
