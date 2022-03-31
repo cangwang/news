@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-31T04:59:01.528Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.60 Safari/537.36" etag="uEOptKZc6FV0gLgT3zEq" version="17.2.1" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-03-31T08:36:27.467Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.60 Safari/537.36" etag="u__QSaEq1s_6M0CnmkNW" version="17.2.1" type="github" pages="6">
   <diagram id="DHHJ74tNsdN9xDtMWn8B" name="Page-1">
     <mxGraphModel dx="1422" dy="762" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -112,10 +112,163 @@
     </mxGraphModel>
   </diagram>
   <diagram id="yhKzXwJYftpWZSAXT-k2" name="Page-3">
-    <mxGraphModel dx="1422" dy="761" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="762" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="3-AnKxkiUn5Jet4Tjoo8-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="3-AnKxkiUn5Jet4Tjoo8-1" target="3-AnKxkiUn5Jet4Tjoo8-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3-AnKxkiUn5Jet4Tjoo8-1" value="客户端上传用户犯困疲倦程度的数据给服务器" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="531" y="32" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3-AnKxkiUn5Jet4Tjoo8-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="3-AnKxkiUn5Jet4Tjoo8-2" target="3-AnKxkiUn5Jet4Tjoo8-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3-AnKxkiUn5Jet4Tjoo8-2" value="服务器统计当前数据，对当前直播间的趣味程度做出计算" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="624" y="164" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3-AnKxkiUn5Jet4Tjoo8-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="3-AnKxkiUn5Jet4Tjoo8-3" target="3-AnKxkiUn5Jet4Tjoo8-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3-AnKxkiUn5Jet4Tjoo8-3" value="客户端上传用户弹框选项数据到服务器" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="722" y="32" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3-AnKxkiUn5Jet4Tjoo8-6" value="优化App内对该频道的推荐" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="624" y="266" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="TzUjIGqteNUECzlaNaih" name="Page-4">
+    <mxGraphModel dx="1422" dy="762" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="CPUgQF_JvvVswEkC9IRo-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="CPUgQF_JvvVswEkC9IRo-1" target="CPUgQF_JvvVswEkC9IRo-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CPUgQF_JvvVswEkC9IRo-1" value="用户端（2）中的检测流程来检测主播的疲倦程度" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="278" y="37" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CPUgQF_JvvVswEkC9IRo-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="CPUgQF_JvvVswEkC9IRo-2" target="CPUgQF_JvvVswEkC9IRo-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CPUgQF_JvvVswEkC9IRo-2" value="服务器记录的主播近段时间的播放时长和频率" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="482" y="37" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CPUgQF_JvvVswEkC9IRo-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="CPUgQF_JvvVswEkC9IRo-3" target="CPUgQF_JvvVswEkC9IRo-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CPUgQF_JvvVswEkC9IRo-3" value="服务器通过综合数据计算主播疲倦值" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="482" y="179" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CPUgQF_JvvVswEkC9IRo-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="CPUgQF_JvvVswEkC9IRo-6" target="CPUgQF_JvvVswEkC9IRo-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CPUgQF_JvvVswEkC9IRo-6" value="直播间内通过NLP文字模型分析，主播身体是否异常" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="686" y="37" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CPUgQF_JvvVswEkC9IRo-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="CPUgQF_JvvVswEkC9IRo-8" target="CPUgQF_JvvVswEkC9IRo-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CPUgQF_JvvVswEkC9IRo-8" value="服务器推送提醒主播端提示休息" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="482" y="293" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CPUgQF_JvvVswEkC9IRo-10" value="达到一定阈值" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="452" y="260" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CPUgQF_JvvVswEkC9IRo-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="CPUgQF_JvvVswEkC9IRo-11" target="CPUgQF_JvvVswEkC9IRo-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CPUgQF_JvvVswEkC9IRo-11" value="服务器通知主播剩余开播时间，并显示倒计时" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="482" y="396" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CPUgQF_JvvVswEkC9IRo-13" value="达到一定阈值" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="452" y="364" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CPUgQF_JvvVswEkC9IRo-15" value="倒计时时间过低，限制设备逻辑不允许客户端开启玩法插件" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="482" y="507" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="6kqAgtRnc_5w-qIhMyic" name="Page-5">
+    <mxGraphModel dx="1422" dy="762" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="B6rUl-9Q2dw9ahmBmo74-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="B6rUl-9Q2dw9ahmBmo74-1" target="B6rUl-9Q2dw9ahmBmo74-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="B6rUl-9Q2dw9ahmBmo74-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="B6rUl-9Q2dw9ahmBmo74-1" target="B6rUl-9Q2dw9ahmBmo74-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="B6rUl-9Q2dw9ahmBmo74-1" value="主播下拨后，当再次开播" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="497" y="36" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="B6rUl-9Q2dw9ahmBmo74-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="B6rUl-9Q2dw9ahmBmo74-2" target="B6rUl-9Q2dw9ahmBmo74-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="B6rUl-9Q2dw9ahmBmo74-2" value="服务器和客户端判断上一次开播是否在异常状态断开" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="406" y="167" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="B6rUl-9Q2dw9ahmBmo74-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="B6rUl-9Q2dw9ahmBmo74-3" target="B6rUl-9Q2dw9ahmBmo74-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="B6rUl-9Q2dw9ahmBmo74-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="B6rUl-9Q2dw9ahmBmo74-3" target="B6rUl-9Q2dw9ahmBmo74-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="B6rUl-9Q2dw9ahmBmo74-3" value="服务器根据间隔开播时间长，或异常中断的情况是否允许开播" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="502" y="283" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="B6rUl-9Q2dw9ahmBmo74-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="B6rUl-9Q2dw9ahmBmo74-7" target="B6rUl-9Q2dw9ahmBmo74-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="B6rUl-9Q2dw9ahmBmo74-7" value="客户端请求服务器主播上一次的疲倦值以及间隔的时间" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="167" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="B6rUl-9Q2dw9ahmBmo74-12" value="直接开播" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="406" y="404" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="B6rUl-9Q2dw9ahmBmo74-14" value="未达到阈值" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="421.5" y="343" width="89" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="B6rUl-9Q2dw9ahmBmo74-15" value="服务器下发剩余的不能开播的时长，并客户端展示倒计时" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="404" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="B6rUl-9Q2dw9ahmBmo74-17" value="达到阈值，并计算剩余时长" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="597" y="348" width="161" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="RgTQkonimZqmzdLFHKtL" name="Page-6">
+    <mxGraphModel dx="1422" dy="762" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="c9THQlmrSaWO9bNeLsHy-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="c9THQlmrSaWO9bNeLsHy-1" target="c9THQlmrSaWO9bNeLsHy-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c9THQlmrSaWO9bNeLsHy-1" value="在客户端准备进行开播的画面采集人脸信息" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="504" y="33" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="c9THQlmrSaWO9bNeLsHy-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="c9THQlmrSaWO9bNeLsHy-2" target="c9THQlmrSaWO9bNeLsHy-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c9THQlmrSaWO9bNeLsHy-2" value="通过人脸识别模型判断是否和上一次开播的主播同一个人" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="504" y="139" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="c9THQlmrSaWO9bNeLsHy-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="c9THQlmrSaWO9bNeLsHy-4" target="c9THQlmrSaWO9bNeLsHy-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c9THQlmrSaWO9bNeLsHy-4" value="上传主播人脸信息到服务器，服务器通过计算疲倦度来判断是否允许开播" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="504" y="249" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="c9THQlmrSaWO9bNeLsHy-8" value="在直播途中，服务器会不断比对主播的人脸信息，判断和上一次直播是否同一个人" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="504" y="359" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
