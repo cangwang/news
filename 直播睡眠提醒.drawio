@@ -1,1 +1,122 @@
-<mxfile host="app.diagrams.net" modified="2022-03-31T02:16:57.537Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.60 Safari/537.36" version="17.2.1" etag="WOtWeV_qsCyHtE8tpjD1" type="github"><diagram id="DHHJ74tNsdN9xDtMWn8B">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-03-31T04:59:01.528Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.60 Safari/537.36" etag="uEOptKZc6FV0gLgT3zEq" version="17.2.1" type="github" pages="3">
+  <diagram id="DHHJ74tNsdN9xDtMWn8B" name="Page-1">
+    <mxGraphModel dx="1422" dy="762" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="I5YCON8aNxTSdZ58mBk--3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="I5YCON8aNxTSdZ58mBk--1" target="I5YCON8aNxTSdZ58mBk--2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="I5YCON8aNxTSdZ58mBk--1" value="服务器通过百度图片等图片资源搜索嗲有血丝人眼的照片" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="492" y="52" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="I5YCON8aNxTSdZ58mBk--5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="I5YCON8aNxTSdZ58mBk--2" target="I5YCON8aNxTSdZ58mBk--4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="I5YCON8aNxTSdZ58mBk--2" value="人工对资源打上严重程度的标签" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="492" y="165" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="I5YCON8aNxTSdZ58mBk--7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="I5YCON8aNxTSdZ58mBk--4" target="I5YCON8aNxTSdZ58mBk--6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="I5YCON8aNxTSdZ58mBk--4" value="服务器通过人脸特征点技术切割出人眼位置" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="492" y="269" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="I5YCON8aNxTSdZ58mBk--9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="I5YCON8aNxTSdZ58mBk--6" target="I5YCON8aNxTSdZ58mBk--8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="I5YCON8aNxTSdZ58mBk--6" value="服务器通过识别网络训练眼睛图片和标签" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="492" y="386" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="I5YCON8aNxTSdZ58mBk--8" value="服务器得到人眼血丝级别的判别网络" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="492" y="497" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="aUyOB6Ti8UC88EHAvpRa" name="Page-2">
+    <mxGraphModel dx="1422" dy="761" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="CgkVwcO7JfrsxyMKvulY-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="CgkVwcO7JfrsxyMKvulY-1" target="CgkVwcO7JfrsxyMKvulY-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CgkVwcO7JfrsxyMKvulY-1" value="客户端采集前置摄像头，通过神经网络检测人脸信息" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="37" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CgkVwcO7JfrsxyMKvulY-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="CgkVwcO7JfrsxyMKvulY-2" target="CgkVwcO7JfrsxyMKvulY-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CgkVwcO7JfrsxyMKvulY-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="CgkVwcO7JfrsxyMKvulY-2" target="CgkVwcO7JfrsxyMKvulY-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CgkVwcO7JfrsxyMKvulY-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="CgkVwcO7JfrsxyMKvulY-2" target="CgkVwcO7JfrsxyMKvulY-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CgkVwcO7JfrsxyMKvulY-2" value="客户端通过跟踪人脸特征点技术" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="157" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CgkVwcO7JfrsxyMKvulY-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="CgkVwcO7JfrsxyMKvulY-3" target="CgkVwcO7JfrsxyMKvulY-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CgkVwcO7JfrsxyMKvulY-3" value="人物打哈欠次数" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="274" y="282" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CgkVwcO7JfrsxyMKvulY-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="CgkVwcO7JfrsxyMKvulY-4" target="CgkVwcO7JfrsxyMKvulY-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CgkVwcO7JfrsxyMKvulY-4" value="人物闭眼持续时间" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="282" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CgkVwcO7JfrsxyMKvulY-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="CgkVwcO7JfrsxyMKvulY-5" target="CgkVwcO7JfrsxyMKvulY-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CgkVwcO7JfrsxyMKvulY-5" value="人眼血丝严重程度" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="612" y="282" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CgkVwcO7JfrsxyMKvulY-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="CgkVwcO7JfrsxyMKvulY-9" target="CgkVwcO7JfrsxyMKvulY-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CgkVwcO7JfrsxyMKvulY-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="CgkVwcO7JfrsxyMKvulY-9" target="CgkVwcO7JfrsxyMKvulY-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CgkVwcO7JfrsxyMKvulY-9" value="服务器下发对应阈值，客户端判定是否达到阈值" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="402" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CgkVwcO7JfrsxyMKvulY-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="CgkVwcO7JfrsxyMKvulY-13" target="CgkVwcO7JfrsxyMKvulY-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CgkVwcO7JfrsxyMKvulY-13" value="达到阈值，客户端弹出选择框" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="513" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CgkVwcO7JfrsxyMKvulY-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="CgkVwcO7JfrsxyMKvulY-15" target="CgkVwcO7JfrsxyMKvulY-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CgkVwcO7JfrsxyMKvulY-15" value="1.N分钟后出现精彩部分，自动唤醒屏幕&lt;br&gt;2.暂时退出App&lt;br&gt;3.继续观看" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="653" y="497" width="120" height="92" as="geometry" />
+        </mxCell>
+        <mxCell id="CgkVwcO7JfrsxyMKvulY-19" value="3继续观看" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="627" y="399" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CgkVwcO7JfrsxyMKvulY-22" value="强制关闭App，用户短时间内再次进入App,服务器会根据上一次登录的时间下发一个休息时间，客户端通过休息时间显示倒计时" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270.5" y="527" width="127" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="CgkVwcO7JfrsxyMKvulY-24" value="阈值到达最大值" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="367" y="458" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CgkVwcO7JfrsxyMKvulY-25" value="阈值触发阶段性值" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="510" y="476" width="60" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="yhKzXwJYftpWZSAXT-k2" name="Page-3">
+    <mxGraphModel dx="1422" dy="761" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
