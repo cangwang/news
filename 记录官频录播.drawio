@@ -1,1 +1,157 @@
-<mxfile host="app.diagrams.net" modified="2022-04-15T07:05:40.529Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Safari/537.36" version="17.3.0" etag="yhtOXOdVuXOMQWaxg4b6" type="github"><diagram id="Orc4LODNtjr0QZBacf03">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-04-15T07:32:27.652Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Safari/537.36" etag="OrT9IkKIfTHTLncuZ77F" version="17.3.0" type="github" pages="4">
+  <diagram id="Orc4LODNtjr0QZBacf03" name="Page-1">
+    <mxGraphModel dx="1422" dy="706" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="HTQkLbVQqDA6_dZUbLBM-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="HTQkLbVQqDA6_dZUbLBM-1" target="HTQkLbVQqDA6_dZUbLBM-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HTQkLbVQqDA6_dZUbLBM-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="HTQkLbVQqDA6_dZUbLBM-1" target="HTQkLbVQqDA6_dZUbLBM-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HTQkLbVQqDA6_dZUbLBM-1" value="对视频进行音频分离" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="216" y="175" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HTQkLbVQqDA6_dZUbLBM-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="HTQkLbVQqDA6_dZUbLBM-2" target="HTQkLbVQqDA6_dZUbLBM-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HTQkLbVQqDA6_dZUbLBM-2" value="服务器通过NLP语境分析，歌曲名称" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="119" y="332" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HTQkLbVQqDA6_dZUbLBM-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="HTQkLbVQqDA6_dZUbLBM-4" target="HTQkLbVQqDA6_dZUbLBM-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HTQkLbVQqDA6_dZUbLBM-4" value="通过听歌识曲来，识别出歌曲名称" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="324" y="332" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HTQkLbVQqDA6_dZUbLBM-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="HTQkLbVQqDA6_dZUbLBM-6" target="HTQkLbVQqDA6_dZUbLBM-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HTQkLbVQqDA6_dZUbLBM-6" value="音乐官方频道，录制整个上下麦周期内的视频" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="216" y="69" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HTQkLbVQqDA6_dZUbLBM-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="HTQkLbVQqDA6_dZUbLBM-8" target="HTQkLbVQqDA6_dZUbLBM-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HTQkLbVQqDA6_dZUbLBM-8" value="识别到歌曲，对音频流节点上的时间点打上开始和结束标记" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="224" y="458" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HTQkLbVQqDA6_dZUbLBM-12" value="服务截取开始和结束点的标记内的视频作为纯享片段" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="224" y="568" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="2bLPao2cvPKglA-hRktE" name="Page-2">
+    <mxGraphModel dx="1422" dy="706" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="eBGUaab0W_qdZnivD-Il-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="eBGUaab0W_qdZnivD-Il-1" target="eBGUaab0W_qdZnivD-Il-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eBGUaab0W_qdZnivD-Il-1" value="服务器采集多个主播跳舞的视频" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="334" y="74" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eBGUaab0W_qdZnivD-Il-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="eBGUaab0W_qdZnivD-Il-2" target="eBGUaab0W_qdZnivD-Il-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eBGUaab0W_qdZnivD-Il-2" value="通过人工标注使用运镜和没使用运镜的时间段" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="334" y="191" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eBGUaab0W_qdZnivD-Il-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="eBGUaab0W_qdZnivD-Il-4" target="eBGUaab0W_qdZnivD-Il-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eBGUaab0W_qdZnivD-Il-4" value="服务器将视频和标记数据放到神经网络进行训练" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="334" y="316" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eBGUaab0W_qdZnivD-Il-6" value="得到可以训练判别是有使用运镜的神经网络" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="334" y="427" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="W8z6kF-Z2tBbe43RbiNw" name="Page-3">
+    <mxGraphModel dx="1422" dy="706" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="144K8mhHUINVQ7s-G_cp-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="144K8mhHUINVQ7s-G_cp-1" target="144K8mhHUINVQ7s-G_cp-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="144K8mhHUINVQ7s-G_cp-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="144K8mhHUINVQ7s-G_cp-1" target="144K8mhHUINVQ7s-G_cp-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="144K8mhHUINVQ7s-G_cp-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="144K8mhHUINVQ7s-G_cp-1" target="144K8mhHUINVQ7s-G_cp-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="144K8mhHUINVQ7s-G_cp-1" value="服务器通过躯干识别主播身体的关键点" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="369" y="90" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="144K8mhHUINVQ7s-G_cp-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="144K8mhHUINVQ7s-G_cp-2" target="144K8mhHUINVQ7s-G_cp-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="144K8mhHUINVQ7s-G_cp-2" value="通过判断关键点短时间的移动范围和移动速度值来判断是否开始舞蹈" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="283" y="229" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="144K8mhHUINVQ7s-G_cp-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="144K8mhHUINVQ7s-G_cp-4" target="144K8mhHUINVQ7s-G_cp-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="144K8mhHUINVQ7s-G_cp-4" value="服务器通过运镜神经网络判断是否正在跳舞" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="469" y="229" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="144K8mhHUINVQ7s-G_cp-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="144K8mhHUINVQ7s-G_cp-6" target="144K8mhHUINVQ7s-G_cp-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="144K8mhHUINVQ7s-G_cp-6" value="通过判断，一定时间内腰部以以下关键点无法检测，判定舞蹈结束" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="681" y="229" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="144K8mhHUINVQ7s-G_cp-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="144K8mhHUINVQ7s-G_cp-8" target="144K8mhHUINVQ7s-G_cp-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="144K8mhHUINVQ7s-G_cp-8" value="通过一定时间内判断腰部以下关键点无法识别或者身体关键点比例幅度较低识别为舞蹈结束" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="283" y="360" width="120" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="144K8mhHUINVQ7s-G_cp-11" value="服务器通过拼接开始和结束点来形式录播视频" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="469" y="515" width="120" height="90" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="gBMZx-Ovo02UJ5RBBQDM" name="Page-4">
+    <mxGraphModel dx="1422" dy="706" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Pts1QCvGDOO1CAjvUuqF-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Pts1QCvGDOO1CAjvUuqF-1" target="Pts1QCvGDOO1CAjvUuqF-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Pts1QCvGDOO1CAjvUuqF-1" value="用户在观看官频录播途中关注主播" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="512" y="64" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Pts1QCvGDOO1CAjvUuqF-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Pts1QCvGDOO1CAjvUuqF-2" target="Pts1QCvGDOO1CAjvUuqF-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Pts1QCvGDOO1CAjvUuqF-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Pts1QCvGDOO1CAjvUuqF-2" target="Pts1QCvGDOO1CAjvUuqF-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Pts1QCvGDOO1CAjvUuqF-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Pts1QCvGDOO1CAjvUuqF-2" target="Pts1QCvGDOO1CAjvUuqF-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Pts1QCvGDOO1CAjvUuqF-2" value="请求服务器查看主播和录播资源状态，并返回结果到客户端" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="512" y="174" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Pts1QCvGDOO1CAjvUuqF-4" value="服务器返回主播正在直播，用户点击后跳转到直播间" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="301" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Pts1QCvGDOO1CAjvUuqF-6" value="服务器返回主播拥有其他录播资源，跳转到主播录播列表" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="512" y="303" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Pts1QCvGDOO1CAjvUuqF-7" value="用户选择拒绝，则接着播放下一个官频录播" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="708" y="301" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
