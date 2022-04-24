@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-24T07:28:20.817Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="ksbqHxZveo0agJG4tu4_" version="17.4.4" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-04-24T07:47:23.906Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="w_zFSMctzdIFSI2roAjw" version="17.4.4" type="github" pages="4">
   <diagram id="e_0ByijWdOY0DPPGx5Sh" name="Page-1">
     <mxGraphModel dx="1422" dy="705" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -111,6 +111,62 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="OtQNmivIfzPhzt5nni6H-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="OtQNmivIfzPhzt5nni6H-1" target="OtQNmivIfzPhzt5nni6H-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OtQNmivIfzPhzt5nni6H-1" value="服务器对主播语音进行分析，并不是读书内容" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="70" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OtQNmivIfzPhzt5nni6H-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="OtQNmivIfzPhzt5nni6H-2" target="OtQNmivIfzPhzt5nni6H-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OtQNmivIfzPhzt5nni6H-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="OtQNmivIfzPhzt5nni6H-2" target="OtQNmivIfzPhzt5nni6H-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OtQNmivIfzPhzt5nni6H-2" value="服务器将会下发已读书内容的时长以及并不在读书的标记到客户端" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="286" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OtQNmivIfzPhzt5nni6H-4" value="主播端展示已经读书的时长" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="183" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OtQNmivIfzPhzt5nni6H-5" value="主播端展示读书中断的计时" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="330" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="u0K8CJ1BMUKkfhX2QHyB" name="Page-4">
+    <mxGraphModel dx="1422" dy="705" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="aeTaaLZ1Gh30JaGNJCcM-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="aeTaaLZ1Gh30JaGNJCcM-1" target="aeTaaLZ1Gh30JaGNJCcM-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aeTaaLZ1Gh30JaGNJCcM-1" value="当主播读内容的时候，服务器会下发当前主播读的上一句的内容以及此时读内容下发到其他客户端" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="484" y="108" width="120" height="97" as="geometry" />
+        </mxCell>
+        <mxCell id="aeTaaLZ1Gh30JaGNJCcM-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="aeTaaLZ1Gh30JaGNJCcM-2" target="aeTaaLZ1Gh30JaGNJCcM-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aeTaaLZ1Gh30JaGNJCcM-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="aeTaaLZ1Gh30JaGNJCcM-2" target="aeTaaLZ1Gh30JaGNJCcM-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aeTaaLZ1Gh30JaGNJCcM-2" value="其他客户端会像歌词一样展示而出" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="484" y="250" width="120" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="aeTaaLZ1Gh30JaGNJCcM-4" value="当用户点击文字内容，客户端会请求服务器拉取本场直播已经阅读过的内容" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="731" y="242" width="120" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="aeTaaLZ1Gh30JaGNJCcM-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="aeTaaLZ1Gh30JaGNJCcM-6" target="aeTaaLZ1Gh30JaGNJCcM-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aeTaaLZ1Gh30JaGNJCcM-6" value="当阅读的章节完成后，服务器会通过去除音频上打了中断标记的节点，合成一个录播音频，并且和阅读文案标题对应" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="484" y="356" width="120" height="86" as="geometry" />
+        </mxCell>
+        <mxCell id="aeTaaLZ1Gh30JaGNJCcM-8" value="服务器会将此内容放置在主播录播资源当中，提供给用户收听。" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="484" y="486" width="120" height="86" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
