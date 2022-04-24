@@ -1,1 +1,117 @@
-<mxfile host="app.diagrams.net" modified="2022-04-24T07:01:21.931Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" version="17.4.4" etag="v0__YEMzF_Qyojudk1Yq" type="github"><diagram id="e_0ByijWdOY0DPPGx5Sh">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-04-24T07:28:20.817Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="ksbqHxZveo0agJG4tu4_" version="17.4.4" type="github" pages="3">
+  <diagram id="e_0ByijWdOY0DPPGx5Sh" name="Page-1">
+    <mxGraphModel dx="1422" dy="705" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="bF9tpV7wUIDlb_TxvtBP-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="bF9tpV7wUIDlb_TxvtBP-1" target="bF9tpV7wUIDlb_TxvtBP-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bF9tpV7wUIDlb_TxvtBP-1" value="主播选择开播为读书模板" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="462" y="70" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bF9tpV7wUIDlb_TxvtBP-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="bF9tpV7wUIDlb_TxvtBP-2" target="bF9tpV7wUIDlb_TxvtBP-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bF9tpV7wUIDlb_TxvtBP-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="bF9tpV7wUIDlb_TxvtBP-2" target="bF9tpV7wUIDlb_TxvtBP-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bF9tpV7wUIDlb_TxvtBP-2" value="客户端填写书名，作者，并上传到服务器到大型的小说网站进行爬取" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="462" y="182" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bF9tpV7wUIDlb_TxvtBP-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="bF9tpV7wUIDlb_TxvtBP-4" target="bF9tpV7wUIDlb_TxvtBP-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bF9tpV7wUIDlb_TxvtBP-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="bF9tpV7wUIDlb_TxvtBP-4" target="bF9tpV7wUIDlb_TxvtBP-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="653" y="305" />
+              <mxPoint x="653" y="227" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bF9tpV7wUIDlb_TxvtBP-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="bF9tpV7wUIDlb_TxvtBP-4" target="bF9tpV7wUIDlb_TxvtBP-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bF9tpV7wUIDlb_TxvtBP-4" value="当服务器爬取到对应的章节目录后，下发到客户端，主播进行章节选择，在此上传到服务器进一步爬取内容" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="462" y="280" width="120" height="101" as="geometry" />
+        </mxCell>
+        <mxCell id="bF9tpV7wUIDlb_TxvtBP-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="bF9tpV7wUIDlb_TxvtBP-6" target="bF9tpV7wUIDlb_TxvtBP-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bF9tpV7wUIDlb_TxvtBP-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="bF9tpV7wUIDlb_TxvtBP-6" target="bF9tpV7wUIDlb_TxvtBP-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="652" y="475" />
+              <mxPoint x="652" y="356" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bF9tpV7wUIDlb_TxvtBP-6" value="当服务器爬取到章节内容后，下发章节信息到主播端，主播进行可以进行预览" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="462" y="440" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="bF9tpV7wUIDlb_TxvtBP-8" value="主播确认章节无误后进行确认，然后主播端开播" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="462" y="615" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="bF9tpV7wUIDlb_TxvtBP-11" value="确认有问题可以重新爬取" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="659" y="375" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bF9tpV7wUIDlb_TxvtBP-14" value="确认有问题可以重新爬取" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="661" y="237" width="76" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bF9tpV7wUIDlb_TxvtBP-17" value="爬取不到要求主播上传" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="709" y="150" width="79" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bF9tpV7wUIDlb_TxvtBP-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="bF9tpV7wUIDlb_TxvtBP-18" target="bF9tpV7wUIDlb_TxvtBP-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bF9tpV7wUIDlb_TxvtBP-18" value="主播分章节上传想要阅读的内容到服务器，服务器经过审核后展示到客户端预览页" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="748" y="535" width="120" height="91" as="geometry" />
+        </mxCell>
+        <mxCell id="bF9tpV7wUIDlb_TxvtBP-21" value="爬取不到要求主播上传" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="716" y="299" width="79" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="Z_WsfEfFJkQATCMkz0PJ" name="Page-2">
+    <mxGraphModel dx="1422" dy="705" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="VetlE_8uDrUAWzLdgfVz-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="VetlE_8uDrUAWzLdgfVz-1" target="VetlE_8uDrUAWzLdgfVz-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VetlE_8uDrUAWzLdgfVz-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="VetlE_8uDrUAWzLdgfVz-1" target="VetlE_8uDrUAWzLdgfVz-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VetlE_8uDrUAWzLdgfVz-1" value="主播开播后，上传音频到服务器" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="97" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VetlE_8uDrUAWzLdgfVz-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="VetlE_8uDrUAWzLdgfVz-2" target="VetlE_8uDrUAWzLdgfVz-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VetlE_8uDrUAWzLdgfVz-2" value="服务器将语音转文字，文字在和章节内容语句进行匹配，如果匹配度达到N以上，服务器进行锁定阅读的文字" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="382" y="238" width="120" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="VetlE_8uDrUAWzLdgfVz-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="VetlE_8uDrUAWzLdgfVz-4" target="VetlE_8uDrUAWzLdgfVz-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VetlE_8uDrUAWzLdgfVz-4" value="服务器将语音转文字，服务器使用章节内容进行nlp内容分析，通过匹配nlp的内容和主播文字内容，识别正在读着哪一句说哈" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="659" y="238" width="120" height="108" as="geometry" />
+        </mxCell>
+        <mxCell id="VetlE_8uDrUAWzLdgfVz-6" value="服务器识别到主播读的说话后，当读句完成，将会标记已经阅读过的章节内容。" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="525" y="394" width="120" height="90" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="inLY4iJ5tA4ONVOk1S40" name="Page-3">
+    <mxGraphModel dx="1422" dy="705" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
