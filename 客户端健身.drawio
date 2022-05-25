@@ -1,1 +1,137 @@
-<mxfile host="app.diagrams.net" modified="2022-05-25T12:57:45.803Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36" version="17.4.6" etag="hKOaPNgTbLMb_eIHOwD2" type="github"><diagram id="e5OXoQ5SqC9MxrAJ35tx">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-05-25T13:21:25.854Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36" etag="Hg3dRouljjASmWk2jbgw" version="17.4.6" type="github" pages="3">
+  <diagram id="e5OXoQ5SqC9MxrAJ35tx" name="Page-1">
+    <mxGraphModel dx="1422" dy="761" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="SPie6-P7ntc7rDsWFgAj-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="SPie6-P7ntc7rDsWFgAj-1" target="SPie6-P7ntc7rDsWFgAj-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SPie6-P7ntc7rDsWFgAj-1" value="客户端打开前置摄像头，采集视频" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="447" y="49" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SPie6-P7ntc7rDsWFgAj-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="SPie6-P7ntc7rDsWFgAj-2" target="SPie6-P7ntc7rDsWFgAj-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SPie6-P7ntc7rDsWFgAj-2" value="主播端对采集到的视频进行识别网络，识别是否有人存在" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="447" y="148" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SPie6-P7ntc7rDsWFgAj-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="SPie6-P7ntc7rDsWFgAj-4" target="SPie6-P7ntc7rDsWFgAj-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SPie6-P7ntc7rDsWFgAj-4" value="不存在人，或者人物占用视频流中的尺寸的相对尺寸太小" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="447" y="253" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SPie6-P7ntc7rDsWFgAj-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="SPie6-P7ntc7rDsWFgAj-6" target="SPie6-P7ntc7rDsWFgAj-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SPie6-P7ntc7rDsWFgAj-6" value="客户端拉取健身动作对应的动作和时间戳" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="447" y="364" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SPie6-P7ntc7rDsWFgAj-8" value="客户端对数据解析后，在主播做对应的动作时，播报对应的动作信息" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="447" y="472" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SPie6-P7ntc7rDsWFgAj-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="SPie6-P7ntc7rDsWFgAj-10" target="SPie6-P7ntc7rDsWFgAj-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SPie6-P7ntc7rDsWFgAj-10" value="客户端累计用户跟随做动作的时长" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="766" y="49" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SPie6-P7ntc7rDsWFgAj-11" value="弹出关注的弹框" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="670.5" y="293" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SPie6-P7ntc7rDsWFgAj-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="SPie6-P7ntc7rDsWFgAj-12" target="SPie6-P7ntc7rDsWFgAj-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SPie6-P7ntc7rDsWFgAj-12" value="弹出是否关注录播弹框" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="861.5" y="293" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SPie6-P7ntc7rDsWFgAj-14" value="未关注" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="704" y="223" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SPie6-P7ntc7rDsWFgAj-16" value="已关注" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="894" y="227" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SPie6-P7ntc7rDsWFgAj-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="SPie6-P7ntc7rDsWFgAj-17" target="SPie6-P7ntc7rDsWFgAj-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SPie6-P7ntc7rDsWFgAj-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="SPie6-P7ntc7rDsWFgAj-17" target="SPie6-P7ntc7rDsWFgAj-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SPie6-P7ntc7rDsWFgAj-17" value="主播端动作停止或北京音乐停止，弹出关注的弹框" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="766" y="151" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SPie6-P7ntc7rDsWFgAj-21" value="用户退出直播间时弹出对应的录播的片段信息" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="861.5" y="404" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="iVXM0-kLwiwYurWZy1wc" name="Page-2">
+    <mxGraphModel dx="1422" dy="761" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="CZDeiQBbj6XMOYfNOe-e-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="CZDeiQBbj6XMOYfNOe-e-1" target="CZDeiQBbj6XMOYfNOe-e-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CZDeiQBbj6XMOYfNOe-e-1" value="客户端通过前置摄像头采集用户动作" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="426" y="32" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CZDeiQBbj6XMOYfNOe-e-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="CZDeiQBbj6XMOYfNOe-e-2" target="CZDeiQBbj6XMOYfNOe-e-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CZDeiQBbj6XMOYfNOe-e-2" value="通过动作识别网络识别动作，并在一定时间内跟随主播动作" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="426" y="141" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CZDeiQBbj6XMOYfNOe-e-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="CZDeiQBbj6XMOYfNOe-e-4" target="CZDeiQBbj6XMOYfNOe-e-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CZDeiQBbj6XMOYfNOe-e-4" value="客户端会弹出是否开启动作指导" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="426" y="247" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CZDeiQBbj6XMOYfNOe-e-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="CZDeiQBbj6XMOYfNOe-e-6" target="CZDeiQBbj6XMOYfNOe-e-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CZDeiQBbj6XMOYfNOe-e-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="CZDeiQBbj6XMOYfNOe-e-6" target="CZDeiQBbj6XMOYfNOe-e-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CZDeiQBbj6XMOYfNOe-e-6" value="开启动作指导后，客户端会要求服务器推送主播的动作指令和时间戳" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="426" y="345" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CZDeiQBbj6XMOYfNOe-e-8" value="客户端收到数据后，会结合时间戳来，播报动作" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="306" y="473" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CZDeiQBbj6XMOYfNOe-e-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="CZDeiQBbj6XMOYfNOe-e-10" target="CZDeiQBbj6XMOYfNOe-e-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CZDeiQBbj6XMOYfNOe-e-10" value="通过识别人体关键点和主播的关键点来比对，并记录数据" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="554" y="473" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CZDeiQBbj6XMOYfNOe-e-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="CZDeiQBbj6XMOYfNOe-e-12" target="CZDeiQBbj6XMOYfNOe-e-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CZDeiQBbj6XMOYfNOe-e-12" value="当主播下播或者退出直播间后，客户端会在结束页提供用户动作的记录" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="554" y="576" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CZDeiQBbj6XMOYfNOe-e-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="CZDeiQBbj6XMOYfNOe-e-14" target="CZDeiQBbj6XMOYfNOe-e-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CZDeiQBbj6XMOYfNOe-e-14" value="在动作偏差较大的动作后添加提醒按钮" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="554" y="684" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CZDeiQBbj6XMOYfNOe-e-16" value="选择后，每次主播做对应的动作的时候，会给用户动作语音提醒" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="754" y="684" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="8qPfMr1il7d073QvAhxC" name="Page-3">
+    <mxGraphModel dx="1422" dy="761" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
