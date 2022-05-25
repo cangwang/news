@@ -1,1 +1,35 @@
-<mxfile host="app.diagrams.net" modified="2022-05-25T12:04:42.211Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36" version="17.4.6" etag="Mw4BY3_Dum20-fI39Q_X" type="github"><diagram id="p1-SLzr9O_c1FOZBNYAg">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-05-25T12:21:21.534Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36" etag="EzT-GvlZ0cRlaFHDuRkf" version="17.4.6" type="github" pages="2">
+  <diagram id="p1-SLzr9O_c1FOZBNYAg" name="Page-1">
+    <mxGraphModel dx="1422" dy="762" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="rlFK495kiFSLXGlKRbkF-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="rlFK495kiFSLXGlKRbkF-1" target="rlFK495kiFSLXGlKRbkF-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rlFK495kiFSLXGlKRbkF-1" value="服务器收集教练健身视频，认为对动作进行分割并对动作标记。" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="441" y="52" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rlFK495kiFSLXGlKRbkF-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="rlFK495kiFSLXGlKRbkF-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="501" y="273" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rlFK495kiFSLXGlKRbkF-2" value="服务器对短视频进行躯干分割网络，切割出只有人体躯干的健身视频" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="441" y="159" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rlFK495kiFSLXGlKRbkF-4" value="服务使用标记和视频进行神经网络训练，得到躯干健身动作的识别模型" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="441" y="274" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="1KcbEm2WhSp7IRb16Uz5" name="Page-2">
+    <mxGraphModel dx="1422" dy="762" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
