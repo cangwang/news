@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-25T12:31:22.390Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36" etag="eDqfOOQ8_rfxVFmpbkzO" version="17.4.6" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-05-25T12:41:14.532Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36" etag="sCNOSxk0tMBpNq8Ifgfo" version="17.4.6" type="github" pages="5">
   <diagram id="p1-SLzr9O_c1FOZBNYAg" name="Page-1">
     <mxGraphModel dx="1422" dy="762" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -77,6 +77,60 @@
         <mxCell id="SKJmWWVf4kepG4p3_zUM-16" value="服务器将识别动作标识和时间戳推送到用户客户端" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="410" y="588" width="120" height="60" as="geometry" />
         </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="hn4sKaCCHOANQAPdDbZs" name="Page-3">
+    <mxGraphModel dx="1422" dy="762" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Mn0DFeslraVpp2iFaxiw-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Mn0DFeslraVpp2iFaxiw-1" target="Mn0DFeslraVpp2iFaxiw-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Mn0DFeslraVpp2iFaxiw-1" value="主播端上传音频流到付服务器，服务器通过片段识别音乐" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="507" y="63" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Mn0DFeslraVpp2iFaxiw-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Mn0DFeslraVpp2iFaxiw-2" target="Mn0DFeslraVpp2iFaxiw-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Mn0DFeslraVpp2iFaxiw-2" value="主播端上传音频流到付服务器，服务器通过片段识别整首音乐" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="507" y="171" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Mn0DFeslraVpp2iFaxiw-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Mn0DFeslraVpp2iFaxiw-4" target="Mn0DFeslraVpp2iFaxiw-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Mn0DFeslraVpp2iFaxiw-4" value="服务器将识别拍子的间隔时间发送到主播端" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="507" y="285" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Mn0DFeslraVpp2iFaxiw-6" value="主播端调整视频流切割时间，优化识别的准确性" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="507" y="402" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="m-xO2JRoM4bZuqdaaLUu" name="Page-4">
+    <mxGraphModel dx="1422" dy="762" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="oODoNDZW-oYEhJ9nn1hE-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="oODoNDZW-oYEhJ9nn1hE-1" target="oODoNDZW-oYEhJ9nn1hE-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oODoNDZW-oYEhJ9nn1hE-1" value="通过语音上下文以及是识别到的音乐歌曲进行录制健身视频的开始节点" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="489" y="37" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oODoNDZW-oYEhJ9nn1hE-2" value="通过识别音乐结束或拍子结束来认为健身结束节点，停止录制" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="489" y="173" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="sb7y4LVzNgBX00zYbB3W" name="Page-5">
+    <mxGraphModel dx="1422" dy="762" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
       </root>
     </mxGraphModel>
   </diagram>
