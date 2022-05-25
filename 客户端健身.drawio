@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-25T13:21:25.854Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36" etag="Hg3dRouljjASmWk2jbgw" version="17.4.6" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-05-25T13:29:29.178Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36" etag="kzbAmoGKXlgzZ50r1u8F" version="17.4.6" type="github" pages="3">
   <diagram id="e5OXoQ5SqC9MxrAJ35tx" name="Page-1">
     <mxGraphModel dx="1422" dy="761" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -131,6 +131,39 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="bdZEdSOjhcAgYI-tdtCz-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="bdZEdSOjhcAgYI-tdtCz-1" target="bdZEdSOjhcAgYI-tdtCz-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bdZEdSOjhcAgYI-tdtCz-1" value="当客户端有跟随主播健身一段完整的音乐，客户端会上传标识到服务器" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="525" y="64" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bdZEdSOjhcAgYI-tdtCz-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="bdZEdSOjhcAgYI-tdtCz-2" target="bdZEdSOjhcAgYI-tdtCz-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bdZEdSOjhcAgYI-tdtCz-2" value="当此主播再次开播后，服务器会推送对应顶部广播条到客户端" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="525" y="177" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bdZEdSOjhcAgYI-tdtCz-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="bdZEdSOjhcAgYI-tdtCz-3" target="bdZEdSOjhcAgYI-tdtCz-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bdZEdSOjhcAgYI-tdtCz-3" value="当主播做相同音乐的动作时，服务器会再次推送广播条到客户端" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="525" y="286" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bdZEdSOjhcAgYI-tdtCz-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="bdZEdSOjhcAgYI-tdtCz-6" target="bdZEdSOjhcAgYI-tdtCz-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bdZEdSOjhcAgYI-tdtCz-6" value="当主播中途进入到直播间，服务器会下发主播是否已经开始做动作的信号" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="525" y="384" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bdZEdSOjhcAgYI-tdtCz-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="bdZEdSOjhcAgYI-tdtCz-10" target="bdZEdSOjhcAgYI-tdtCz-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bdZEdSOjhcAgYI-tdtCz-10" value="客户端会显示短时间的回溯小窗来展示主播之前的动作" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="525" y="489" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bdZEdSOjhcAgYI-tdtCz-13" value="用户可以点选小窗可以跟随回溯健身，直到此段音乐停止，会回到当前的直播间" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="525" y="587" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
