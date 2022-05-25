@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-25T12:41:14.532Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36" etag="sCNOSxk0tMBpNq8Ifgfo" version="17.4.6" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2022-05-25T12:57:10.968Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36" etag="ftl3zK7Uw5DFee1UDtgc" version="17.4.6" type="github" pages="5">
   <diagram id="p1-SLzr9O_c1FOZBNYAg" name="Page-1">
     <mxGraphModel dx="1422" dy="762" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -127,10 +127,37 @@
     </mxGraphModel>
   </diagram>
   <diagram id="sb7y4LVzNgBX00zYbB3W" name="Page-5">
-    <mxGraphModel dx="1422" dy="762" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="761" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="t57CAjD7o_OjqFP30UhX-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="t57CAjD7o_OjqFP30UhX-1" target="t57CAjD7o_OjqFP30UhX-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t57CAjD7o_OjqFP30UhX-1" value="主播端使用神经网络对主播躯干关键点识别，构建3D和2D的建模" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="329" y="46" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="t57CAjD7o_OjqFP30UhX-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="t57CAjD7o_OjqFP30UhX-2" target="t57CAjD7o_OjqFP30UhX-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t57CAjD7o_OjqFP30UhX-2" value="服务器采集专业的健身教练的动作数据和躯干关键点，并进行动作识别已经关键点识别" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="541" y="23" width="120" height="83" as="geometry" />
+        </mxCell>
+        <mxCell id="t57CAjD7o_OjqFP30UhX-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="t57CAjD7o_OjqFP30UhX-3" target="t57CAjD7o_OjqFP30UhX-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t57CAjD7o_OjqFP30UhX-3" value="服务器匹配主播身材类似身材的健身教练数据" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="434" y="178" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="t57CAjD7o_OjqFP30UhX-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="t57CAjD7o_OjqFP30UhX-6" target="t57CAjD7o_OjqFP30UhX-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t57CAjD7o_OjqFP30UhX-6" value="服务器首会将健身教练动作关键和主播关键点进行比对" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="434" y="287" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="t57CAjD7o_OjqFP30UhX-8" value="在直播结束后，服务器会推送弹框到主播端，让主播查看到自身动作的标准度" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="434" y="388" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
