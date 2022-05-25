@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-25T12:21:21.534Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36" etag="EzT-GvlZ0cRlaFHDuRkf" version="17.4.6" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-05-25T12:31:22.390Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36" etag="eDqfOOQ8_rfxVFmpbkzO" version="17.4.6" type="github" pages="2">
   <diagram id="p1-SLzr9O_c1FOZBNYAg" name="Page-1">
     <mxGraphModel dx="1422" dy="762" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -29,6 +29,54 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="SKJmWWVf4kepG4p3_zUM-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="SKJmWWVf4kepG4p3_zUM-1" target="SKJmWWVf4kepG4p3_zUM-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SKJmWWVf4kepG4p3_zUM-1" value="主播填写直播间类型，填写为健身" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="503" y="32" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SKJmWWVf4kepG4p3_zUM-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="SKJmWWVf4kepG4p3_zUM-2" target="SKJmWWVf4kepG4p3_zUM-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SKJmWWVf4kepG4p3_zUM-2" value="服务器推送躯干切割网络，健身动作识别网络，nlp文字场景网络到主播端" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="503" y="138" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SKJmWWVf4kepG4p3_zUM-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="SKJmWWVf4kepG4p3_zUM-4" target="SKJmWWVf4kepG4p3_zUM-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SKJmWWVf4kepG4p3_zUM-4" value="主播端通过语音转文字，识别文本是否带有类似开始标记的上下文" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="503" y="247" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SKJmWWVf4kepG4p3_zUM-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="SKJmWWVf4kepG4p3_zUM-6" target="SKJmWWVf4kepG4p3_zUM-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SKJmWWVf4kepG4p3_zUM-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="SKJmWWVf4kepG4p3_zUM-6" target="SKJmWWVf4kepG4p3_zUM-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SKJmWWVf4kepG4p3_zUM-6" value="识别到开始后，主播端通过分割网络和健身动作识别网络对主播动作进行识别" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="503" y="368" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SKJmWWVf4kepG4p3_zUM-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="SKJmWWVf4kepG4p3_zUM-8" target="SKJmWWVf4kepG4p3_zUM-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SKJmWWVf4kepG4p3_zUM-8" value="主播端将识别到动作和对应视频视频戳上传到服务器" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="485" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SKJmWWVf4kepG4p3_zUM-10" value="成功识别" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="429" y="423" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SKJmWWVf4kepG4p3_zUM-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="SKJmWWVf4kepG4p3_zUM-11" target="SKJmWWVf4kepG4p3_zUM-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SKJmWWVf4kepG4p3_zUM-11" value="主播端将无法识别的时间段时间上传到服务器" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="618" y="485" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SKJmWWVf4kepG4p3_zUM-14" value="服务器将识别失败的数据进行标记，从新进行（1）的训练" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="733" y="370" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SKJmWWVf4kepG4p3_zUM-16" value="服务器将识别动作标识和时间戳推送到用户客户端" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="588" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
