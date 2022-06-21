@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-06-21T12:13:05.474Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="6QU_MQKQJrjWymVi4cwh" version="18.1.2" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-06-21T13:50:46.608Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="F-l_g3ZuVhCC7Q6X-4T5" version="18.1.2" type="github" pages="4">
   <diagram id="JA-0cK-SLS5K7fkHWSqH" name="Page-1">
-    <mxGraphModel dx="1422" dy="761" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="762" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -62,7 +62,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="l55byBFGaEN4o21e4-o3" name="Page-2">
-    <mxGraphModel dx="1422" dy="761" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="762" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -142,7 +142,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="GVyy-uEB3V-bV0kgndLN" name="Page-3">
-    <mxGraphModel dx="1422" dy="761" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="762" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -201,7 +201,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="9BNEeskC9LEKOzZ1Cuh_" name="Page-4">
-    <mxGraphModel dx="1422" dy="761" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="762" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -232,7 +232,7 @@
         <mxCell id="jQiSrqEM7NYahTt3vIF0-5" value="读取顶点&lt;br&gt;rgb纹理&lt;br&gt;alpha.r纹理&lt;br&gt;进行渲染" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fillColor=default;" vertex="1" parent="1">
           <mxGeometry x="770" y="191.5" width="120" height="85" as="geometry" />
         </mxCell>
-        <mxCell id="jQiSrqEM7NYahTt3vIF0-11" value="元素贴图&lt;br&gt;蒙版区域&lt;br&gt;字体颜色" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fillColor=default;" vertex="1" parent="1">
+        <mxCell id="jQiSrqEM7NYahTt3vIF0-11" value="元素贴图&lt;br&gt;蒙版区域合成&lt;br&gt;字体显示" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fillColor=default;" vertex="1" parent="1">
           <mxGeometry x="520" y="332" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="jQiSrqEM7NYahTt3vIF0-14" value="swapBuffers&lt;br&gt;交互前后纹理" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fillColor=default;" vertex="1" parent="1">
