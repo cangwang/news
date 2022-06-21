@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-21T12:08:11.180Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="Kx0xT2p8flNnRQpT_sL5" version="18.1.2" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-06-21T12:09:21.344Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="tMIS0Jxw5-UvUBLq2NBG" version="18.1.2" type="github" pages="4">
   <diagram id="JA-0cK-SLS5K7fkHWSqH" name="Page-1">
     <mxGraphModel dx="1422" dy="761" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -170,20 +170,38 @@
         <mxCell id="5WXBGpSo9utf3ey5R3eQ-1" value="EvaMixAnimPlugin&lt;br&gt;元素管理" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fillColor=default;" vertex="1" parent="1">
           <mxGeometry x="106" y="147" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="OkzkY5j7qnJmPeyIkz-I-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;" edge="1" parent="1" source="5WXBGpSo9utf3ey5R3eQ-2" target="OkzkY5j7qnJmPeyIkz-I-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="5WXBGpSo9utf3ey5R3eQ-2" value="parseSrc&lt;br&gt;解析元素的数据" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fillColor=default;" vertex="1" parent="1">
           <mxGeometry x="387" y="39" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OkzkY5j7qnJmPeyIkz-I-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=14;" edge="1" parent="1" source="5WXBGpSo9utf3ey5R3eQ-3" target="OkzkY5j7qnJmPeyIkz-I-1">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="5WXBGpSo9utf3ey5R3eQ-3" value="parseFrame&lt;br&gt;解析帧的元素数据" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fillColor=default;" vertex="1" parent="1">
           <mxGeometry x="387" y="158" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="OkzkY5j7qnJmPeyIkz-I-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;" edge="1" parent="1" source="5WXBGpSo9utf3ey5R3eQ-4" target="OkzkY5j7qnJmPeyIkz-I-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="5WXBGpSo9utf3ey5R3eQ-4" value="parseFrame&lt;br&gt;读取元素图片" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fillColor=default;" vertex="1" parent="1">
           <mxGeometry x="387" y="277" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OkzkY5j7qnJmPeyIkz-I-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;" edge="1" parent="1" source="5WXBGpSo9utf3ey5R3eQ-5" target="OkzkY5j7qnJmPeyIkz-I-1">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="5WXBGpSo9utf3ey5R3eQ-5" value="createTxtBitmap&lt;br&gt;生成文字图片" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fillColor=default;" vertex="1" parent="1">
           <mxGeometry x="387" y="380" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="5WXBGpSo9utf3ey5R3eQ-6" value="检查元素有效性" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fillColor=default;" vertex="1" parent="1">
+        <mxCell id="OkzkY5j7qnJmPeyIkz-I-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;" edge="1" parent="1" source="5WXBGpSo9utf3ey5R3eQ-6" target="OkzkY5j7qnJmPeyIkz-I-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5WXBGpSo9utf3ey5R3eQ-6" value="检查元素有效性&lt;br&gt;（4通道图片）" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fillColor=default;" vertex="1" parent="1">
           <mxGeometry x="385" y="491" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OkzkY5j7qnJmPeyIkz-I-1" value="mixrender&lt;br&gt;元素渲染" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="712" y="201" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
