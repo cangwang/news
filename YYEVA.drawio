@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-21T12:09:21.344Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="tMIS0Jxw5-UvUBLq2NBG" version="18.1.2" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-06-21T12:11:41.746Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="D_e4uJud3JcA_CJEUT-r" version="18.1.2" type="github" pages="4">
   <diagram id="JA-0cK-SLS5K7fkHWSqH" name="Page-1">
     <mxGraphModel dx="1422" dy="761" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -155,9 +155,6 @@
         <mxCell id="5WXBGpSo9utf3ey5R3eQ-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;" edge="1" parent="1" source="5WXBGpSo9utf3ey5R3eQ-1" target="5WXBGpSo9utf3ey5R3eQ-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="5WXBGpSo9utf3ey5R3eQ-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=14;" edge="1" parent="1" source="5WXBGpSo9utf3ey5R3eQ-1" target="5WXBGpSo9utf3ey5R3eQ-3">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="5WXBGpSo9utf3ey5R3eQ-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;" edge="1" parent="1" source="5WXBGpSo9utf3ey5R3eQ-1" target="5WXBGpSo9utf3ey5R3eQ-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -167,8 +164,11 @@
         <mxCell id="5WXBGpSo9utf3ey5R3eQ-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;" edge="1" parent="1" source="5WXBGpSo9utf3ey5R3eQ-1" target="5WXBGpSo9utf3ey5R3eQ-6">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="OkzkY5j7qnJmPeyIkz-I-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;" edge="1" parent="1" source="5WXBGpSo9utf3ey5R3eQ-1" target="5WXBGpSo9utf3ey5R3eQ-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="5WXBGpSo9utf3ey5R3eQ-1" value="EvaMixAnimPlugin&lt;br&gt;元素管理" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fillColor=default;" vertex="1" parent="1">
-          <mxGeometry x="106" y="147" width="120" height="60" as="geometry" />
+          <mxGeometry x="98" y="224" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="OkzkY5j7qnJmPeyIkz-I-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;" edge="1" parent="1" source="5WXBGpSo9utf3ey5R3eQ-2" target="OkzkY5j7qnJmPeyIkz-I-1">
           <mxGeometry relative="1" as="geometry" />
@@ -232,11 +232,11 @@
         <mxCell id="jQiSrqEM7NYahTt3vIF0-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=14;" edge="1" parent="1" source="jQiSrqEM7NYahTt3vIF0-3" target="jQiSrqEM7NYahTt3vIF0-5">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="jQiSrqEM7NYahTt3vIF0-3" value="计算mp4纹理顶点位置&lt;br&gt;归一化rgb顶点&lt;br&gt;归一化alpha.r顶点" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fillColor=default;" vertex="1" parent="1">
+        <mxCell id="jQiSrqEM7NYahTt3vIF0-3" value="计算mp4纹理顶点位置&lt;br&gt;归一化rgbFrame顶点&lt;br&gt;归一化alphaFrame顶点" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fillColor=default;" vertex="1" parent="1">
           <mxGeometry x="517" y="204" width="156" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="jQiSrqEM7NYahTt3vIF0-5" value="读取顶点和纹理数据进行渲染" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fillColor=default;" vertex="1" parent="1">
-          <mxGeometry x="771" y="204" width="120" height="60" as="geometry" />
+        <mxCell id="jQiSrqEM7NYahTt3vIF0-5" value="读取顶点&lt;br&gt;rgb纹理&lt;br&gt;alpha.r纹理&lt;br&gt;进行渲染" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="770" y="191.5" width="120" height="85" as="geometry" />
         </mxCell>
         <mxCell id="jQiSrqEM7NYahTt3vIF0-11" value="元素贴图&lt;br&gt;蒙版区域&lt;br&gt;字体颜色" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fillColor=default;" vertex="1" parent="1">
           <mxGeometry x="520" y="332" width="120" height="60" as="geometry" />
