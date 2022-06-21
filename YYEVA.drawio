@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-21T09:42:18.269Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="qN46_8l3pGZxSaNbM9Qg" version="18.1.2" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-06-21T11:24:14.733Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="yrFXzJe9FHycvZjf_LC1" version="18.1.2" type="github" pages="4">
   <diagram id="JA-0cK-SLS5K7fkHWSqH" name="Page-1">
     <mxGraphModel dx="1422" dy="761" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -184,6 +184,38 @@
         </mxCell>
         <mxCell id="5WXBGpSo9utf3ey5R3eQ-6" value="检查元素有效性" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fillColor=default;" vertex="1" parent="1">
           <mxGeometry x="385" y="491" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="9BNEeskC9LEKOzZ1Cuh_" name="Page-4">
+    <mxGraphModel dx="1422" dy="761" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="jQiSrqEM7NYahTt3vIF0-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=14;" edge="1" parent="1" source="jQiSrqEM7NYahTt3vIF0-1" target="jQiSrqEM7NYahTt3vIF0-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jQiSrqEM7NYahTt3vIF0-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=14;" edge="1" parent="1" source="jQiSrqEM7NYahTt3vIF0-1" target="jQiSrqEM7NYahTt3vIF0-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jQiSrqEM7NYahTt3vIF0-1" value="render.cpp" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="284" y="105" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jQiSrqEM7NYahTt3vIF0-2" value="mixrender.cpp" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="281" y="354" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jQiSrqEM7NYahTt3vIF0-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=14;" edge="1" parent="1" source="jQiSrqEM7NYahTt3vIF0-3" target="jQiSrqEM7NYahTt3vIF0-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jQiSrqEM7NYahTt3vIF0-3" value="计算mp4纹理顶点位置&lt;br&gt;归一化rgb顶点&lt;br&gt;归一化alpha.r顶点" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="518" y="105" width="156" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jQiSrqEM7NYahTt3vIF0-5" value="读取顶点和纹理数据进行渲染" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="772" y="105" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jQiSrqEM7NYahTt3vIF0-7" value="framebuffer&lt;br&gt;离屏渲染" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="284" y="230" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
