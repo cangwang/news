@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-21T13:57:55.123Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="DUzsZwhPTbXxem4ymiEl" version="18.1.2" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-06-21T13:59:01.650Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="CRjBUYFOpjSBFiEQEiGW" version="18.1.2" type="github" pages="4">
   <diagram id="JA-0cK-SLS5K7fkHWSqH" name="Page-1">
     <mxGraphModel dx="1422" dy="706" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -132,7 +132,7 @@
         <mxCell id="KMhjiDYniRm0YyHwKqhk-19" value="Android&lt;br&gt;MediaCodec&lt;br&gt;媒体渲染器&lt;br&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;进行生产者队列解析&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="88" y="683" width="175" height="117" as="geometry" />
         </mxCell>
-        <mxCell id="KMhjiDYniRm0YyHwKqhk-21" value="合成元素MP4渲染" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fillColor=default;" vertex="1" parent="1">
+        <mxCell id="KMhjiDYniRm0YyHwKqhk-21" value="合成元素MP4渲染" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
           <mxGeometry x="973" y="533" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="hPQubh_bo0eel5FMGc-G-2" value="EvaMixAnimPlugin&lt;br&gt;元素管理插件" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
