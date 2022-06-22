@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-06-21T13:59:01.650Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="CRjBUYFOpjSBFiEQEiGW" version="18.1.2" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-06-22T09:05:15.642Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="cRuHlGelhVLKtziA4STy" version="18.1.2" type="github" pages="4">
   <diagram id="JA-0cK-SLS5K7fkHWSqH" name="Page-1">
-    <mxGraphModel dx="1422" dy="706" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="795" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -62,7 +62,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="l55byBFGaEN4o21e4-o3" name="Page-2">
-    <mxGraphModel dx="1422" dy="706" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="740" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -75,7 +75,7 @@
         <mxCell id="KMhjiDYniRm0YyHwKqhk-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=12;" edge="1" parent="1" source="KMhjiDYniRm0YyHwKqhk-1" target="KMhjiDYniRm0YyHwKqhk-12">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="KMhjiDYniRm0YyHwKqhk-1" value="EvaHardDecoder&lt;br&gt;硬解控制器" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+        <mxCell id="KMhjiDYniRm0YyHwKqhk-1" value="EvaHardDecoder&lt;br&gt;硬解控制器&lt;br&gt;解码控制&lt;br&gt;渲染控制" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="305" y="297" width="175" height="117" as="geometry" />
         </mxCell>
         <mxCell id="KMhjiDYniRm0YyHwKqhk-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=12;" edge="1" parent="1" source="KMhjiDYniRm0YyHwKqhk-2" target="KMhjiDYniRm0YyHwKqhk-1">
@@ -84,7 +84,7 @@
         <mxCell id="KMhjiDYniRm0YyHwKqhk-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=12;" edge="1" parent="1" source="KMhjiDYniRm0YyHwKqhk-2" target="KMhjiDYniRm0YyHwKqhk-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="KMhjiDYniRm0YyHwKqhk-2" value="EvaAnimPlayer&lt;br&gt;动画播放器" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;fillColor=default;" vertex="1" parent="1">
+        <mxCell id="KMhjiDYniRm0YyHwKqhk-2" value="EvaAnimPlayer&lt;br&gt;动画播放器&lt;br&gt;播放MP4&lt;br&gt;加载元素图" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;fillColor=default;" vertex="1" parent="1">
           <mxGeometry x="480" y="74" width="175" height="117" as="geometry" />
         </mxCell>
         <mxCell id="KMhjiDYniRm0YyHwKqhk-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;fontSize=12;" edge="1" parent="1" source="KMhjiDYniRm0YyHwKqhk-3" target="KMhjiDYniRm0YyHwKqhk-1">
@@ -142,7 +142,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="GVyy-uEB3V-bV0kgndLN" name="Page-3">
-    <mxGraphModel dx="1422" dy="706" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="740" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -201,7 +201,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="9BNEeskC9LEKOzZ1Cuh_" name="Page-4">
-    <mxGraphModel dx="1422" dy="706" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="740" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -243,6 +243,9 @@
         </mxCell>
         <mxCell id="jQiSrqEM7NYahTt3vIF0-16" value="RenderThread&lt;br&gt;线程绘制" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="283" y="87" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3Q1y_fFFkD1KXdwv2rtC-1" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;yyeva.so&amp;nbsp;native层&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="73" y="44" width="208" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
