@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-11T11:50:13.970Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="2SyzUUFiS1FV7OCVLTp5" version="20.0.3" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-07-11T11:56:51.399Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="v3_tj9e87mdxMSwvnGwq" version="20.0.3" type="github" pages="4">
   <diagram id="kOWwhhHk1qf3r78geNBB" name="Page-1">
     <mxGraphModel dx="1422" dy="706" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -75,6 +75,43 @@
             <mxPoint x="608" y="1144" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="4R8jUE2EixPdL1swQm4k" name="Page-3">
+    <mxGraphModel dx="1422" dy="706" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ZnVwodiyXpJPcsG-FwLe-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ZnVwodiyXpJPcsG-FwLe-2" target="ZnVwodiyXpJPcsG-FwLe-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZnVwodiyXpJPcsG-FwLe-2" value="客户端运行一个获取用户基础信息的脚本，将得到的信息写入一个日志文件" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="423" y="42" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZnVwodiyXpJPcsG-FwLe-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="ZnVwodiyXpJPcsG-FwLe-4" target="ZnVwodiyXpJPcsG-FwLe-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZnVwodiyXpJPcsG-FwLe-4" value="用户填写日志反馈的内容，实时上传到后台。" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="423" y="150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZnVwodiyXpJPcsG-FwLe-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="ZnVwodiyXpJPcsG-FwLe-6" target="ZnVwodiyXpJPcsG-FwLe-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZnVwodiyXpJPcsG-FwLe-6" value="后台通过分析反馈关键字信息（NLP），抽取关键字对应一个过滤信息内容，并下发到客户端" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="423" y="249" width="120" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="ZnVwodiyXpJPcsG-FwLe-8" value="客户端进行本地日志的进一步关键字过滤，并聚合保存到新的日志文件" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="423" y="379" width="120" height="84" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="b9F-B8Kj-x2BXYeml9R4" name="Page-4">
+    <mxGraphModel dx="1422" dy="706" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
       </root>
     </mxGraphModel>
   </diagram>
