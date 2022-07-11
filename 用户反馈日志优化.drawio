@@ -1,1 +1,55 @@
-<mxfile host="app.diagrams.net" modified="2022-07-11T11:37:52.197Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" version="20.0.3" etag="mG7_m_wAtE1OA2EP2DjQ" type="github"><diagram id="kOWwhhHk1qf3r78geNBB">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-07-11T11:46:35.524Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="9cYwr40iB0OJzcCy7Wr4" version="20.0.3" type="github">
+  <diagram id="kOWwhhHk1qf3r78geNBB" name="Page-1">
+    <mxGraphModel dx="1422" dy="706" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="BXblng400dNcPuu1-Wi0-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="BXblng400dNcPuu1-Wi0-1" target="BXblng400dNcPuu1-Wi0-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BXblng400dNcPuu1-Wi0-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="BXblng400dNcPuu1-Wi0-1" target="BXblng400dNcPuu1-Wi0-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BXblng400dNcPuu1-Wi0-1" value="用户上传日志，并上传截图" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="437" y="45" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BXblng400dNcPuu1-Wi0-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="BXblng400dNcPuu1-Wi0-2" target="BXblng400dNcPuu1-Wi0-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BXblng400dNcPuu1-Wi0-2" value="截取对应方向上方位置区域" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="341" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BXblng400dNcPuu1-Wi0-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="BXblng400dNcPuu1-Wi0-3" target="BXblng400dNcPuu1-Wi0-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BXblng400dNcPuu1-Wi0-3" value="分别截取横竖屏上方部分位置的区域" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="546" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BXblng400dNcPuu1-Wi0-5" value="通过图片角度信息判断横竖屏方向" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="367" y="113" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BXblng400dNcPuu1-Wi0-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="BXblng400dNcPuu1-Wi0-7" target="BXblng400dNcPuu1-Wi0-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BXblng400dNcPuu1-Wi0-7" value="通过ocr或者神经网络技术进行区域内识别日期时间信息，一般精确到分钟" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="441" y="324" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BXblng400dNcPuu1-Wi0-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="BXblng400dNcPuu1-Wi0-10" target="BXblng400dNcPuu1-Wi0-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BXblng400dNcPuu1-Wi0-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="BXblng400dNcPuu1-Wi0-10" target="BXblng400dNcPuu1-Wi0-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BXblng400dNcPuu1-Wi0-10" value="得到日期时间后，对本地的日志，以日期时间为条件进行关键过滤" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="441" y="408" width="120" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="BXblng400dNcPuu1-Wi0-12" value="陈工进行筛选后，存在对应日期的日志，将日志存放到新的txt" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="335" y="532" width="120" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="BXblng400dNcPuu1-Wi0-13" value="提示用户不存在时间段日志，并提示用户重现后再截图上传" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="544" y="532" width="120" height="75" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
