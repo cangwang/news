@@ -1,1 +1,73 @@
-<mxfile host="app.diagrams.net" modified="2022-07-16T08:51:03.946Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" version="15.5.8" etag="aD_3MEhorKeBN0EwaiJm" type="github"><diagram id="dTEHzo3KGexYOfvULsnI">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-07-16T09:45:07.943Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="4Usa3X77ED6VCeyNBBB7" version="15.5.8" type="github">
+  <diagram id="dTEHzo3KGexYOfvULsnI" name="Page-1">
+    <mxGraphModel dx="981" dy="525" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="xuqfSLgQs5LQTtZNYGFW-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="xuqfSLgQs5LQTtZNYGFW-1" target="xuqfSLgQs5LQTtZNYGFW-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xuqfSLgQs5LQTtZNYGFW-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="xuqfSLgQs5LQTtZNYGFW-1" target="xuqfSLgQs5LQTtZNYGFW-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xuqfSLgQs5LQTtZNYGFW-1" value="GiftComboController&lt;br&gt;礼物Combo控制器" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="344" y="59" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xuqfSLgQs5LQTtZNYGFW-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="xuqfSLgQs5LQTtZNYGFW-2" target="xuqfSLgQs5LQTtZNYGFW-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xuqfSLgQs5LQTtZNYGFW-2" value="ComboDialog&lt;br&gt;弹框" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="196" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xuqfSLgQs5LQTtZNYGFW-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="xuqfSLgQs5LQTtZNYGFW-3" target="xuqfSLgQs5LQTtZNYGFW-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xuqfSLgQs5LQTtZNYGFW-3" value="ComboView&lt;br&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="471" y="196" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xuqfSLgQs5LQTtZNYGFW-5" value="addParent" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="369" y="180" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xuqfSLgQs5LQTtZNYGFW-9" value="removeParent" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="353" y="244" width="92" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xuqfSLgQs5LQTtZNYGFW-13" value="createComboDialogIfNotExit" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="118" y="44" width="211" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xuqfSLgQs5LQTtZNYGFW-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="xuqfSLgQs5LQTtZNYGFW-16" target="xuqfSLgQs5LQTtZNYGFW-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xuqfSLgQs5LQTtZNYGFW-16" value="&amp;gt;Android.M &amp;amp; canOverLay 是否有悬浮框权限&lt;br&gt;&lt;div&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; &amp;gt;Android.O-&amp;gt;TYPE_APPLICATION_OVERLAY&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; ~ -&amp;gt;TYPE_SYSTEM_ALERT&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;~ -&amp;gt;setUseLowLevel&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="57" y="298" width="278" height="119" as="geometry" />
+        </mxCell>
+        <mxCell id="xuqfSLgQs5LQTtZNYGFW-18" value="setTopUseLevel" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="131" y="262" width="123" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xuqfSLgQs5LQTtZNYGFW-19" value="DialogUseLevel&lt;br&gt;其他弹框层级控制" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="406" y="325.5" width="122" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="xuqfSLgQs5LQTtZNYGFW-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="xuqfSLgQs5LQTtZNYGFW-23" target="xuqfSLgQs5LQTtZNYGFW-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xuqfSLgQs5LQTtZNYGFW-23" value="DialogFactory&lt;br&gt;dialog创建类" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="406" y="481" width="122" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="xuqfSLgQs5LQTtZNYGFW-25" value="parseUseLevel -&amp;gt;1000" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="482" y="402" width="128" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xuqfSLgQs5LQTtZNYGFW-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="xuqfSLgQs5LQTtZNYGFW-26" target="xuqfSLgQs5LQTtZNYGFW-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xuqfSLgQs5LQTtZNYGFW-26" value="DialogLinkManager&lt;br&gt;dialog创建类" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="236" y="478" width="122" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="xuqfSLgQs5LQTtZNYGFW-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="xuqfSLgQs5LQTtZNYGFW-27" target="xuqfSLgQs5LQTtZNYGFW-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xuqfSLgQs5LQTtZNYGFW-27" value="DialogUtils&lt;br&gt;dialog创建类" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="587" y="478" width="122" height="64" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
