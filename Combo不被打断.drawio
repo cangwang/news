@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-16T16:12:19.570Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="0YUBdy8D-cIWZllc7rod" version="20.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-17T03:41:33.420Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="vaUf-9gBy347AHaWoCR4" version="20.1.1" type="github" pages="3">
   <diagram id="dTEHzo3KGexYOfvULsnI" name="Page-1">
     <mxGraphModel dx="1406" dy="745" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -67,6 +67,60 @@
         <mxCell id="xuqfSLgQs5LQTtZNYGFW-27" value="DialogUtils&lt;br&gt;dialog创建类" style="rounded=1;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
           <mxGeometry x="587" y="478" width="122" height="64" as="geometry" />
         </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="dbakVBFcqws5psbMDhKN" name="Page-2">
+    <mxGraphModel dx="1422" dy="761" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="G3y8wx1AwVkPg3gQdgBI-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="G3y8wx1AwVkPg3gQdgBI-1" target="G3y8wx1AwVkPg3gQdgBI-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="G3y8wx1AwVkPg3gQdgBI-1" value="需求提出" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="71" y="220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="G3y8wx1AwVkPg3gQdgBI-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="G3y8wx1AwVkPg3gQdgBI-2" target="G3y8wx1AwVkPg3gQdgBI-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="G3y8wx1AwVkPg3gQdgBI-2" value="需求评审" style="rounded=1;whiteSpace=wrap;html=1;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="273" y="220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="G3y8wx1AwVkPg3gQdgBI-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="G3y8wx1AwVkPg3gQdgBI-4" target="G3y8wx1AwVkPg3gQdgBI-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="G3y8wx1AwVkPg3gQdgBI-4" value="业务开发" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="487" y="220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="G3y8wx1AwVkPg3gQdgBI-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="G3y8wx1AwVkPg3gQdgBI-6" target="G3y8wx1AwVkPg3gQdgBI-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="753" y="148" />
+              <mxPoint x="131" y="148" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="G3y8wx1AwVkPg3gQdgBI-6" value="专利撰写" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="693" y="220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="G3y8wx1AwVkPg3gQdgBI-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="G3y8wx1AwVkPg3gQdgBI-8" target="G3y8wx1AwVkPg3gQdgBI-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="G3y8wx1AwVkPg3gQdgBI-8" value="多种实现方案&lt;br&gt;（包括服务器）" style="rounded=1;whiteSpace=wrap;html=1;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="693" y="338" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="G3y8wx1AwVkPg3gQdgBI-11" value="专利保护" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="388" y="105" width="105" height="38" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="niCqh37c4a4Bcfgw0L7g" name="Page-3">
+    <mxGraphModel dx="1422" dy="761" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
       </root>
     </mxGraphModel>
   </diagram>
