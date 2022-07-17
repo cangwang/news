@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-17T11:03:29.909Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="4AaAPQC1m-MT9UJjbkVw" version="20.1.1" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-07-17T15:36:26.845Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="Rina7IMNMJmjZywVqL8l" version="20.1.1" type="github" pages="4">
   <diagram id="dTEHzo3KGexYOfvULsnI" name="Page-1">
     <mxGraphModel dx="1422" dy="761" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -117,11 +117,14 @@
     </mxGraphModel>
   </diagram>
   <diagram id="niCqh37c4a4Bcfgw0L7g" name="Page-3">
-    <mxGraphModel dx="1422" dy="705" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="761" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="vqO7RuUJoZbT-W4OBrET-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="vqO7RuUJoZbT-W4OBrET-1" target="vqO7RuUJoZbT-W4OBrET-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dO17_Gv8qUdpSZAcr8A6-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;strokeColor=#FF3333;" edge="1" parent="1" source="vqO7RuUJoZbT-W4OBrET-1" target="vqO7RuUJoZbT-W4OBrET-15">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="vqO7RuUJoZbT-W4OBrET-1" value="textureId&lt;br&gt;获得纹理id" style="rounded=1;whiteSpace=wrap;html=1;fillColor=default;" vertex="1" parent="1">
@@ -130,10 +133,13 @@
         <mxCell id="vqO7RuUJoZbT-W4OBrET-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="vqO7RuUJoZbT-W4OBrET-2" target="vqO7RuUJoZbT-W4OBrET-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="vqO7RuUJoZbT-W4OBrET-2" value="TextureView" style="rounded=1;whiteSpace=wrap;html=1;fillColor=default;" vertex="1" parent="1">
+        <mxCell id="vqO7RuUJoZbT-W4OBrET-2" value="TextureView&lt;br&gt;显示容器" style="rounded=1;whiteSpace=wrap;html=1;fillColor=default;" vertex="1" parent="1">
           <mxGeometry x="85" y="178" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="vqO7RuUJoZbT-W4OBrET-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="vqO7RuUJoZbT-W4OBrET-4" target="vqO7RuUJoZbT-W4OBrET-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dO17_Gv8qUdpSZAcr8A6-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;strokeColor=#FF3333;" edge="1" parent="1" source="vqO7RuUJoZbT-W4OBrET-4" target="vqO7RuUJoZbT-W4OBrET-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="vqO7RuUJoZbT-W4OBrET-4" value="EGLCore&lt;br&gt;ANativeWindow&lt;br&gt;获取GLWindow" style="rounded=1;whiteSpace=wrap;html=1;fillColor=default;" vertex="1" parent="1">
@@ -145,13 +151,22 @@
         <mxCell id="vqO7RuUJoZbT-W4OBrET-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="vqO7RuUJoZbT-W4OBrET-8" target="vqO7RuUJoZbT-W4OBrET-10">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="dO17_Gv8qUdpSZAcr8A6-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;strokeColor=#FF3333;" edge="1" parent="1" source="vqO7RuUJoZbT-W4OBrET-8" target="vqO7RuUJoZbT-W4OBrET-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="vqO7RuUJoZbT-W4OBrET-8" value="SurfaceTexture&lt;br&gt;创建Texture" style="rounded=1;whiteSpace=wrap;html=1;fillColor=default;" vertex="1" parent="1">
           <mxGeometry x="287" y="375" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dO17_Gv8qUdpSZAcr8A6-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;strokeColor=#FF3333;" edge="1" parent="1" source="vqO7RuUJoZbT-W4OBrET-10" target="vqO7RuUJoZbT-W4OBrET-8">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="vqO7RuUJoZbT-W4OBrET-10" value="Surface&lt;br&gt;创建Surface" style="rounded=1;whiteSpace=wrap;html=1;fillColor=default;" vertex="1" parent="1">
           <mxGeometry x="85" y="375" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="vqO7RuUJoZbT-W4OBrET-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="vqO7RuUJoZbT-W4OBrET-12" target="vqO7RuUJoZbT-W4OBrET-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dO17_Gv8qUdpSZAcr8A6-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;strokeColor=#FF3333;" edge="1" parent="1" source="vqO7RuUJoZbT-W4OBrET-12" target="vqO7RuUJoZbT-W4OBrET-10">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="vqO7RuUJoZbT-W4OBrET-12" value="MediaCodec&lt;br&gt;解码器" style="rounded=1;whiteSpace=wrap;html=1;fillColor=default;" vertex="1" parent="1">
@@ -163,11 +178,20 @@
         <mxCell id="vqO7RuUJoZbT-W4OBrET-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="vqO7RuUJoZbT-W4OBrET-15" target="vqO7RuUJoZbT-W4OBrET-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="dO17_Gv8qUdpSZAcr8A6-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;strokeColor=#FF3333;" edge="1" parent="1" source="vqO7RuUJoZbT-W4OBrET-15" target="vqO7RuUJoZbT-W4OBrET-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="vqO7RuUJoZbT-W4OBrET-15" value="glShader&lt;br&gt;纹理初始化" style="rounded=1;whiteSpace=wrap;html=1;fillColor=default;" vertex="1" parent="1">
           <mxGeometry x="503" y="178" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="vqO7RuUJoZbT-W4OBrET-19" value="glGenTexture&lt;br&gt;纹理绑定" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="570" y="287" width="98" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="dO17_Gv8qUdpSZAcr8A6-7" value="解码视频" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="465" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="dO17_Gv8qUdpSZAcr8A6-8" value="纹理渲染" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="469" y="304" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
