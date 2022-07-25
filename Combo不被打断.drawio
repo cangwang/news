@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-25T09:23:17.628Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="ZAzNFpIxvSHevXV0p54M" version="20.0.4" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2022-07-25T09:40:20.063Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="9R5u2vlD6Cji6oP0fCUh" version="20.0.4" type="github" pages="7">
   <diagram id="dTEHzo3KGexYOfvULsnI" name="Page-1">
     <mxGraphModel dx="1422" dy="706" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -572,6 +572,30 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="fD391h0xbSpISnNF0kMl-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="fD391h0xbSpISnNF0kMl-1" target="fD391h0xbSpISnNF0kMl-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fD391h0xbSpISnNF0kMl-1" value="SurfaceCreated&lt;br&gt;（绑定textureid，生成surfaceTexture）" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="176" y="220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fD391h0xbSpISnNF0kMl-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="fD391h0xbSpISnNF0kMl-2" target="fD391h0xbSpISnNF0kMl-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fD391h0xbSpISnNF0kMl-2" value="InnerSurfaceView&lt;br&gt;zOrderOnTop顶部&lt;br&gt;TRANSLUCENT透明" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="176" y="67" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fD391h0xbSpISnNF0kMl-3" value="onSurfaceTextureAvailable&lt;br&gt;（绑定textureId，生成SurfaceTexture）" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="485" y="220" width="178" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fD391h0xbSpISnNF0kMl-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="fD391h0xbSpISnNF0kMl-5" target="fD391h0xbSpISnNF0kMl-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fD391h0xbSpISnNF0kMl-5" value="InnerTextureView&lt;br&gt;（isOpaque 透明）" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="514" y="72" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fD391h0xbSpISnNF0kMl-6" value="onFrameAvailable" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="176" y="354" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
