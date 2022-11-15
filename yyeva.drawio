@@ -1,1 +1,52 @@
-<mxfile host="app.diagrams.net" modified="2022-11-15T02:22:07.966Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" version="20.2.0" etag="7HivXIJrDydU2EUBmFM0" type="github"><diagram id="-spJ1PL5j0Lze-tM32iL">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-11-15T02:29:45.196Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="xy6YuHeP3hwFHIdldyTj" version="20.2.0" type="github">
+  <diagram id="-spJ1PL5j0Lze-tM32iL" name="第 1 页">
+    <mxGraphModel dx="1418" dy="758" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="bCh0Djvoo_-cO62AiCxd-1" value="HardDecoder&lt;br&gt;视频解码器" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="333" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bCh0Djvoo_-cO62AiCxd-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="bCh0Djvoo_-cO62AiCxd-2" target="bCh0Djvoo_-cO62AiCxd-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bCh0Djvoo_-cO62AiCxd-2" value="Service" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="593" y="83" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bCh0Djvoo_-cO62AiCxd-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="bCh0Djvoo_-cO62AiCxd-3" target="bCh0Djvoo_-cO62AiCxd-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bCh0Djvoo_-cO62AiCxd-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="bCh0Djvoo_-cO62AiCxd-3" target="bCh0Djvoo_-cO62AiCxd-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bCh0Djvoo_-cO62AiCxd-3" value="Native" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="593" y="204" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bCh0Djvoo_-cO62AiCxd-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="bCh0Djvoo_-cO62AiCxd-8" target="bCh0Djvoo_-cO62AiCxd-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bCh0Djvoo_-cO62AiCxd-8" value="Main" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="253" y="83" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bCh0Djvoo_-cO62AiCxd-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="bCh0Djvoo_-cO62AiCxd-9" target="bCh0Djvoo_-cO62AiCxd-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bCh0Djvoo_-cO62AiCxd-9" value="AudioDecoder(Oboe)&lt;br&gt;音频解码器" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="700" y="333" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bCh0Djvoo_-cO62AiCxd-11" value="AAudioDecoder&amp;amp;opensl&lt;br&gt;音频解码器" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="687" y="442" width="146" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bCh0Djvoo_-cO62AiCxd-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="bCh0Djvoo_-cO62AiCxd-13" target="bCh0Djvoo_-cO62AiCxd-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bCh0Djvoo_-cO62AiCxd-13" value="Native" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="253" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bCh0Djvoo_-cO62AiCxd-15" value="RenderController" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="253" y="337" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
