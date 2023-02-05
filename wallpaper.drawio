@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-02-05T02:11:53.267Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="2s2VpF5_X7hjArmYDFWw" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-05T02:18:03.643Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="LAJjMzuaTCc4779ffcyd" version="20.5.3" type="github">
   <diagram id="NibDUvDqD3EurydthZ9z" name="第 1 页">
-    <mxGraphModel dx="1778" dy="951" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2605" dy="951" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -50,7 +50,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="5lDLEtNl-U_LF5MJW9UV-16" value="下一步按钮" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="1">
-          <mxGeometry x="845" y="637" width="142" height="30" as="geometry" />
+          <mxGeometry x="866" y="376.5" width="142" height="30" as="geometry" />
         </mxCell>
         <mxCell id="5lDLEtNl-U_LF5MJW9UV-17" value="编辑文字内容" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="1">
           <mxGeometry x="750" y="114" width="342" height="60" as="geometry" />
@@ -75,6 +75,12 @@
             <mxPoint x="1133" y="862" as="sourcePoint" />
             <mxPoint x="1183" y="812" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="5lDLEtNl-U_LF5MJW9UV-29" value="进屏界面&lt;br&gt;（预览壁纸）" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="-448" y="98" width="459" height="581" as="geometry" />
+        </mxCell>
+        <mxCell id="5lDLEtNl-U_LF5MJW9UV-33" value="进入" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="-74" y="114" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
