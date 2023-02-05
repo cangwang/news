@@ -1,1 +1,82 @@
-<mxfile host="app.diagrams.net" modified="2023-02-05T01:48:02.661Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" version="20.5.3" etag="V2cxS-vEK1fAybCx2pKy" type="github"><diagram id="NibDUvDqD3EurydthZ9z">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2023-02-05T02:11:53.267Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="2s2VpF5_X7hjArmYDFWw" version="20.5.3" type="github">
+  <diagram id="NibDUvDqD3EurydthZ9z" name="第 1 页">
+    <mxGraphModel dx="1778" dy="951" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="5lDLEtNl-U_LF5MJW9UV-1" value="&lt;font style=&quot;font-size: 30px;&quot;&gt;首页&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="146" y="98" width="455" height="584" as="geometry" />
+        </mxCell>
+        <mxCell id="5lDLEtNl-U_LF5MJW9UV-2" value="同款壁纸" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="541" y="114" width="45" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="5lDLEtNl-U_LF5MJW9UV-3" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="132" as="sourcePoint" />
+            <mxPoint x="378" y="60" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5lDLEtNl-U_LF5MJW9UV-4" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="374.5" y="643" as="sourcePoint" />
+            <mxPoint x="372.5" y="741" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5lDLEtNl-U_LF5MJW9UV-5" value="上划切换文本" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="392" y="62" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5lDLEtNl-U_LF5MJW9UV-6" value="下滑切换文本" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="384" y="700" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5lDLEtNl-U_LF5MJW9UV-8" value="" style="endArrow=classic;html=1;rounded=0;fontSize=30;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="172" y="350" as="sourcePoint" />
+            <mxPoint x="93" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5lDLEtNl-U_LF5MJW9UV-10" value="左滑菜单表" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="86" y="307" width="87" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5lDLEtNl-U_LF5MJW9UV-12" value="字体字号选择进度条" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="571" y="296" width="18" height="146" as="geometry" />
+        </mxCell>
+        <mxCell id="5lDLEtNl-U_LF5MJW9UV-14" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="719" y="99" width="404" height="585" as="geometry" />
+        </mxCell>
+        <mxCell id="5lDLEtNl-U_LF5MJW9UV-15" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="5lDLEtNl-U_LF5MJW9UV-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="582" y="169" as="sourcePoint" />
+            <mxPoint x="718" y="137" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5lDLEtNl-U_LF5MJW9UV-16" value="下一步按钮" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="845" y="637" width="142" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5lDLEtNl-U_LF5MJW9UV-17" value="编辑文字内容" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="750" y="114" width="342" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5lDLEtNl-U_LF5MJW9UV-18" value="字号" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="748" y="213" width="82" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="5lDLEtNl-U_LF5MJW9UV-20" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="1209" y="99" width="403" height="585" as="geometry" />
+        </mxCell>
+        <mxCell id="5lDLEtNl-U_LF5MJW9UV-23" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;预览&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="1341.5" y="345" width="138" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5lDLEtNl-U_LF5MJW9UV-25" value="锁屏" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="1209" y="646" width="403" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="5lDLEtNl-U_LF5MJW9UV-27" value="主页" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="1209" y="612" width="403" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="5lDLEtNl-U_LF5MJW9UV-28" value="" style="endArrow=classic;html=1;rounded=0;fontSize=20;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="5lDLEtNl-U_LF5MJW9UV-16" target="5lDLEtNl-U_LF5MJW9UV-20">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1133" y="862" as="sourcePoint" />
+            <mxPoint x="1183" y="812" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
